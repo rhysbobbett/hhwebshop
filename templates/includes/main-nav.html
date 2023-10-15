@@ -1,0 +1,71 @@
+<div class="collapse navbar-collapse" id="main-nav">
+    <div class="w-100 justify-content-center">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    All Products
+                </a>
+                <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                    <li><a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=asc">By Rating</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}">All Products</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="tools-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Tools
+                </a>
+                <ul class="dropdown-menu border-0" aria-labelledby="tools-link">
+                    <li><a class="dropdown-item" href="{% url 'products' %}?category=hand-tools, essentials">Hand Tools</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}?category=power-tools,">Power Tools</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}?category=tool-accesories">Tool Accessories</a></li>
+                    <li><a class="dropdown-item" href="{% url 'products' %}?category=tools, hand-tools, power-tools, tool-accesories">All Tools</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="seeds-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Seeds
+                </a>
+                <ul class="dropdown-menu border-0" aria-labelledby="seeds-link">
+                    <li><a class="dropdown-item" href="#">Fruit & Vegetables</a></li>
+                    <li><a class="dropdown-item" href="#">Flowering plants</a></li>
+                    <li><a class="dropdown-item" href="#">Herbs</a></li>
+                    <li><a class="dropdown-item" href="#">All Seeds</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Clothing
+                </a>
+                <ul class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                    <li><a class="dropdown-item" href="#">Top Layer</a></li>
+                    <li><a class="dropdown-item" href="#">Mid Layer</a></li>
+                    <li><a class="dropdown-item" href="#">Gloves</a></li>
+                    <li><a class="dropdown-item" href="#">All Clothing</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="navbar-brand font-weight-bold nav-link text-black" href="#" id="specials-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Special Offers
+                </a>
+                <ul class="dropdown-menu border-0" aria-labelledby="specials-link">
+                    <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                    <li><a class="dropdown-item" href="#">Deals</a></li>
+                    <li><a class="dropdown-item" href="#">Clearance</a></li>
+                    <li><a class="dropdown-item" href="#">All Specials</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+</div>
