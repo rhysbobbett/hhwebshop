@@ -4,13 +4,14 @@
         "model": "products.product",
         "fields": {
             "sku": "gt1001",
-            "name": "Garden Trowel",
-            "description": "A sturdy and durable garden trowel for digging and planting.",
-            "price": 9.99,
-            "category": 1,  
+            "name": "Fiskars Premium Planters™ Trowel",
+            "description": "Fiskars Premium Planters™ Trowel is the ideal tool for planting and transplanting in hard ground.\n Its robust construction makes it a perfect nursery tool with its corrosion resistant stainless steel blade. This trowel has a sharp blade edge for better penetration to even the most resistant soil. To better aid handling performance the body is made from durable and lightweight FiberComp while the hanging hole incorporated in the handle makes for easy storage.",
+            "price": 9.93,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-trowel.jpg",
-            "image": "garden-trowel.jpg"
+            "image_url": "https://www.fiskars.com/-/media/products/2019/07/24/11/29/resource_fiskarsemea_1000726.jpg?q=100&iw=1288&ih=1288&crop=1",
+            "image": "fiskars-garden-trowel.jpg"
         }
     },
     {
@@ -22,6 +23,7 @@
             "description": "A powerful hedge trimmer for maintaining your garden's hedges and shrubs.",
             "price": 89.99,
             "category": 1,
+            "sub_category": 2,
             "rating": 4.5,
             "image_url": "https://example.com/hedge-trimmer.jpg",
             "image": "hedge-trimmer.jpg"
@@ -36,6 +38,7 @@
             "description": "Sharp garden shears for precision trimming and pruning.",
             "price": 14.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-shears.jpg",
             "image": "garden-shears.jpg"
@@ -46,12 +49,13 @@
         "model": "products.product",
         "fields": {
             "sku": "pc4004",
-            "name": "Power Chainsaw",
-            "description": "A versatile power chainsaw for cutting trees and branches in your garden.",
+            "name": "CORDLESS CHAINSAW Advanced Chain 36V-35-40",
+            "description": "• Tackle logging and large pruning with a powerful cordless chainsaw.\n • Brushless motor delivers high-performance, heavier-duty sawing.\n • Continuous cutting even for challenging jobs with OptiCut speed control\n• Lightweight and streamlined to enable controlled, precise cuts\n• Hassle-free assembly with intuitive, toolless SDS\n• Kickback protection with the QuickStop braking system\n• Syneon Technology for optimum power and maximum runtime\n• Compatible with Bosch 36V POWER FOR ALL battery",
             "price": 129.99,
             "category": 1,
+            "sub_category": 2,
             "rating": 4.4,
-            "image_url": "https://example.com/power-chainsaw.jpg",
+            "image_url": "https://www.bosch-diy.com/imagestorage/en-gb/advancedchain-36v-35-40-100057347-hires-png-rgb-oneux-390215_w_1500_h_842.png",
             "image": "power-chainsaw.jpg"
         }
     },
@@ -63,7 +67,8 @@
             "name": "Gardening Gloves",
             "description": "Durable gardening gloves for protecting your hands while working in the garden.",
             "price": 8.99,
-            "category": 1,
+            "category": 3,
+            "sub_category": 9,
             "rating": 4.6,
             "image_url": "https://example.com/gardening-gloves.jpg",
             "image": "gardening-gloves.jpg"
@@ -78,6 +83,7 @@
             "description": "A high-pressure power washer for cleaning driveways, patios, and more.",
             "price": 149.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/power-washer.jpg",
             "image": "power-washer.jpg"
@@ -92,6 +98,7 @@
             "description": "A rugged shovel for digging and moving soil in your garden.",
             "price": 12.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/shovel.jpg",
             "image": "shovel.jpg"
@@ -101,32 +108,19 @@
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "pp8008",
-            "name": "Power Planer",
-            "description": "A versatile power planer for smoothing and shaping wood in DIY projects.",
-            "price": 79.99,
-            "category": 1,
-            "rating": 4.7,
-            "image_url": "https://example.com/power-planer.jpg",
-            "image": "power-planer.jpg"
-        }
-    },
-    {
-        "pk": 9,
-        "model": "products.product",
-        "fields": {
             "sku": "rake9009",
             "name": "Garden Rake",
             "description": "A wide-toothed garden rake for leveling soil and removing debris.",
             "price": 11.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/garden-rake.jpg",
             "image": "garden-rake.jpg"
         }
     },
     {
-        "pk": 10,
+        "pk": 9,
         "model": "products.product",
         "fields": {
             "sku": "hc1010",
@@ -134,13 +128,14 @@
             "description": "Precision hedge clippers for shaping and maintaining hedges and bushes.",
             "price": 18.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/hedge-clippers.jpg",
             "image": "hedge-clippers.jpg"
         }
     },
     {
-        "pk": 11,
+        "pk": 10,
         "model": "products.product",
         "fields": {
             "sku": "ld1111",
@@ -148,13 +143,14 @@
             "description": "A lawn dethatcher for removing thatch and improving your lawn's health.",
             "price": 49.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.4,
             "image_url": "https://example.com/lawn-dethatcher.jpg",
             "image": "lawn-dethatcher.jpg"
         }
     },
     {
-        "pk": 12,
+        "pk": 11,
         "model": "products.product",
         "fields": {
             "sku": "pw1212",
@@ -162,13 +158,14 @@
             "description": "A comprehensive power drill kit for DIY projects and home improvement.",
             "price": 69.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/power-drill-kit.jpg",
             "image": "power-drill-kit.jpg"
         }
     },
     {
-        "pk": 13,
+        "pk": 12,
         "model": "products.product",
         "fields": {
             "sku": "wl1313",
@@ -176,13 +173,14 @@
             "description": "A durable wheelbarrow for transporting soil, mulch, and other garden materials.",
             "price": 34.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/wheelbarrow.jpg",
             "image": "wheelbarrow.jpg"
         }
     },
     {
-        "pk": 14,
+        "pk": 13,
         "model": "products.product",
         "fields": {
             "sku": "wp1414",
@@ -190,13 +188,14 @@
             "description": "A versatile power planer for smoothing and shaping wood in DIY projects.",
             "price": 79.99,
             "category": 1,
+            "sub_category": 1, 
             "rating": 4.7,
             "image_url": "https://example.com/power-planer.jpg",
             "image": "power-planer.jpg"
         }
     },
     {
-        "pk": 15,
+        "pk": 14,
         "model": "products.product",
         "fields": {
             "sku": "gs1515",
@@ -204,13 +203,14 @@
             "description": "Sharp garden scissors for precise cutting and pruning tasks.",
             "price": 10.99,
             "category": 1,
+            "sub_category": 1, 
             "rating": 4.6,
             "image_url": "https://example.com/garden-scissors.jpg",
             "image": "garden-scissors.jpg"
         }
     },
     {
-        "pk": 16,
+        "pk": 15,
         "model": "products.product",
         "fields": {
             "sku": "gk1616",
@@ -218,13 +218,14 @@
             "description": "A versatile garden knife for a variety of gardening tasks.",
             "price": 7.99,
             "category": 1,
+            "sub_category": 1, 
             "rating": 4.5,
             "image_url": "https://example.com/garden-knife.jpg",
             "image": "garden-knife.jpg"
         }
     },
     {
-        "pk": 17,
+        "pk": 16,
         "model": "products.product",
         "fields": {
             "sku": "pr1717",
@@ -232,13 +233,14 @@
             "description": "A powerful router for woodworking and cabinetry projects.",
             "price": 109.99,
             "category": 1,
+            "sub_category": 1, 
             "rating": 4.8,
             "image_url": "https://example.com/power-router.jpg",
             "image": "power-router.jpg"
         }
     },
     {
-        "pk": 18,
+        "pk": 17,
         "model": "products.product",
         "fields": {
             "sku": "wl1818",
@@ -246,13 +248,14 @@
             "description": "An efficient weeder for removing weeds from your garden beds.",
             "price": 6.99,
             "category": 1,
+            "sub_category": 1, 
             "rating": 4.6,
             "image_url": "https://example.com/weeder.jpg",
             "image": "weeder.jpg"
         }
     },
     {
-        "pk": 19,
+        "pk": 18,
         "model": "products.product",
         "fields": {
             "sku": "pt1919",
@@ -260,13 +263,14 @@
             "description": "A precision power tile saw for cutting tiles with ease.",
             "price": 74.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/power-tile-saw.jpg",
             "image": "power-tile-saw.jpg"
         }
     },
     {
-        "pk": 20,
+        "pk": 19,
         "model": "products.product",
         "fields": {
             "sku": "mc2020",
@@ -274,713 +278,764 @@
             "description": "A versatile miter saw for making accurate angled cuts in various materials.",
             "price": 129.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/miter-saw.jpg",
             "image": "miter-saw.jpg"
         }
     },
     {
-        "pk": 21,
+        "pk": 20,
         "model": "products.product",
         "fields": {
             "sku": "ts2121",
             "name": "Tomato Seeds",
             "description": "Seeds for growing delicious and juicy tomatoes in your garden.",
             "price": 3.99,
-            "category": 2,  
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/tomato-seeds.jpg",
             "image": "tomato-seeds.jpg"
         }
     },
     {
-        "pk": 22,
+        "pk": 21,
         "model": "products.product",
         "fields": {
             "sku": "sf2222",
             "name": "Sunflower Seeds",
             "description": "Seeds for growing beautiful and vibrant sunflowers in your garden.",
             "price": 2.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/sunflower-seeds.jpg",
             "image": "sunflower-seeds.jpg"
         }
     },
     {
-        "pk": 23,
+        "pk": 22,
         "model": "products.product",
         "fields": {
             "sku": "bh2323",
             "name": "Basil Seeds",
             "description": "Seeds for growing aromatic and flavorful basil herbs for cooking.",
             "price": 1.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/basil-seeds.jpg",
             "image": "basil-seeds.jpg"
         }
     },
     {
-        "pk": 24,
+        "pk": 23,
         "model": "products.product",
         "fields": {
             "sku": "lc2424",
             "name": "Lettuce Seeds",
             "description": "Seeds for growing crisp and fresh lettuce for salads and sandwiches.",
             "price": 2.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.4,
             "image_url": "https://example.com/lettuce-seeds.jpg",
             "image": "lettuce-seeds.jpg"
         }
     },
     {
-        "pk": 25,
+        "pk": 24,
         "model": "products.product",
         "fields": {
             "sku": "ca2525",
             "name": "Carrot Seeds",
             "description": "Seeds for growing sweet and crunchy carrots in your vegetable garden.",
             "price": 3.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/carrot-seeds.jpg",
             "image": "carrot-seeds.jpg"
         }
     },
     {
-        "pk": 26,
+        "pk": 25,
         "model": "products.product",
         "fields": {
             "sku": "mr2626",
             "name": "Mint Seeds",
             "description": "Seeds for growing refreshing and aromatic mint herbs for beverages and desserts.",
             "price": 2.29,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/mint-seeds.jpg",
             "image": "mint-seeds.jpg"
         }
     },
     {
-        "pk": 27,
+        "pk": 26,
         "model": "products.product",
         "fields": {
             "sku": "sw2727",
             "name": "Sweet William Seeds",
             "description": "Seeds for growing vibrant and fragrant Sweet William flowers.",
             "price": 3.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/sweet-william-seeds.jpg",
             "image": "sweet-william-seeds.jpg"
         }
     },
     {
-        "pk": 28,
+        "pk": 27,
         "model": "products.product",
         "fields": {
             "sku": "ch2828",
             "name": "Cherry Tomato Seeds",
             "description": "Seeds for growing sweet and bite-sized cherry tomatoes in your garden.",
             "price": 4.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/cherry-tomato-seeds.jpg",
             "image": "cherry-tomato-seeds.jpg"
         }
     },
     {
-        "pk": 29,
+        "pk": 28,
         "model": "products.product",
         "fields": {
             "sku": "lc2929",
             "name": "Lavender Seeds",
             "description": "Seeds for growing fragrant and colorful lavender flowers for relaxation and aromatherapy.",
             "price": 3.79,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/lavender-seeds.jpg",
             "image": "lavender-seeds.jpg"
         }
     },
     {
-        "pk": 30,
+        "pk": 29,
         "model": "products.product",
         "fields": {
             "sku": "th3030",
             "name": "Thyme Seeds",
             "description": "Seeds for growing aromatic thyme herbs, perfect for seasoning dishes.",
             "price": 1.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/thyme-seeds.jpg",
             "image": "thyme-seeds.jpg"
         }
     },
     {
-        "pk": 31,
+        "pk": 30,
         "model": "products.product",
         "fields": {
             "sku": "ap3131",
             "name": "Apple Tree Seeds",
             "description": "Seeds for growing your own apple tree, producing delicious apples.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/apple-tree-seeds.jpg",
             "image": "apple-tree-seeds.jpg"
         }
     },
     {
-        "pk": 32,
+        "pk": 31,
         "model": "products.product",
         "fields": {
             "sku": "tr3232",
             "name": "Tulip Bulbs",
             "description": "Bulbs for growing colorful tulip flowers in your garden.",
             "price": 3.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/tulip-bulbs.jpg",
             "image": "tulip-bulbs.jpg"
         }
     },
     {
-        "pk": 33,
+        "pk": 32,
         "model": "products.product",
         "fields": {
             "sku": "pm3333",
             "name": "Parsley Seeds",
             "description": "Seeds for growing fresh and flavorful parsley herbs for culinary use.",
             "price": 2.29,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/parsley-seeds.jpg",
             "image": "parsley-seeds.jpg"
         }
     },
     {
-        "pk": 34,
+        "pk": 33,
         "model": "products.product",
         "fields": {
             "sku": "sa3434",
             "name": "Strawberry Plant Seeds",
             "description": "Seeds for growing sweet and juicy strawberry plants in your garden.",
             "price": 4.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/strawberry-plant-seeds.jpg",
             "image": "strawberry-plant-seeds.jpg"
         }
     },
     {
-        "pk": 35,
+        "pk": 34,
         "model": "products.product",
         "fields": {
             "sku": "mr3535",
             "name": "Marigold Seeds",
             "description": "Seeds for growing vibrant marigold flowers that add beauty to your garden.",
             "price": 2.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/marigold-seeds.jpg",
             "image": "marigold-seeds.jpg"
         }
     },
     {
-        "pk": 36,
+        "pk": 35,
         "model": "products.product",
         "fields": {
             "sku": "cb3636",
             "name": "Cilantro Seeds",
             "description": "Seeds for growing fresh and zesty cilantro herbs for your culinary creations.",
             "price": 1.89,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/cilantro-seeds.jpg",
             "image": "cilantro-seeds.jpg"
         }
     },
     {
-        "pk": 37,
+        "pk": 36,
         "model": "products.product",
         "fields": {
             "sku": "bl3737",
             "name": "Blueberry Bush Seeds",
             "description": "Seeds for growing your own blueberry bush, producing tasty blueberries.",
             "price": 6.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/blueberry-bush-seeds.jpg",
             "image": "blueberry-bush-seeds.jpg"
         }
     },
     {
-        "pk": 38,
+        "pk": 37,
         "model": "products.product",
         "fields": {
             "sku": "ds3838",
             "name": "Daisy Seeds",
             "description": "Seeds for growing charming daisy flowers that brighten up your garden.",
             "price": 3.29,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/daisy-seeds.jpg",
             "image": "daisy-seeds.jpg"
         }
     },
     {
-        "pk": 39,
+        "pk": 38,
         "model": "products.product",
         "fields": {
             "sku": "ps3939",
             "name": "Peppermint Seeds",
             "description": "Seeds for growing aromatic peppermint herbs, ideal for teas and desserts.",
             "price": 2.79,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/peppermint-seeds.jpg",
             "image": "peppermint-seeds.jpg"
         }
     },
     {
-        "pk": 40,
+        "pk": 39,
         "model": "products.product",
         "fields": {
             "sku": "cs4040",
             "name": "Cucumber Seeds",
             "description": "Seeds for growing crisp and refreshing cucumbers for your salads and pickles.",
             "price": 2.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/cucumber-seeds.jpg",
             "image": "cucumber-seeds.jpg"
         }
     },
     {
-        "pk": 41,
+        "pk": 40,
         "model": "products.product",
         "fields": {
             "sku": "wt4141",
             "name": "Work Trousers",
             "description": "Durable work trousers designed for comfort and protection during gardening tasks.",
             "price": 24.99,
-            "category": 3, 
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/work-trousers.jpg",
             "image": "work-trousers.jpg"
         }
     },
     {
-        "pk": 42,
+        "pk": 41,
         "model": "products.product",
         "fields": {
             "sku": "gc4242",
             "name": "Garden Coat",
             "description": "A waterproof garden coat to keep you dry during outdoor gardening work.",
             "price": 39.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-coat.jpg",
             "image": "garden-coat.jpg"
         }
     },
     {
-        "pk": 43,
+        "pk": 42,
         "model": "products.product",
         "fields": {
             "sku": "gg4343",
             "name": "Garden Gloves",
             "description": "Protective and comfortable garden gloves for various gardening tasks.",
             "price": 9.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/garden-gloves.jpg",
             "image": "garden-gloves.jpg"
         }
     },
     {
-        "pk": 44,
+        "pk": 43,
         "model": "products.product",
         "fields": {
             "sku": "wa4444",
             "name": "Work Apron",
             "description": "A sturdy work apron with multiple pockets for tools and accessories.",
             "price": 14.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/work-apron.jpg",
             "image": "work-apron.jpg"
         }
     },
     {
-        "pk": 45,
+        "pk": 44,
         "model": "products.product",
         "fields": {
             "sku": "rc4545",
             "name": "Rain Poncho",
             "description": "A lightweight rain poncho to stay dry in unexpected garden showers.",
             "price": 7.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/rain-poncho.jpg",
             "image": "rain-poncho.jpg"
         }
     },
     {
-        "pk": 46,
+        "pk": 45,
         "model": "products.product",
         "fields": {
             "sku": "wg4646",
             "name": "Weed Puller Gloves",
             "description": "Gloves with built-in weed puller claws for easy weed removal in the garden.",
             "price": 12.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/weed-puller-gloves.jpg",
             "image": "weed-puller-gloves.jpg"
         }
     },
     {
-        "pk": 47,
+        "pk": 46,
         "model": "products.product",
         "fields": {
             "sku": "gc4747",
             "name": "Garden Clogs",
             "description": "Comfortable and slip-resistant garden clogs for easy movement in the garden.",
             "price": 17.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/garden-clogs.jpg",
             "image": "garden-clogs.jpg"
         }
     },
     {
-        "pk": 48,
+        "pk": 47,
         "model": "products.product",
         "fields": {
             "sku": "gc4848",
             "name": "Garden Hat",
             "description": "A wide-brimmed garden hat to protect your face and neck from the sun.",
             "price": 8.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/garden-hat.jpg",
             "image": "garden-hat.jpg"
         }
     },
     {
-        "pk": 49,
+        "pk": 48,
         "model": "products.product",
         "fields": {
             "sku": "lw4949",
             "name": "Lawn Work Shoes",
             "description": "Durable and waterproof lawn work shoes for various outdoor tasks.",
             "price": 29.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/lawn-work-shoes.jpg",
             "image": "lawn-work-shoes.jpg"
         }
     },
     {
-        "pk": 50,
+        "pk": 49,
         "model": "products.product",
         "fields": {
             "sku": "pp5050",
             "name": "Pruning Gloves",
             "description": "Gloves designed for safe and precise pruning and trimming in the garden.",
             "price": 11.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/pruning-gloves.jpg",
             "image": "pruning-gloves.jpg"
         }
     },
     {
-        "pk": 51,
+        "pk": 50,
         "model": "products.product",
         "fields": {
             "sku": "ws5151",
             "name": "Work Shirt",
             "description": "A comfortable and breathable work shirt for gardening and outdoor tasks.",
             "price": 19.99,
-            "category": 3,  
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/work-shirt.jpg",
             "image": "work-shirt.jpg"
         }
     },
     {
-        "pk": 52,
+        "pk": 51,
         "model": "products.product",
         "fields": {
             "sku": "hh5252",
             "name": "Wide-Brimmed Hat",
             "description": "A wide-brimmed hat to provide shade and protect your face from the sun.",
             "price": 8.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/wide-brimmed-hat.jpg",
             "image": "wide-brimmed-hat.jpg"
         }
     },
     {
-        "pk": 53,
+        "pk": 52,
         "model": "products.product",
         "fields": {
             "sku": "pk5353",
             "name": "Knee Pads",
             "description": "Comfortable knee pads for protecting your knees while working in the garden.",
             "price": 12.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/knee-pads.jpg",
             "image": "knee-pads.jpg"
         }
     },
     {
-        "pk": 54,
+        "pk": 53,
         "model": "products.product",
         "fields": {
             "sku": "gs5454",
             "name": "Garden Socks",
             "description": "Moisture-wicking and comfortable garden socks for all-day comfort.",
             "price": 4.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/garden-socks.jpg",
             "image": "garden-socks.jpg"
         }
     },
     {
-        "pk": 55,
+        "pk": 54,
         "model": "products.product",
         "fields": {
             "sku": "gh5555",
             "name": "Garden Hat with Neck Flap",
             "description": "A sun-protective garden hat with a neck flap for added sun coverage.",
             "price": 11.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-hat-with-neck-flap.jpg",
             "image": "garden-hat-with-neck-flap.jpg"
         }
     },
     {
-        "pk": 56,
+        "pk": 55,
         "model": "products.product",
         "fields": {
             "sku": "wp5656",
             "name": "Waterproof Pants",
             "description": "Waterproof and durable pants for wet gardening conditions.",
             "price": 27.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/waterproof-pants.jpg",
             "image": "waterproof-pants.jpg"
         }
     },
     {
-        "pk": 57,
+        "pk": 56,
         "model": "products.product",
         "fields": {
             "sku": "wg5757",
             "name": "Garden Gaiters",
             "description": "Gaiters to protect your lower legs and shoes from debris and mud.",
             "price": 9.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/garden-gaiters.jpg",
             "image": "garden-gaiters.jpg"
         }
     },
     {
-        "pk": 58,
+        "pk": 57,
         "model": "products.product",
         "fields": {
             "sku": "gw5858",
             "name": "Garden Workshirt",
             "description": "A durable work shirt designed for heavy-duty gardening and landscaping work.",
             "price": 21.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-workshirt.jpg",
             "image": "garden-workshirt.jpg"
         }
     },
     {
-        "pk": 59,
+        "pk": 58,
         "model": "products.product",
         "fields": {
             "sku": "gc5959",
             "name": "Garden Cap",
             "description": "A comfortable and breathable garden cap to keep you cool while gardening.",
             "price": 7.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/garden-cap.jpg",
             "image": "garden-cap.jpg"
         }
     },
     {
-        "pk": 60,
+        "pk": 59,
         "model": "products.product",
         "fields": {
             "sku": "lh6060",
             "name": "Long-Sleeve Garden Shirt",
             "description": "A long-sleeve garden shirt with UV protection for extended outdoor gardening.",
             "price": 29.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/long-sleeve-garden-shirt.jpg",
             "image": "long-sleeve-garden-shirt.jpg"
         }
     },
     {
-        "pk": 61,
+        "pk": 60,
         "model": "products.product",
         "fields": {
             "sku": "gp6161",
             "name": "Garden Pruner Set",
             "description": "A set of sharp garden pruners for precise trimming and pruning of plants.",
             "price": 16.99,
-            "category": 5,  
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-pruner-set.jpg",
             "image": "garden-pruner-set.jpg"
         }
     },
     {
-        "pk": 62,
+        "pk": 61,
         "model": "products.product",
         "fields": {
             "sku": "wf6262",
             "name": "Watering Can",
             "description": "A durable watering can for easy and efficient plant watering in your garden.",
             "price": 12.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/watering-can.jpg",
             "image": "watering-can.jpg"
         }
     },
     {
-        "pk": 63,
+        "pk": 62,
         "model": "products.product",
         "fields": {
             "sku": "sf6363",
             "name": "Soil Fertilizer",
             "description": "Nutrient-rich soil fertilizer for promoting plant growth and healthy blooms.",
             "price": 9.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/soil-fertilizer.jpg",
             "image": "soil-fertilizer.jpg"
         }
     },
     {
-        "pk": 64,
+        "pk": 63,
         "model": "products.product",
         "fields": {
             "sku": "sp6464",
             "name": "Seed Packets Variety",
             "description": "A variety pack of seeds for colorful flowers, herbs, and vegetables in your garden.",
             "price": 14.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/seed-packets-variety.jpg",
             "image": "seed-packets-variety.jpg"
         }
     },
     {
-        "pk": 65,
+        "pk": 64,
         "model": "products.product",
         "fields": {
             "sku": "gs6565",
             "name": "Garden Shovel",
             "description": "A sturdy garden shovel for digging, planting, and moving soil with ease.",
             "price": 18.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-shovel.jpg",
             "image": "garden-shovel.jpg"
         }
     },
     {
-        "pk": 66,
+        "pk": 65,
         "model": "products.product",
         "fields": {
             "sku": "pw6666",
             "name": "Plant Watering Spikes",
             "description": "Set of plant watering spikes for automatic and efficient watering of potted plants.",
             "price": 7.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/plant-watering-spikes.jpg",
             "image": "plant-watering-spikes.jpg"
         }
     },
     {
-        "pk": 67,
+        "pk": 66,
         "model": "products.product",
         "fields": {
             "sku": "tt6767",
             "name": "Garden Trowel and Transplanter Set",
             "description": "A set of versatile tools for digging, planting, and transplanting in the garden.",
             "price": 14.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/garden-trowel-transplanter-set.jpg",
             "image": "garden-trowel-transplanter-set.jpg"
         }
     },
     {
-        "pk": 68,
+        "pk": 67,
         "model": "products.product",
         "fields": {
             "sku": "gc6868",
             "name": "Garden Cart",
             "description": "A sturdy garden cart for transporting tools, soil, and plants with ease.",
             "price": 38.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-cart.jpg",
             "image": "garden-cart.jpg"
         }
     },
     {
-        "pk": 69,
+        "pk": 68,
         "model": "products.product",
         "fields": {
             "sku": "pr6969",
             "name": "Pruning Shears",
             "description": "Sharp pruning shears for trimming branches and maintaining plant health.",
             "price": 13.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/pruning-shears.jpg",
             "image": "pruning-shears.jpg"
         }
     },
     {
-        "pk": 70,
+        "pk": 69,
         "model": "products.product",
         "fields": {
             "sku": "mw7070",
             "name": "Mulch and Weed Barrier Fabric",
             "description": "Mulch and weed barrier fabric to maintain soil moisture and control weeds in your garden.",
             "price": 11.99,
-            "category": 5,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/mulch-weed-barrier-fabric.jpg",
             "image": "mulch-weed-barrier-fabric.jpg"
         }
     },
     {
-        "pk": 71,
+        "pk": 70,
         "model": "products.product",
         "fields": {
             "sku": "pt7171",
@@ -988,13 +1043,14 @@
             "description": "A set of sharp circular saw blades for cutting wood and branches in the garden.",
             "price": 22.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/circular-saw-blade-set.jpg",
             "image": "circular-saw-blade-set.jpg"
         }
     },
     {
-        "pk": 72,
+        "pk": 71,
         "model": "products.product",
         "fields": {
             "sku": "gh7272",
@@ -1002,13 +1058,14 @@
             "description": "A wall-mounted rack for organizing and storing garden tools and accessories.",
             "price": 19.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/garden-tool-organizer-rack.jpg",
             "image": "garden-tool-organizer-rack.jpg"
         }
     },
     {
-        "pk": 73,
+        "pk": 72,
         "model": "products.product",
         "fields": {
             "sku": "hs7373",
@@ -1016,13 +1073,14 @@
             "description": "A sharp hand pruning saw for trimming branches and small trees in your garden.",
             "price": 14.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/hand-pruning-saw.jpg",
             "image": "hand-pruning-saw.jpg"
         }
     },
     {
-        "pk": 74,
+        "pk": 73,
         "model": "products.product",
         "fields": {
             "sku": "th7474",
@@ -1030,27 +1088,29 @@
             "description": "Comfortable handle grips for better control and reduced hand fatigue when using garden tools.",
             "price": 6.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/tool-handle-grips.jpg",
             "image": "tool-handle-grips.jpg"
         }
     },
     {
-        "pk": 75,
+        "pk": 74,
         "model": "products.product",
         "fields": {
             "sku": "pt7575",
             "name": "Pruner Blade Replacement",
-            "description": "Replacement blades for pruners to keep them sharp and effective.",
+            "description": "Replacement blades for pruners to keep them sharp and effective.",     
             "price": 8.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/pruner-blade-replacement.jpg",
             "image": "pruner-blade-replacement.jpg"
         }
     },
     {
-        "pk": 76,
+        "pk": 75,
         "model": "products.product",
         "fields": {
             "sku": "ss7676",
@@ -1058,13 +1118,14 @@
             "description": "A sharpening stone for keeping your garden tool blades in top condition.",
             "price": 9.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/sharpening-stone.jpg",
             "image": "sharpening-stone.jpg"
         }
     },
     {
-        "pk": 77,
+        "pk": 76,
         "model": "products.product",
         "fields": {
             "sku": "gc7777",
@@ -1072,13 +1133,14 @@
             "description": "A tool belt with multiple pockets for carrying and accessing your garden tools.",
             "price": 12.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/garden-tool-belt.jpg",
             "image": "garden-tool-belt.jpg"
         }
     },
     {
-        "pk": 78,
+        "pk": 77,
         "model": "products.product",
         "fields": {
             "sku": "ft7878",
@@ -1086,27 +1148,29 @@
             "description": "A spreader plate attachment for even distribution of fertilizers in the garden.",
             "price": 7.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/fertilizer-spreader-plate.jpg",
             "image": "fertilizer-spreader-plate.jpg"
         }
     },
     {
-        "pk": 79,
+        "pk": 78,
         "model": "products.product",
         "fields": {
             "sku": "wt7979",
             "name": "Weed Puller Attachment",
-            "description": "An attachment for weed pulling, designed for use with garden tools.",
+            "description": "An attachment for weed pulling, designed for use with garden tools.",  
             "price": 10.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/weed-puller-attachment.jpg",
             "image": "weed-puller-attachment.jpg"
         }
     },
     {
-        "pk": 80,
+        "pk": 79,
         "model": "products.product",
         "fields": {
             "sku": "gt8080",
@@ -1114,734 +1178,787 @@
             "description": "A kit for sharpening and maintaining the edges of various garden tools.",
             "price": 13.99,
             "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/garden-tool-sharpening-kit.jpg",
             "image": "garden-tool-sharpening-kit.jpg"
         }
     },
     {
-        "pk": 81,
+        "pk": 80,
         "model": "products.product",
         "fields": {
             "sku": "gj8181",
             "name": "Gardener's Jacket",
             "description": "A durable and water-resistant jacket designed for gardeners to stay dry in various weather conditions.",
             "price": 34.99,
-            "category": 3, 
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/gardeners-jacket.jpg",
             "image": "gardeners-jacket.jpg"
         }
     },
     {
-        "pk": 82,
+        "pk": 81,
         "model": "products.product",
         "fields": {
             "sku": "vw8282",
             "name": "Versatile Vest",
             "description": "A versatile garden vest with multiple pockets for storing small tools and accessories while gardening.",
             "price": 24.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/versatile-vest.jpg",
             "image": "versatile-vest.jpg"
         }
     },
     {
-        "pk": 83,
+        "pk": 82,
         "model": "products.product",
         "fields": {
             "sku": "wp8383",
             "name": "Waterproof Poncho",
             "description": "A waterproof poncho with a hood to keep you dry in the rain while working in the garden.",
             "price": 18.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/waterproof-poncho.jpg",
             "image": "waterproof-poncho.jpg"
         }
     },
     {
-        "pk": 84,
+        "pk": 83,
         "model": "products.product",
         "fields": {
             "sku": "tw8484",
             "name": "Thermal Work Jacket",
             "description": "A thermal work jacket to keep you warm and comfortable during cold gardening sessions.",
             "price": 39.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/thermal-work-jacket.jpg",
             "image": "thermal-work-jacket.jpg"
         }
     },
     {
-        "pk": 85,
+        "pk": 84,
         "model": "products.product",
         "fields": {
             "sku": "gfv8585",
             "name": "Garden Fleece Vest",
             "description": "A lightweight fleece vest for added warmth and flexibility in the garden.",
             "price": 19.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/garden-fleece-vest.jpg",
             "image": "garden-fleece-vest.jpg"
         }
     },
     {
-        "pk": 86,
+        "pk": 85,
         "model": "products.product",
         "fields": {
             "sku": "aj8686",
             "name": "All-Weather Jacket",
             "description": "An all-weather jacket designed to protect you from wind, rain, and cold during gardening tasks.",
             "price": 44.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/all-weather-jacket.jpg",
             "image": "all-weather-jacket.jpg"
         }
     },
     {
-        "pk": 87,
+        "pk": 86,
         "model": "products.product",
         "fields": {
             "sku": "rp8787",
             "name": "Rainproof Parka",
             "description": "A rainproof parka with a removable lining for year-round gardening comfort.",
             "price": 49.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://example.com/rainproof-parka.jpg",
             "image": "rainproof-parka.jpg"
         }
     },
     {
-        "pk": 88,
+        "pk": 87,
         "model": "products.product",
         "fields": {
             "sku": "ow8888",
             "name": "Outdoor Windbreaker",
             "description": "A windbreaker designed for outdoor activities, including gardening, to block the wind and stay comfortable.",
             "price": 32.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/outdoor-windbreaker.jpg",
             "image": "outdoor-windbreaker.jpg"
         }
     },
     {
-        "pk": 89,
+        "pk": 88,
         "model": "products.product",
         "fields": {
             "sku": "go8989",
             "name": "Garden Overalls",
             "description": "Durable and comfortable garden overalls for full-body protection during gardening work.",
             "price": 37.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/garden-overalls.jpg",
             "image": "garden-overalls.jpg"
         }
     },
     {
-        "pk": 90,
+        "pk": 89,
         "model": "products.product",
         "fields": {
             "sku": "wc9090",
             "name": "Work Coveralls",
             "description": "Heavy-duty work coveralls designed for outdoor tasks, including gardening and landscaping.",
             "price": 42.99,
-            "category": 3,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/work-coveralls.jpg",
             "image": "work-coveralls.jpg"
         }
     },
     {
-    "pk": 91,
-    "model": "products.product",
-    "fields": {
-        "sku": "gg9191",
-        "name": "Gardener's Gloves Set",
-        "description": "A set of high-quality gardener's gloves for protecting your hands while working in the garden.",
-        "price": 19.99,
-        "category": 3,
-        "rating": 4.6,
-        "image_url": "https://example.com/gardeners-gloves-set.jpg",
-        "image": "gardeners-gloves-set.jpg"
-    }
+        "pk": 90,
+        "model": "products.product",
+        "fields": {
+            "sku": "gg9191",
+            "name": "Gardener's Gloves Set",
+            "description": "A set of high-quality gardener's gloves for protecting your hands while working in the garden.",
+            "price": 19.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.6,
+            "image_url": "https://example.com/gardeners-gloves-set.jpg",
+            "image": "gardeners-gloves-set.jpg"
+        }
     },
     {
-    "pk": 92,
-    "model": "products.product",
-    "fields": {
-        "sku": "pg9292",
-        "name": "Protective Pruning Gloves",
-        "description": "Pruning gloves designed for precision and protection while tending to your plants and trees.",
-        "price": 14.99,
-        "category": 3,
-        "rating": 4.7,
-        "image_url": "https://example.com/protective-pruning-gloves.jpg",
-        "image": "protective-pruning-gloves.jpg"
-    }
+        "pk": 91,
+        "model": "products.product",
+        "fields": {
+            "sku": "pg9292",
+            "name": "Protective Pruning Gloves",
+            "description": "Pruning gloves designed for precision and protection while tending to your plants and trees.",
+            "price": 14.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.7,
+            "image_url": "https://example.com/protective-pruning-gloves.jpg",
+            "image": "protective-pruning-gloves.jpg"
+        }
     },
     {
-    "pk": 93,
-    "model": "products.product",
-    "fields": {
-        "sku": "wg9393",
-        "name": "Waterproof Garden Gloves",
-        "description": "Waterproof gloves ideal for wet gardening conditions, keeping your hands dry and comfortable.",
-        "price": 16.99,
-        "category": 3,
-        "rating": 4.5,
-        "image_url": "https://example.com/waterproof-garden-gloves.jpg",
-        "image": "waterproof-garden-gloves.jpg"
-    }
+        "pk": 92,
+        "model": "products.product",
+        "fields": {
+            "sku": "wg9393",
+            "name": "Waterproof Garden Gloves",
+            "description": "Waterproof gloves ideal for wet gardening conditions, keeping your hands dry and comfortable.",
+            "price": 16.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.5,
+            "image_url": "https://example.com/waterproof-garden-gloves.jpg",
+            "image": "waterproof-garden-gloves.jpg"
+        }
     },
     {
-    "pk": 94,
-    "model": "products.product",
-    "fields": {
-        "sku": "tg9494",
-        "name": "Thorn-Resistant Gloves",
-        "description": "Thorn-resistant gloves for added protection while working with prickly plants and bushes in your garden.",
-        "price": 18.99,
-        "category": 3,
-        "rating": 4.7,
-        "image_url": "https://example.com/thorn-resistant-gloves.jpg",
-        "image": "thorn-resistant-gloves.jpg"
-    }
+        "pk": 93,
+        "model": "products.product",
+        "fields": {
+            "sku": "tg9494",
+            "name": "Thorn-Resistant Gloves",
+            "description": "Thorn-resistant gloves for added protection while working with prickly plants and bushes in your garden.",
+            "price": 18.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.7,
+            "image_url": "https://example.com/thorn-resistant-gloves.jpg",
+            "image": "thorn-resistant-gloves.jpg"
+        }
     },
     {
-    "pk": 101,
-    "model": "products.product",
-    "fields": {
-        "sku": "tfv101",
-        "name": "Organic Tomato Seeds",
-        "description": "Organic tomato seeds for growing delicious and juicy tomatoes in your garden.",
-        "price": 5.99,
-        "category": 2,  
-        "rating": 4.6,
-        "image_url": "https://example.com/organic-tomato-seeds.jpg",
-        "image": "organic-tomato-seeds.jpg"
-    }
+        "pk": 94,
+        "model": "products.product",
+        "fields": {
+            "sku": "tfv101",
+            "name": "Organic Tomato Seeds",
+            "description": "Organic tomato seeds for growing delicious and juicy tomatoes in your garden.",
+            "price": 5.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.6,
+            "image_url": "https://example.com/organic-tomato-seeds.jpg",
+            "image": "organic-tomato-seeds.jpg"
+        }
     },
     {
-    "pk": 102,
-    "model": "products.product",
-    "fields": {
-        "sku": "bfv102",
-        "name": "Bell Pepper Seed Mix",
-        "description": "A mix of bell pepper seeds in various colors for a vibrant addition to your garden and meals.",
-        "price": 6.99,
-        "category": 2,
-        "rating": 4.7,
-        "image_url": "https://example.com/bell-pepper-seed-mix.jpg",
-        "image": "bell-pepper-seed-mix.jpg"
-    }
+        "pk": 95,
+        "model": "products.product",
+        "fields": {
+            "sku": "bfv102",
+            "name": "Bell Pepper Seed Mix",
+            "description": "A mix of bell pepper seeds in various colors for a vibrant addition to your garden and meals.",
+            "price": 6.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.7,
+            "image_url": "https://example.com/bell-pepper-seed-mix.jpg",
+            "image": "bell-pepper-seed-mix.jpg"
+        }
     },
     {
-    "pk": 103,
-    "model": "products.product",
-    "fields": {
-        "sku": "cuc103",
-        "name": "Cucumber Seeds",
-        "description": "Cucumber seeds for crisp and refreshing cucumbers, perfect for salads and snacks.",
-        "price": 4.99,
-        "category": 2,
-        "rating": 4.5,
-        "image_url": "https://example.com/cucumber-seeds.jpg",
-        "image": "cucumber-seeds.jpg"
-    }
+        "pk": 96,
+        "model": "products.product",
+        "fields": {
+            "sku": "cuc103",
+            "name": "Cucumber Seeds",
+            "description": "Cucumber seeds for crisp and refreshing cucumbers, perfect for salads and snacks.",
+            "price": 4.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.5,
+            "image_url": "https://example.com/cucumber-seeds.jpg",
+            "image": "cucumber-seeds.jpg"
+        }
     },
     {
-    "pk": 104,
-    "model": "products.product",
-    "fields": {
-        "sku": "zuc104",
-        "name": "Zucchini Squash Seeds",
-        "description": "Zucchini squash seeds for growing tender and versatile zucchinis in your garden.",
-        "price": 5.49,
-        "category": 2,
-        "rating": 4.7,
-        "image_url": "https://example.com/zucchini-squash-seeds.jpg",
-        "image": "zucchini-squash-seeds.jpg"
-    }
+        "pk": 97,
+        "model": "products.product",
+        "fields": {
+            "sku": "zuc104",
+            "name": "Zucchini Squash Seeds",
+            "description": "Zucchini squash seeds for growing tender and versatile zucchinis in your garden.",
+            "price": 5.49,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.7,
+            "image_url": "https://example.com/zucchini-squash-seeds.jpg",
+            "image": "zucchini-squash-seeds.jpg"
+        }
     },
     {
-    "pk": 105,
-    "model": "products.product",
-    "fields": {
-        "sku": "crn105",
-        "name": "Corn Seed Collection",
-        "description": "A collection of various corn seeds for a diverse and flavorful corn harvest.",
-        "price": 7.99,
-        "category": 2,
-        "rating": 4.6,
-        "image_url": "https://example.com/corn-seed-collection.jpg",
-        "image": "corn-seed-collection.jpg"
-    }
+        "pk": 98,
+        "model": "products.product",
+        "fields": {
+            "sku": "crn105",
+            "name": "Corn Seed Collection",
+            "description": "A collection of various corn seeds for a diverse and flavorful corn harvest.",
+            "price": 7.99,
+            "category": 1,
+            "sub_category": 1,
+            "rating": 4.6,
+            "image_url": "https://example.com/corn-seed-collection.jpg",
+            "image": "corn-seed-collection.jpg"
+        }
     },
     {
-        "pk": 106,
+        "pk": 99,
         "model": "products.product",
         "fields": {
             "sku": "sbv106",
             "name": "Strawberry Seeds",
             "description": "Strawberry seeds for sweet and juicy strawberries, perfect for desserts and snacks.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/strawberry-seeds.jpg",
             "image": "strawberry-seeds.jpg"
         }
     },
     {
-        "pk": 107,
+        "pk": 100,
         "model": "products.product",
         "fields": {
             "sku": "bvc107",
             "name": "Broccoli Seed Pack",
             "description": "A pack of broccoli seeds for healthy and nutritious broccoli in your garden.",
             "price": 6.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/broccoli-seed-pack.jpg",
             "image": "broccoli-seed-pack.jpg"
         }
     },
     {
-        "pk": 108,
+        "pk": 101,
         "model": "products.product",
         "fields": {
             "sku": "car108",
             "name": "Carrot Seed Mix",
             "description": "A mix of carrot seeds in various colors for a rainbow of homegrown carrots.",
             "price": 4.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/carrot-seed-mix.jpg",
             "image": "carrot-seed-mix.jpg"
         }
     },
     {
-        "pk": 109,
+        "pk": 102,
         "model": "products.product",
         "fields": {
             "sku": "lmn109",
             "name": "Lemon Tree Seeds",
             "description": "Lemon tree seeds for growing your own lemon tree and enjoying fresh lemons at home.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/lemon-tree-seeds.jpg",
             "image": "lemon-tree-seeds.jpg"
         }
     },
     {
-        "pk": 110,
+        "pk": 103,
         "model": "products.product",
         "fields": {
             "sku": "pmp110",
             "name": "Pumpkin Seeds",
             "description": "Pumpkin seeds for growing pumpkins of various sizes, perfect for autumn decorations and pies.",
             "price": 5.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/pumpkin-seeds.jpg",
             "image": "pumpkin-seeds.jpg"
         }
     },
     {
-        "pk": 111,
+        "pk": 104,
         "model": "products.product",
         "fields": {
             "sku": "swt111",
             "name": "Sweet Potato Slips",
             "description": "Sweet potato slips for planting and growing your own sweet potatoes at home.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/sweet-potato-slips.jpg",
             "image": "sweet-potato-slips.jpg"
         }
     },
     {
-        "pk": 112,
+        "pk": 105,
         "model": "products.product",
         "fields": {
             "sku": "lmn112",
             "name": "Lettuce Seed Mix",
             "description": "A mix of lettuce seeds for a variety of fresh and crisp lettuce in your garden.",
             "price": 4.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/lettuce-seed-mix.jpg",
             "image": "lettuce-seed-mix.jpg"
         }
     },
     {
-        "pk": 113,
+        "pk": 103,
         "model": "products.product",
         "fields": {
             "sku": "aap113",
             "name": "Apple Tree Seeds",
             "description": "Apple tree seeds for growing your own apple tree and enjoying homegrown apples.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/apple-tree-seeds.jpg",
             "image": "apple-tree-seeds.jpg"
         }
     },
     {
-        "pk": 114,
+        "pk": 107,
         "model": "products.product",
         "fields": {
             "sku": "pca114",
             "name": "Peach Tree Seeds",
             "description": "Peach tree seeds for growing your own peach tree and savoring fresh peaches.",
             "price": 5.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/peach-tree-seeds.jpg",
             "image": "peach-tree-seeds.jpg"
         }
     },
     {
-        "pk": 115,
+        "pk": 108,
         "model": "products.product",
         "fields": {
             "sku": "cch115",
             "name": "Cherry Tree Seeds",
             "description": "Cherry tree seeds for growing your own cherry tree and enjoying sweet cherries.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/cherry-tree-seeds.jpg",
             "image": "cherry-tree-seeds.jpg"
         }
     },
     {
-        "pk": 116,
+        "pk": 109,
         "model": "products.product",
         "fields": {
             "sku": "wmn116",
             "name": "Watermelon Seeds",
             "description": "Watermelon seeds for growing juicy and refreshing watermelons in your garden.",
             "price": 5.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/watermelon-seeds.jpg",
             "image": "watermelon-seeds.jpg"
         }
     },
     {
-        "pk": 117,
+        "pk": 110,
         "model": "products.product",
         "fields": {
             "sku": "bcl117",
             "name": "Blackberry Bush Seeds",
             "description": "Blackberry bush seeds for growing delicious blackberries in your backyard.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/blackberry-bush-seeds.jpg",
             "image": "blackberry-bush-seeds.jpg"
         }
     },
     {
-        "pk": 118,
+        "pk": 111,
         "model": "products.product",
         "fields": {
             "sku": "mgc118",
             "name": "Mango Tree Seeds",
             "description": "Mango tree seeds for growing your own mango tree and enjoying tropical mangoes.",
             "price": 5.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/mango-tree-seeds.jpg",
             "image": "mango-tree-seeds.jpg"
         }
     },
     {
-        "pk": 119,
+        "pk": 112,
         "model": "products.product",
         "fields": {
             "sku": "ctn119",
             "name": "Cotton Plant Seeds",
-            "description": "Cotton plant seeds for cultivating your own cotton plants at home.",
+            "description": "Cotton plant seeds for cultivating your own cotton plants at home.",   
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://example.com/cotton-plant-seeds.jpg",
             "image": "cotton-plant-seeds.jpg"
         }
     },
     {
-        "pk": 120,
+        "pk": 113,
         "model": "products.product",
         "fields": {
             "sku": "grt120",
             "name": "Grapevine Seeds",
             "description": "Grapevine seeds for growing your own grapevines and enjoying homegrown grapes.",
             "price": 5.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/grapevine-seeds.jpg",
             "image": "grapevine-seeds.jpg"
         }
     },
     {
-        "pk": 121,
+        "pk": 114,
         "model": "products.product",
         "fields": {
             "sku": "rs121",
             "name": "Rose Seeds Mix",
             "description": "A mix of rose seeds with various colors and fragrances for a beautiful garden full of roses.",
             "price": 7.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/rose-seeds-mix.jpg",
             "image": "rose-seeds-mix.jpg"
         }
     },
     {
-        "pk": 122,
+        "pk": 115,
         "model": "products.product",
         "fields": {
             "sku": "slw122",
             "name": "Sunflower Seeds",
             "description": "Sunflower seeds for growing tall and vibrant sunflowers that bring sunshine to your garden.",
             "price": 6.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/sunflower-seeds.jpg",
             "image": "sunflower-seeds.jpg"
         }
     },
     {
-        "pk": 123,
+        "pk": 116,
         "model": "products.product",
         "fields": {
             "sku": "lly123",
             "name": "Lily Bulbs Mix",
             "description": "A mix of lily bulbs with various colors and shapes to create an enchanting garden display.",
             "price": 8.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.9,
             "image_url": "https://example.com/lily-bulbs-mix.jpg",
             "image": "lily-bulbs-mix.jpg"
         }
     },
     {
-        "pk": 124,
+        "pk": 117,
         "model": "products.product",
         "fields": {
             "sku": "dai124",
             "name": "Daisy Flower Seeds",
             "description": "Daisy flower seeds for growing cheerful and colorful daisies in your garden.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/daisy-flower-seeds.jpg",
             "image": "daisy-flower-seeds.jpg"
         }
     },
     {
-        "pk": 125,
+        "pk": 118,
         "model": "products.product",
         "fields": {
             "sku": "tlf125",
             "name": "Tulip Bulbs Mix",
             "description": "A mix of tulip bulbs in various shades for a stunning spring garden full of tulips.",
             "price": 7.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/tulip-bulbs-mix.jpg",
             "image": "tulip-bulbs-mix.jpg"
         }
     },
     {
-        "pk": 126,
+        "pk": 119,
         "model": "products.product",
         "fields": {
             "sku": "pns126",
             "name": "Pansy Flower Seeds",
             "description": "Pansy flower seeds for creating charming and vibrant pansy displays in your garden.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/pansy-flower-seeds.jpg",
             "image": "pansy-flower-seeds.jpg"
         }
     },
     {
-        "pk": 127,
+        "pk": 120,
         "model": "products.product",
         "fields": {
             "sku": "pcn127",
             "name": "Peacock Orchid Bulbs",
             "description": "Peacock orchid bulbs for growing these elegant and fragrant orchids in your garden.",
             "price": 8.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/peacock-orchid-bulbs.jpg",
             "image": "peacock-orchid-bulbs.jpg"
         }
     },
     {
-        "pk": 128,
+        "pk": 121,
         "model": "products.product",
         "fields": {
             "sku": "fcn128",
             "name": "Foxglove Seeds",
             "description": "Foxglove seeds for enchanting and tall spires of colorful foxgloves in your garden.",
             "price": 6.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/foxglove-seeds.jpg",
             "image": "foxglove-seeds.jpg"
         }
     },
     {
-        "pk": 129,
+        "pk": 122,
         "model": "products.product",
         "fields": {
             "sku": "pny129",
             "name": "Pansy Seeds Mix",
             "description": "A mix of pansy seeds in various shades for a delightful and vibrant pansy garden display.",
             "price": 7.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/pansy-seeds-mix.jpg",
             "image": "pansy-seeds-mix.jpg"
         }
     },
     {
-        "pk": 130,
+        "pk": 123,
         "model": "products.product",
         "fields": {
             "sku": "vbf130",
             "name": "Verbena Flower Seeds",
             "description": "Verbena flower seeds for creating beautiful and cascading displays of verbena in your garden.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/verbena-flower-seeds.jpg",
             "image": "verbena-flower-seeds.jpg"
         }
     },
     {
-        "pk": 131,
+        "pk": 124,
         "model": "products.product",
         "fields": {
             "sku": "ppl131",
             "name": "Poppy Flower Seeds",
             "description": "Poppy flower seeds for growing vibrant and eye-catching poppy blooms in your garden.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/poppy-flower-seeds.jpg",
             "image": "poppy-flower-seeds.jpg"
         }
     },
     {
-        "pk": 132,
+        "pk": 125,
         "model": "products.product",
         "fields": {
             "sku": "hyd132",
             "name": "Hydrangea Seeds Mix",
             "description": "A mix of hydrangea seeds for a garden filled with lush and colorful hydrangea blooms.",
             "price": 7.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/hydrangea-seeds-mix.jpg",
             "image": "hydrangea-seeds-mix.jpg"
         }
     },
     {
-        "pk": 133,
+        "pk": 126,
         "model": "products.product",
         "fields": {
             "sku": "lil133",
             "name": "Lilac Flower Seeds",
             "description": "Lilac flower seeds for growing fragrant and lovely lilac blossoms in your garden.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/lilac-flower-seeds.jpg",
             "image": "lilac-flower-seeds.jpg"
         }
     },
     {
-        "pk": 134,
+        "pk": 127,
         "model": "products.product",
         "fields": {
             "sku": "acl134",
             "name": "Aster Flower Seeds",
             "description": "Aster flower seeds for creating charming and colorful displays of aster flowers in your garden.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/aster-flower-seeds.jpg",
             "image": "aster-flower-seeds.jpg"
         }
     },
     {
-        "pk": 135,
+        "pk": 128,
         "model": "products.product",
         "fields": {
             "sku": "znn135",
             "name": "Zinnia Seeds Mix",
             "description": "A mix of zinnia seeds in various colors for a vibrant and joyful zinnia garden display.",
             "price": 7.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/zinnia-seeds-mix.jpg",
             "image": "zinnia-seeds-mix.jpg"
         }
     },
     {
-        "pk": 136,
+        "pk": 129,
         "model": "products.product",
         "fields": {
             "sku": "pch136",
             "name": "Peach Blossom Seeds",
             "description": "Peach blossom seeds for growing delicate and beautiful peach blossoms in your garden.",
             "price": 6.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/peach-blossom-seeds.jpg",
             "image": "peach-blossom-seeds.jpg"
         }
     },
     {
-        "pk": 137,
+        "pk": 130,
         "model": "products.product",
         "fields": {
             "sku": "dch137",
             "name": "Dahlia Flower Seeds",
             "description": "Dahlia flower seeds for growing showy and colorful dahlia blooms in your garden.",
             "price": 5.99,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://example.com/dahlia-flower-seeds.jpg",
             "image": "dahlia-flower-seeds.jpg"
         }
     },
     {
-        "pk": 138,
+        "pk": 131,
         "model": "products.product",
         "fields": {
             "sku": "rse138",
             "name": "Red Rose Seeds",
             "description": "Red rose seeds for cultivating romantic and classic red rose varieties in your garden.",
             "price": 7.49,
-            "category": 2,
+            "category": 1,
+            "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://example.com/red-rose-seeds.jpg",
             "image": "red-rose-seeds.jpg"

@@ -1,0 +1,97 @@
+[
+    {
+        "pk": 1,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "hand-tools"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "power-tools",
+            "friendly_name": "Power tools"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "tool-accessories",
+            "friendly_name": "Tool Accesories"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "fruit_&_veg",
+            "friendly_name": "Fruit & Vegetables"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "flowers",
+            "friendly_name": "Flowers"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "herbs",
+            "friendly_name": "herbs"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "top-layer",
+            "friendly_name": "Top Layer"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "mid-layer",
+            "friendly_name": "Mid Layer"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "gloves",
+            "friendly_name": "Gloves"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "deals",
+            "friendly_name": "Deals"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "essentials",
+            "friendly_name": "Essentials"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.subcategory",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    }
+]
