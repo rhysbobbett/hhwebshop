@@ -1853,7 +1853,7 @@
             "description": "Poppy flower seeds for growing vibrant and eye-catching poppy blooms in your garden.",
             "price": 5.99,
             "category": 1,
-            "sub_category": 1,
+            "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://example.com/poppy-flower-seeds.jpg",
             "image": "poppy-flower-seeds.jpg"

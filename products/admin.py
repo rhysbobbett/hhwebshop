@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category
+from .models import Product, Category, SubCategory
 
 # Register your models here.
 
@@ -8,7 +8,9 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
+        'description',
         'category',
+        'sub_category',
         'price',
         'rating',
         'image',

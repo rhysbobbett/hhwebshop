@@ -34,11 +34,11 @@
                 <p class="small mt-1 mb-0">
                     {% if product.sub_category %}
                     <a class="text-muted"
-                        href="{% url 'products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                        href="{% url 'all_products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
+                        <i class="fas fa-tag mr-1"></i>{{ product.sub_category.friendly_name }}
                     </a>
                     {% else %}
-                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                    <a class="text-muted" href="{% url 'all_products' %}?category={{ product.category.name }}">
                         <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                     </a>
                     {% endif %}
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                            <a href="{% url 'all_products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
