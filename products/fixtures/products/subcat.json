@@ -3,7 +3,8 @@
         "pk": 1,
         "model": "products.subcategory",
         "fields": {
-            "name": "hand-tools"
+            "name": "hand-tools",
+            "friendly_name": "Hand tools"
         }
     },
     {
