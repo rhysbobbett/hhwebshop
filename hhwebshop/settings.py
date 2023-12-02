@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', False)
 
-ALLOWED_HOSTS = ['hhwebshop-a59157177b87.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['hhwebshop-a59157177b87.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -177,6 +177,11 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'hhwebshop'
     AWS_S3_REGION_NAME = 'eu-west-2'
