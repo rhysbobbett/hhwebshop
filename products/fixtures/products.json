@@ -10,8 +10,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.8,
-            "image_url": "https://www.fiskars.com/-/media/products/2019/07/24/11/29/resource_fiskarsemea_1000726.jpg?q=100&iw=1288&ih=1288&crop=1",
-            "image": "fiskars-garden-trowel.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_041.webp",
+            "image": "media_000_041.webp"
         }
     },
     {
@@ -25,8 +25,8 @@
             "category": 1,
             "sub_category": 2,
             "rating": 4.5,
-            "image_url": "https://example.com/hedge-trimmer.jpg",
-            "image": "hedge-trimmer.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_081.webp",
+            "image": "media_000_081.webp"
         }
     },
     {
@@ -40,8 +40,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-shears.jpg",
-            "image": "garden-shears.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_075.webp",
+            "image": "media_000_075.webp"
         }
     },
     {
@@ -55,8 +55,8 @@
             "category": 1,
             "sub_category": 2,
             "rating": 4.4,
-            "image_url": "https://www.bosch-diy.com/imagestorage/en-gb/advancedchain-36v-35-40-100057347-hires-png-rgb-oneux-390215_w_1500_h_842.png",
-            "image": "power-chainsaw.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_020.webp",
+            "image": "media_000_020.webp"
         }
     },
     {
@@ -70,8 +70,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/gardening-gloves.jpg",
-            "image": "gardening-gloves.jpg"
+            "image_url": "https://example.com/gardening-gloves.webp",
+            "image": "gardening-gloves.webp"
         }
     },
     {
@@ -85,8 +85,8 @@
             "category": 1,
             "sub_category": 2,
             "rating": 4.8,
-            "image_url": "https://example.com/power-washer.jpg",
-            "image": "power-washer.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_040.webp",
+            "image": "media_000_040.webp"
         }
     },
     {
@@ -100,8 +100,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.5,
-            "image_url": "https://example.com/shovel.jpg",
-            "image": "shovel.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_001.webp",
+            "image": "media_000_001.webp"
         }
     },
     {
@@ -115,8 +115,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-rake.jpg",
-            "image": "garden-rake.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_091.webp",
+            "image": "media_000_091.webp"
         }
     },
     {
@@ -130,8 +130,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.5,
-            "image_url": "https://example.com/hedge-clippers.jpg",
-            "image": "hedge-clippers.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_082.webp",
+            "image": "media_000_082.webp"
         }
     },
     {
@@ -145,8 +145,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.4,
-            "image_url": "https://example.com/lawn-dethatcher.jpg",
-            "image": "lawn-dethatcher.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_029.webp",
+            "image": "media_000_029.webp"
         }
     },
     {
@@ -160,8 +160,8 @@
             "category": 1,
             "sub_category": 2,
             "rating": 4.6,
-            "image_url": "https://example.com/power-drill-kit.jpg",
-            "image": "power-drill-kit.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_006.webp",
+            "image": "media_000_006.webp"
         }
     },
     {
@@ -175,8 +175,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.7,
-            "image_url": "https://example.com/wheelbarrow.jpg",
-            "image": "wheelbarrow.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_065.webp",
+            "image": "media_000_065.webp"
         }
     },
     {
@@ -190,8 +190,8 @@
             "category": 1,
             "sub_category": 2, 
             "rating": 4.7,
-            "image_url": "https://example.com/power-planer.jpg",
-            "image": "power-planer.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_034.webp",
+            "image": "media_000_034.webp"
         }
     },
     {
@@ -205,8 +205,8 @@
             "category": 1,
             "sub_category": 1, 
             "rating": 4.6,
-            "image_url": "https://example.com/garden-scissors.jpg",
-            "image": "garden-scissors.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_024.webp",
+            "image": "media_000_024.webp"
         }
     },
     {
@@ -216,12 +216,12 @@
             "sku": "gk1616",
             "name": "Garden Knife",
             "description": "A versatile garden knife for a variety of gardening tasks.",
-            "price": 7.99,
+            "price": 44.99,
             "category": 1,
             "sub_category": 1, 
             "rating": 4.5,
-            "image_url": "https://example.com/garden-knife.jpg",
-            "image": "garden-knife.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_084.webp",
+            "image": "media_000_084.webp"
         }
     },
     {
@@ -229,14 +229,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pr1717",
-            "name": "Power Router",
+            "name": "Bosch Professional Power Router",
             "description": "A powerful router for woodworking and cabinetry projects.",
             "price": 109.99,
             "category": 1,
             "sub_category":2, 
             "rating": 4.8,
-            "image_url": "https://example.com/power-router.jpg",
-            "image": "power-router.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_102.webp",
+            "image": "media_000_102.webp"
         }
     },
     {
@@ -250,8 +250,8 @@
             "category": 1,
             "sub_category": 1, 
             "rating": 4.6,
-            "image_url": "https://example.com/weeder.jpg",
-            "image": "weeder.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_048.webp",
+            "image": "media_000_048.webp"
         }
     },
     {
@@ -259,14 +259,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pt1919",
-            "name": "Power Tile Saw",
+            "name": "DeWalt Power Tile Cutting Saw",
             "description": "A precision power tile saw for cutting tiles with ease.",
             "price": 74.99,
             "category": 1,
             "sub_category": 2,
             "rating": 4.7,
-            "image_url": "https://example.com/power-tile-saw.jpg",
-            "image": "power-tile-saw.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_044.webp",
+            "image": "media_000_044.webp"
         }
     },
     {
@@ -274,14 +274,14 @@
         "model": "products.product",
         "fields": {
             "sku": "mc2020",
-            "name": "Miter Saw",
-            "description": "A versatile miter saw for making accurate angled cuts in various materials.",
+            "name": "DeWalt Mitre Saw",
+            "description": "A versatile mitre saw for making accurate angled cuts in various materials.",
             "price": 129.99,
             "category": 1,
             "sub_category": 2,
             "rating": 4.5,
-            "image_url": "https://example.com/miter-saw.jpg",
-            "image": "miter-saw.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_064.webp",
+            "image": "media_000_064.webp"
         }
     },
     {
@@ -295,8 +295,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/tomato-seeds.jpg",
-            "image": "tomato-seeds.jpg"
+            "image_url": "https://example.com/tomato-seeds.webp",
+            "image": "tomato-seeds.webp"
         }
     },
     {
@@ -310,8 +310,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/sunflower-seeds.jpg",
-            "image": "sunflower-seeds.jpg"
+            "image_url": "https://example.com/sunflower-seeds.webp",
+            "image": "sunflower-seeds.webp"
         }
     },
     {
@@ -325,8 +325,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.7,
-            "image_url": "https://example.com/basil-seeds.jpg",
-            "image": "basil-seeds.jpg"
+            "image_url": "https://example.com/basil-seeds.webp",
+            "image": "basil-seeds.webp"
         }
     },
     {
@@ -340,8 +340,8 @@
             "category":2,
             "sub_category": 4,
             "rating": 4.4,
-            "image_url": "https://example.com/lettuce-seeds.jpg",
-            "image": "lettuce-seeds.jpg"
+            "image_url": "https://example.com/lettuce-seeds.webp",
+            "image": "lettuce-seeds.webp"
         }
     },
     {
@@ -355,8 +355,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.8,
-            "image_url": "https://example.com/carrot-seeds.jpg",
-            "image": "carrot-seeds.jpg"
+            "image_url": "https://example.com/carrot-seeds.webp",
+            "image": "carrot-seeds.webp"
         }
     },
     {
@@ -370,8 +370,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.6,
-            "image_url": "https://example.com/mint-seeds.jpg",
-            "image": "mint-seeds.jpg"
+            "image_url": "https://example.com/mint-seeds.webp",
+            "image": "mint-seeds.webp"
         }
     },
     {
@@ -385,8 +385,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/sweet-william-seeds.jpg",
-            "image": "sweet-william-seeds.jpg"
+            "image_url": "https://example.com/sweet-william-seeds.webp",
+            "image": "sweet-william-seeds.webp"
         }
     },
     {
@@ -400,8 +400,8 @@
             "category": 2,
             "sub_category":4,
             "rating": 4.7,
-            "image_url": "https://example.com/cherry-tomato-seeds.jpg",
-            "image": "cherry-tomato-seeds.jpg"
+            "image_url": "https://example.com/cherry-tomato-seeds.webp",
+            "image": "cherry-tomato-seeds.webp"
         }
     },
     {
@@ -415,8 +415,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.6,
-            "image_url": "https://example.com/lavender-seeds.jpg",
-            "image": "lavender-seeds.jpg"
+            "image_url": "https://example.com/lavender-seeds.webp",
+            "image": "lavender-seeds.webp"
         }
     },
     {
@@ -430,8 +430,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.5,
-            "image_url": "https://example.com/thyme-seeds.jpg",
-            "image": "thyme-seeds.jpg"
+            "image_url": "https://example.com/thyme-seeds.webp",
+            "image": "thyme-seeds.webp"
         }
     },
     {
@@ -445,8 +445,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/apple-tree-seeds.jpg",
-            "image": "apple-tree-seeds.jpg"
+            "image_url": "https://example.com/apple-tree-seeds.webp",
+            "image": "apple-tree-seeds.webp"
         }
     },
     {
@@ -460,8 +460,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/tulip-bulbs.jpg",
-            "image": "tulip-bulbs.jpg"
+            "image_url": "https://example.com/tulip-bulbs.webp",
+            "image": "tulip-bulbs.webp"
         }
     },
     {
@@ -475,8 +475,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.5,
-            "image_url": "https://example.com/parsley-seeds.jpg",
-            "image": "parsley-seeds.jpg"
+            "image_url": "https://example.com/parsley-seeds.webp",
+            "image": "parsley-seeds.webp"
         }
     },
     {
@@ -490,8 +490,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.8,
-            "image_url": "https://example.com/strawberry-plant-seeds.jpg",
-            "image": "strawberry-plant-seeds.jpg"
+            "image_url": "https://example.com/strawberry-plant-seeds.webp",
+            "image": "strawberry-plant-seeds.webp"
         }
     },
     {
@@ -505,8 +505,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/marigold-seeds.jpg",
-            "image": "marigold-seeds.jpg"
+            "image_url": "https://example.com/marigold-seeds.webp",
+            "image": "marigold-seeds.webp"
         }
     },
     {
@@ -520,8 +520,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.7,
-            "image_url": "https://example.com/cilantro-seeds.jpg",
-            "image": "cilantro-seeds.jpg"
+            "image_url": "https://example.com/cilantro-seeds.webp",
+            "image": "cilantro-seeds.webp"
         }
     },
     {
@@ -535,8 +535,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/blueberry-bush-seeds.jpg",
-            "image": "blueberry-bush-seeds.jpg"
+            "image_url": "https://example.com/blueberry-bush-seeds.webp",
+            "image": "blueberry-bush-seeds.webp"
         }
     },
     {
@@ -550,8 +550,8 @@
             "category": 2,
             "sub_category":5,
             "rating": 4.5,
-            "image_url": "https://example.com/daisy-seeds.jpg",
-            "image": "daisy-seeds.jpg"
+            "image_url": "https://example.com/daisy-seeds.webp",
+            "image": "daisy-seeds.webp"
         }
     },
     {
@@ -565,8 +565,8 @@
             "category": 2,
             "sub_category":6,
             "rating": 4.7,
-            "image_url": "https://example.com/peppermint-seeds.jpg",
-            "image": "peppermint-seeds.jpg"
+            "image_url": "https://example.com/peppermint-seeds.webp",
+            "image": "peppermint-seeds.webp"
         }
     },
     {
@@ -580,8 +580,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/cucumber-seeds.jpg",
-            "image": "cucumber-seeds.jpg"
+            "image_url": "https://example.com/cucumber-seeds.webp",
+            "image": "cucumber-seeds.webp"
         }
     },
     {
@@ -595,8 +595,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/work-trousers.jpg",
-            "image": "work-trousers.jpg"
+            "image_url": "https://example.com/work-trousers.webp",
+            "image": "work-trousers.webp"
         }
     },
     {
@@ -610,8 +610,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-coat.jpg",
-            "image": "garden-coat.jpg"
+            "image_url": "https://example.com/garden-coat.webp",
+            "image": "garden-coat.webp"
         }
     },
     {
@@ -625,8 +625,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-gloves.jpg",
-            "image": "garden-gloves.jpg"
+            "image_url": "https://example.com/garden-gloves.webp",
+            "image": "garden-gloves.webp"
         }
     },
     {
@@ -640,8 +640,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/work-apron.jpg",
-            "image": "work-apron.jpg"
+            "image_url": "https://example.com/work-apron.webp",
+            "image": "work-apron.webp"
         }
     },
     {
@@ -655,8 +655,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/rain-poncho.jpg",
-            "image": "rain-poncho.jpg"
+            "image_url": "https://example.com/rain-poncho.webp",
+            "image": "rain-poncho.webp"
         }
     },
     {
@@ -670,8 +670,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.7,
-            "image_url": "https://example.com/weed-puller-gloves.jpg",
-            "image": "weed-puller-gloves.jpg"
+            "image_url": "https://example.com/weed-puller-gloves.webp",
+            "image": "weed-puller-gloves.webp"
         }
     },
     {
@@ -685,8 +685,8 @@
             "category":3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-clogs.jpg",
-            "image": "garden-clogs.jpg"
+            "image_url": "https://example.com/garden-clogs.webp",
+            "image": "garden-clogs.webp"
         }
     },
     {
@@ -700,8 +700,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-hat.jpg",
-            "image": "garden-hat.jpg"
+            "image_url": "https://example.com/garden-hat.webp",
+            "image": "garden-hat.webp"
         }
     },
     {
@@ -715,8 +715,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/lawn-work-shoes.jpg",
-            "image": "lawn-work-shoes.jpg"
+            "image_url": "https://example.com/lawn-work-shoes.webp",
+            "image": "lawn-work-shoes.webp"
         }
     },
     {
@@ -730,8 +730,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/pruning-gloves.jpg",
-            "image": "pruning-gloves.jpg"
+            "image_url": "https://example.com/pruning-gloves.webp",
+            "image": "pruning-gloves.webp"
         }
     },
     {
@@ -745,8 +745,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.7,
-            "image_url": "https://example.com/work-shirt.jpg",
-            "image": "work-shirt.jpg"
+            "image_url": "https://example.com/work-shirt.webp",
+            "image": "work-shirt.webp"
         }
     },
     {
@@ -760,8 +760,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/wide-brimmed-hat.jpg",
-            "image": "wide-brimmed-hat.jpg"
+            "image_url": "https://example.com/wide-brimmed-hat.webp",
+            "image": "wide-brimmed-hat.webp"
         }
     },
     {
@@ -775,8 +775,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/knee-pads.jpg",
-            "image": "knee-pads.jpg"
+            "image_url": "https://example.com/knee-pads.webp",
+            "image": "knee-pads.webp"
         }
     },
     {
@@ -790,8 +790,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-socks.jpg",
-            "image": "garden-socks.jpg"
+            "image_url": "https://example.com/garden-socks.webp",
+            "image": "garden-socks.webp"
         }
     },
     {
@@ -805,8 +805,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-hat-with-neck-flap.jpg",
-            "image": "garden-hat-with-neck-flap.jpg"
+            "image_url": "https://example.com/garden-hat-with-neck-flap.webp",
+            "image": "garden-hat-with-neck-flap.webp"
         }
     },
     {
@@ -820,8 +820,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/waterproof-pants.jpg",
-            "image": "waterproof-pants.jpg"
+            "image_url": "https://example.com/waterproof-pants.webp",
+            "image": "waterproof-pants.webp"
         }
     },
     {
@@ -835,8 +835,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-gaiters.jpg",
-            "image": "garden-gaiters.jpg"
+            "image_url": "https://example.com/garden-gaiters.webp",
+            "image": "garden-gaiters.webp"
         }
     },
     {
@@ -850,8 +850,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-workshirt.jpg",
-            "image": "garden-workshirt.jpg"
+            "image_url": "https://example.com/garden-workshirt.webp",
+            "image": "garden-workshirt.webp"
         }
     },
     {
@@ -865,8 +865,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-cap.jpg",
-            "image": "garden-cap.jpg"
+            "image_url": "https://example.com/garden-cap.webp",
+            "image": "garden-cap.webp"
         }
     },
     {
@@ -880,8 +880,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.8,
-            "image_url": "https://example.com/long-sleeve-garden-shirt.jpg",
-            "image": "long-sleeve-garden-shirt.jpg"
+            "image_url": "https://example.com/long-sleeve-garden-shirt.webp",
+            "image": "long-sleeve-garden-shirt.webp"
         }
     },
     {
@@ -890,13 +890,13 @@
         "fields": {
             "sku": "gp6161",
             "name": "Garden Pruner Set",
-            "description": "A set of sharp garden pruners for precise trimming and pruning of plants.",
-            "price": 16.99,
+            "description": "2 types of garden pruners included, for precise trimming and pruning of plants.",
+            "price": 31.99,
             "category": 1,
             "sub_category": 1,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-pruner-set.jpg",
-            "image": "garden-pruner-set.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_103.webp",
+            "image": "media_000_103.webp"
         }
     },
     {
@@ -910,8 +910,8 @@
             "category": 5,
             "sub_category": 11,
             "rating": 4.6,
-            "image_url": "https://example.com/watering-can.jpg",
-            "image": "watering-can.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_092.webp",
+            "image": "media_000_092.webp"
         }
     },
     {
@@ -925,8 +925,8 @@
             "category": 5,
             "sub_category": 11,
             "rating": 4.8,
-            "image_url": "https://example.com/soil-fertilizer.jpg",
-            "image": "soil-fertilizer.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_099.webp",
+            "image": "media_000_099.webp"
         }
     },
     {
@@ -940,8 +940,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/seed-packets-variety.jpg",
-            "image": "seed-packets-variety.jpg"
+            "image_url": "https://example.com/seed-packets-variety.webp",
+            "image": "seed-packets-variety.webp"
         }
     },
     {
@@ -955,8 +955,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-shovel.jpg",
-            "image": "garden-shovel.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_089.webp",
+            "image": "media_000_089.webp"
         }
     },
     {
@@ -970,8 +970,8 @@
             "category": 5,
             "sub_category": 11,
             "rating": 4.6,
-            "image_url": "https://example.com/plant-watering-spikes.jpg",
-            "image": "plant-watering-spikes.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_069.webp",
+            "image": "media_000_069.webp"
         }
     },
     {
@@ -985,8 +985,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-trowel-transplanter-set.jpg",
-            "image": "garden-trowel-transplanter-set.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_015.webp",
+            "image": "media_000_015.webp"
         }
     },
     {
@@ -1000,8 +1000,8 @@
             "category": 6,
             "sub_category": 12,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-cart.jpg",
-            "image": "garden-cart.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_008.webp",
+            "image": "media_000_008.webp"
         }
     },
     {
@@ -1015,8 +1015,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.6,
-            "image_url": "https://example.com/pruning-shears.jpg",
-            "image": "pruning-shears.jpg"
+            "image_url": "https://example.com/pruning-shears.webp",
+            "image": "pruning-shears.webp"
         }
     },
     {
@@ -1030,8 +1030,8 @@
             "category": 5,
             "sub_category": 11,
             "rating": 4.8,
-            "image_url": "https://example.com/mulch-weed-barrier-fabric.jpg",
-            "image": "mulch-weed-barrier-fabric.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_017.webp",
+            "image": "media_000_017.webp"
         }
     },
     {
@@ -1045,8 +1045,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.7,
-            "image_url": "https://example.com/circular-saw-blade-set.jpg",
-            "image": "circular-saw-blade-set.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_062.webp",
+            "image": "media_000_062.webp"
         }
     },
     {
@@ -1060,8 +1060,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-tool-organizer-rack.jpg",
-            "image": "garden-tool-organizer-rack.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_068.webp",
+            "image": "media_000_068.webp"
         }
     },
     {
@@ -1069,14 +1069,14 @@
         "model": "products.product",
         "fields": {
             "sku": "hs7373",
-            "name": "Hand Pruning Saw",
+            "name": "Stihl Hand Pruning Saw",
             "description": "A sharp hand pruning saw for trimming branches and small trees in your garden.",
             "price": 14.99,
             "category": 1,
             "sub_category": 1,
             "rating": 4.8,
-            "image_url": "https://example.com/hand-pruning-saw.jpg",
-            "image": "hand-pruning-saw.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_088.webp",
+            "image": "media_000_088.webp"
         }
     },
     {
@@ -1090,8 +1090,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.5,
-            "image_url": "https://example.com/tool-handle-grips.jpg",
-            "image": "tool-handle-grips.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_035.webp",
+            "image": "media_000_035.webp"
         }
     },
     {
@@ -1105,8 +1105,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.7,
-            "image_url": "https://example.com/pruner-blade-replacement.jpg",
-            "image": "pruner-blade-replacement.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_074.webp",
+            "image": "media_000_074.webp"
         }
     },
     {
@@ -1120,8 +1120,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.6,
-            "image_url": "https://example.com/sharpening-stone.jpg",
-            "image": "sharpening-stone.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_098.webp",
+            "image": "media_000_098.webp"
         }
     },
     {
@@ -1135,8 +1135,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-tool-belt.jpg",
-            "image": "garden-tool-belt.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_042.webp",
+            "image": "media_000_042.webp"
         }
     },
     {
@@ -1150,8 +1150,8 @@
             "category": 1,
             "sub_category": 1,
             "rating": 4.7,
-            "image_url": "https://example.com/fertilizer-spreader-plate.jpg",
-            "image": "fertilizer-spreader-plate.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_054.webp",
+            "image": "media_000_054.webp"
         }
     },
     {
@@ -1159,14 +1159,14 @@
         "model": "products.product",
         "fields": {
             "sku": "wt7979",
-            "name": "Weed Puller",
+            "name": "Fiskars Weed Puller",
             "description": "For weed pulling, designed for use with garden tools.",  
             "price": 10.99,
             "category": 1,
             "sub_category": 1,
             "rating": 4.6,
-            "image_url": "https://example.com/weed-puller-attachment.jpg",
-            "image": "weed-puller-attachment.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_063.webp",
+            "image": "media_000_063.webp"
         }
     },
     {
@@ -1180,8 +1180,8 @@
             "category": 1,
             "sub_category": 3,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-tool-sharpening-kit.jpg",
-            "image": "garden-tool-sharpening-kit.jpg"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_076.webp",
+            "image": "media_000_076.webp"
         }
     },
     {
@@ -1195,8 +1195,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/gardeners-jacket.jpg",
-            "image": "gardeners-jacket.jpg"
+            "image_url": "https://example.com/gardeners-jacket.webp",
+            "image": "gardeners-jacket.webp"
         }
     },
     {
@@ -1210,8 +1210,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.6,
-            "image_url": "https://example.com/versatile-vest.jpg",
-            "image": "versatile-vest.jpg"
+            "image_url": "https://example.com/versatile-vest.webp",
+            "image": "versatile-vest.webp"
         }
     },
     {
@@ -1225,8 +1225,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/waterproof-poncho.jpg",
-            "image": "waterproof-poncho.jpg"
+            "image_url": "https://example.com/waterproof-poncho.webp",
+            "image": "waterproof-poncho.webp"
         }
     },
     {
@@ -1240,8 +1240,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/thermal-work-jacket.jpg",
-            "image": "thermal-work-jacket.jpg"
+            "image_url": "https://example.com/thermal-work-jacket.webp",
+            "image": "thermal-work-jacket.webp"
         }
     },
     {
@@ -1255,8 +1255,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-fleece-vest.jpg",
-            "image": "garden-fleece-vest.jpg"
+            "image_url": "https://example.com/garden-fleece-vest.webp",
+            "image": "garden-fleece-vest.webp"
         }
     },
     {
@@ -1270,8 +1270,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/all-weather-jacket.jpg",
-            "image": "all-weather-jacket.jpg"
+            "image_url": "https://example.com/all-weather-jacket.webp",
+            "image": "all-weather-jacket.webp"
         }
     },
     {
@@ -1285,8 +1285,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/rainproof-parka.jpg",
-            "image": "rainproof-parka.jpg"
+            "image_url": "https://example.com/rainproof-parka.webp",
+            "image": "rainproof-parka.webp"
         }
     },
     {
@@ -1300,8 +1300,8 @@
             "category": 6,
             "sub_category": 12,
             "rating": 4.7,
-            "image_url": "https://example.com/outdoor-windbreaker.jpg",
-            "image": "outdoor-windbreaker.jpg"
+            "image_url": "https://example.com/outdoor-windbreaker.webp",
+            "image": "outdoor-windbreaker.webp"
         }
     },
     {
@@ -1315,8 +1315,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-overalls.jpg",
-            "image": "garden-overalls.jpg"
+            "image_url": "https://example.com/garden-overalls.webp",
+            "image": "garden-overalls.webp"
         }
     },
     {
@@ -1330,8 +1330,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/work-coveralls.jpg",
-            "image": "work-coveralls.jpg"
+            "image_url": "https://example.com/work-coveralls.webp",
+            "image": "work-coveralls.webp"
         }
     },
     {
@@ -1345,8 +1345,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/gardeners-gloves-set.jpg",
-            "image": "gardeners-gloves-set.jpg"
+            "image_url": "https://example.com/gardeners-gloves-set.webp",
+            "image": "gardeners-gloves-set.webp"
         }
     },
     {
@@ -1360,8 +1360,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.7,
-            "image_url": "https://example.com/protective-pruning-gloves.jpg",
-            "image": "protective-pruning-gloves.jpg"
+            "image_url": "https://example.com/protective-pruning-gloves.webp",
+            "image": "protective-pruning-gloves.webp"
         }
     },
     {
@@ -1375,8 +1375,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.5,
-            "image_url": "https://example.com/waterproof-garden-gloves.jpg",
-            "image": "waterproof-garden-gloves.jpg"
+            "image_url": "https://example.com/waterproof-garden-gloves.webp",
+            "image": "waterproof-garden-gloves.webp"
         }
     },
     {
@@ -1390,8 +1390,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.7,
-            "image_url": "https://example.com/thorn-resistant-gloves.jpg",
-            "image": "thorn-resistant-gloves.jpg"
+            "image_url": "https://example.com/thorn-resistant-gloves.webp",
+            "image": "thorn-resistant-gloves.webp"
         }
     },
     {
@@ -1405,8 +1405,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/organic-tomato-seeds.jpg",
-            "image": "organic-tomato-seeds.jpg"
+            "image_url": "https://example.com/organic-tomato-seeds.webp",
+            "image": "organic-tomato-seeds.webp"
         }
     },
     {
@@ -1420,8 +1420,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/bell-pepper-seed-mix.jpg",
-            "image": "bell-pepper-seed-mix.jpg"
+            "image_url": "https://example.com/bell-pepper-seed-mix.webp",
+            "image": "bell-pepper-seed-mix.webp"
         }
     },
     {
@@ -1435,8 +1435,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.5,
-            "image_url": "https://example.com/cucumber-seeds.jpg",
-            "image": "cucumber-seeds.jpg"
+            "image_url": "https://example.com/cucumber-seeds.webp",
+            "image": "cucumber-seeds.webp"
         }
     },
     {
@@ -1450,8 +1450,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/zucchini-squash-seeds.jpg",
-            "image": "zucchini-squash-seeds.jpg"
+            "image_url": "https://example.com/zucchini-squash-seeds.webp",
+            "image": "zucchini-squash-seeds.webp"
         }
     },
     {
@@ -1465,8 +1465,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/corn-seed-collection.jpg",
-            "image": "corn-seed-collection.jpg"
+            "image_url": "https://example.com/corn-seed-collection.webp",
+            "image": "corn-seed-collection.webp"
         }
     },
     {
@@ -1480,8 +1480,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/strawberry-seeds.jpg",
-            "image": "strawberry-seeds.jpg"
+            "image_url": "https://example.com/strawberry-seeds.webp",
+            "image": "strawberry-seeds.webp"
         }
     },
     {
@@ -1495,8 +1495,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/broccoli-seed-pack.jpg",
-            "image": "broccoli-seed-pack.jpg"
+            "image_url": "https://example.com/broccoli-seed-pack.webp",
+            "image": "broccoli-seed-pack.webp"
         }
     },
     {
@@ -1510,8 +1510,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/carrot-seed-mix.jpg",
-            "image": "carrot-seed-mix.jpg"
+            "image_url": "https://example.com/carrot-seed-mix.webp",
+            "image": "carrot-seed-mix.webp"
         }
     },
     {
@@ -1525,8 +1525,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/lemon-tree-seeds.jpg",
-            "image": "lemon-tree-seeds.jpg"
+            "image_url": "https://example.com/lemon-tree-seeds.webp",
+            "image": "lemon-tree-seeds.webp"
         }
     },
     {
@@ -1540,8 +1540,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/pumpkin-seeds.jpg",
-            "image": "pumpkin-seeds.jpg"
+            "image_url": "https://example.com/pumpkin-seeds.webp",
+            "image": "pumpkin-seeds.webp"
         }
     },
     {
@@ -1555,8 +1555,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/sweet-potato-slips.jpg",
-            "image": "sweet-potato-slips.jpg"
+            "image_url": "https://example.com/sweet-potato-slips.webp",
+            "image": "sweet-potato-slips.webp"
         }
     },
     {
@@ -1570,8 +1570,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/lettuce-seed-mix.jpg",
-            "image": "lettuce-seed-mix.jpg"
+            "image_url": "https://example.com/lettuce-seed-mix.webp",
+            "image": "lettuce-seed-mix.webp"
         }
     },
     {
@@ -1585,8 +1585,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/apple-tree-seeds.jpg",
-            "image": "apple-tree-seeds.jpg"
+            "image_url": "https://example.com/apple-tree-seeds.webp",
+            "image": "apple-tree-seeds.webp"
         }
     },
     {
@@ -1600,8 +1600,8 @@
             "category":2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/peach-tree-seeds.jpg",
-            "image": "peach-tree-seeds.jpg"
+            "image_url": "https://example.com/peach-tree-seeds.webp",
+            "image": "peach-tree-seeds.webp"
         }
     },
     {
@@ -1615,8 +1615,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/cherry-tree-seeds.jpg",
-            "image": "cherry-tree-seeds.jpg"
+            "image_url": "https://example.com/cherry-tree-seeds.webp",
+            "image": "cherry-tree-seeds.webp"
         }
     },
     {
@@ -1630,8 +1630,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/watermelon-seeds.jpg",
-            "image": "watermelon-seeds.jpg"
+            "image_url": "https://example.com/watermelon-seeds.webp",
+            "image": "watermelon-seeds.webp"
         }
     },
     {
@@ -1645,8 +1645,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/blackberry-bush-seeds.jpg",
-            "image": "blackberry-bush-seeds.jpg"
+            "image_url": "https://example.com/blackberry-bush-seeds.webp",
+            "image": "blackberry-bush-seeds.webp"
         }
     },
     {
@@ -1660,8 +1660,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/mango-tree-seeds.jpg",
-            "image": "mango-tree-seeds.jpg"
+            "image_url": "https://example.com/mango-tree-seeds.webp",
+            "image": "mango-tree-seeds.webp"
         }
     },
     {
@@ -1675,8 +1675,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/cotton-plant-seeds.jpg",
-            "image": "cotton-plant-seeds.jpg"
+            "image_url": "https://example.com/cotton-plant-seeds.webp",
+            "image": "cotton-plant-seeds.webp"
         }
     },
     {
@@ -1690,8 +1690,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/grapevine-seeds.jpg",
-            "image": "grapevine-seeds.jpg"
+            "image_url": "https://example.com/grapevine-seeds.webp",
+            "image": "grapevine-seeds.webp"
         }
     },
     {
@@ -1705,8 +1705,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/rose-seeds-mix.jpg",
-            "image": "rose-seeds-mix.jpg"
+            "image_url": "https://example.com/rose-seeds-mix.webp",
+            "image": "rose-seeds-mix.webp"
         }
     },
     {
@@ -1720,8 +1720,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/sunflower-seeds.jpg",
-            "image": "sunflower-seeds.jpg"
+            "image_url": "https://example.com/sunflower-seeds.webp",
+            "image": "sunflower-seeds.webp"
         }
     },
     {
@@ -1735,8 +1735,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.9,
-            "image_url": "https://example.com/lily-bulbs-mix.jpg",
-            "image": "lily-bulbs-mix.jpg"
+            "image_url": "https://example.com/lily-bulbs-mix.webp",
+            "image": "lily-bulbs-mix.webp"
         }
     },
     {
@@ -1750,8 +1750,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/daisy-flower-seeds.jpg",
-            "image": "daisy-flower-seeds.jpg"
+            "image_url": "https://example.com/daisy-flower-seeds.webp",
+            "image": "daisy-flower-seeds.webp"
         }
     },
     {
@@ -1765,8 +1765,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/tulip-bulbs-mix.jpg",
-            "image": "tulip-bulbs-mix.jpg"
+            "image_url": "https://example.com/tulip-bulbs-mix.webp",
+            "image": "tulip-bulbs-mix.webp"
         }
     },
     {
@@ -1780,8 +1780,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/pansy-flower-seeds.jpg",
-            "image": "pansy-flower-seeds.jpg"
+            "image_url": "https://example.com/pansy-flower-seeds.webp",
+            "image": "pansy-flower-seeds.webp"
         }
     },
     {
@@ -1795,8 +1795,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/peacock-orchid-bulbs.jpg",
-            "image": "peacock-orchid-bulbs.jpg"
+            "image_url": "https://example.com/peacock-orchid-bulbs.webp",
+            "image": "peacock-orchid-bulbs.webp"
         }
     },
     {
@@ -1810,8 +1810,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/foxglove-seeds.jpg",
-            "image": "foxglove-seeds.jpg"
+            "image_url": "https://example.com/foxglove-seeds.webp",
+            "image": "foxglove-seeds.webp"
         }
     },
     {
@@ -1825,8 +1825,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/pansy-seeds-mix.jpg",
-            "image": "pansy-seeds-mix.jpg"
+            "image_url": "https://example.com/pansy-seeds-mix.webp",
+            "image": "pansy-seeds-mix.webp"
         }
     },
     {
@@ -1840,8 +1840,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/verbena-flower-seeds.jpg",
-            "image": "verbena-flower-seeds.jpg"
+            "image_url": "https://example.com/verbena-flower-seeds.webp",
+            "image": "verbena-flower-seeds.webp"
         }
     },
     {
@@ -1855,8 +1855,8 @@
             "category": 1,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/poppy-flower-seeds.jpg",
-            "image": "poppy-flower-seeds.jpg"
+            "image_url": "https://example.com/poppy-flower-seeds.webp",
+            "image": "poppy-flower-seeds.webp"
         }
     },
     {
@@ -1870,8 +1870,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/hydrangea-seeds-mix.jpg",
-            "image": "hydrangea-seeds-mix.jpg"
+            "image_url": "https://example.com/hydrangea-seeds-mix.webp",
+            "image": "hydrangea-seeds-mix.webp"
         }
     },
     {
@@ -1885,8 +1885,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/lilac-flower-seeds.jpg",
-            "image": "lilac-flower-seeds.jpg"
+            "image_url": "https://example.com/lilac-flower-seeds.webp",
+            "image": "lilac-flower-seeds.webp"
         }
     },
     {
@@ -1900,8 +1900,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/aster-flower-seeds.jpg",
-            "image": "aster-flower-seeds.jpg"
+            "image_url": "https://example.com/aster-flower-seeds.webp",
+            "image": "aster-flower-seeds.webp"
         }
     },
     {
@@ -1915,8 +1915,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/zinnia-seeds-mix.jpg",
-            "image": "zinnia-seeds-mix.jpg"
+            "image_url": "https://example.com/zinnia-seeds-mix.webp",
+            "image": "zinnia-seeds-mix.webp"
         }
     },
     {
@@ -1930,8 +1930,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/peach-blossom-seeds.jpg",
-            "image": "peach-blossom-seeds.jpg"
+            "image_url": "https://example.com/peach-blossom-seeds.webp",
+            "image": "peach-blossom-seeds.webp"
         }
     },
     {
@@ -1945,8 +1945,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/dahlia-flower-seeds.jpg",
-            "image": "dahlia-flower-seeds.jpg"
+            "image_url": "https://example.com/dahlia-flower-seeds.webp",
+            "image": "dahlia-flower-seeds.webp"
         }
     },
     {
@@ -1960,8 +1960,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/red-rose-seeds.jpg",
-            "image": "red-rose-seeds.jpg"
+            "image_url": "https://example.com/red-rose-seeds.webp",
+            "image": "red-rose-seeds.webp"
         }
     }
 ]
