@@ -3,11 +3,15 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/homepage_background_cropped.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+li.nav-item.dropdown {
+    margin-left: 1em !important; 
 }
 
 /* from Bulma */
@@ -116,7 +120,7 @@ input[name='q']::placeholder {
 }
 
 .custom-toast {
-    overflow: visible;
+    overflow: auto;
 }
 
 .toast-capper {
@@ -170,7 +174,7 @@ input[name='q']::placeholder {
 
 .bag-notification-wrapper {
     height: 100px;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
 }
 
@@ -267,7 +271,7 @@ input[name='q']::placeholder {
 
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (min-width: 900px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;

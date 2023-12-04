@@ -1473,21 +1473,6 @@
         }
     },
     {
-        "pk": 99,
-        "model": "products.product",
-        "fields": {
-            "sku": "sbv106",
-            "name": "Strawberry Seeds",
-            "description": "Strawberry seeds for sweet and juicy strawberries, perfect for desserts and snacks.",
-            "price": 5.99,
-            "category": 2,
-            "sub_category": 4,
-            "rating": 4.7,
-            "image_url": "https://example.com/strawberry-seeds.webp",
-            "image": "strawberry-seeds.webp"
-        }
-    },
-    {
         "pk": 100,
         "model": "products.product",
         "fields": {
