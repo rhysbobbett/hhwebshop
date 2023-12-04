@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -6,9 +7,6 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
-
-# Create your views here.
-
 
 def tools_dropdown(request):
     with open('products/fixtures/sub_category.json', 'r') as file:
@@ -21,15 +19,12 @@ def tools_dropdown(request):
     return render(request, 'tools_dropdown_template.html', context)
 
 
-def all_products(request, category=None, sub_category=None, special_offer=None ):
-    """ A view to show all products, including sorting and search queries """
-
+def all_products(request, category=None, sub_category=None, special_offer=None):
     products = Product.objects.all()
     query = None
     categories = None
     sort = None
     direction = None
-    special_offer=None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -38,24 +33,24 @@ def all_products(request, category=None, sub_category=None, special_offer=None )
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-            if sortkey == 'category':
+            elif sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
+
     if category and sub_category:
         if 'category' in request.GET and 'sub_category' in request.GET:
             categories = request.GET.getlist('category')
             sub_categories = request.GET.getlist('sub_category')
             products = products.filter(category__name__in=categories, sub_category__name__in=sub_categories)
             categories = Category.objects.filter(name__in=categories).order_by('id')
-
-        if special_offer:
-            products = Product.objects.filter(special_offer__name=special_offer)
-
-
+        if 'special_offer' in request.GET:
+            special_offer = request.GET['special_offer']
+            if special_offer:
+                products = products.filter(special_offer__name=special_offer)
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -66,7 +61,6 @@ def all_products(request, category=None, sub_category=None, special_offer=None )
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
-
     context = {
         'products': products,
         'search_term': query,
@@ -78,10 +72,7 @@ def all_products(request, category=None, sub_category=None, special_offer=None )
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
-
     product = get_object_or_404(Product, pk=product_id)
-
     context = {
         'product': product,
     }
@@ -91,7 +82,6 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
-    """ Add a product to the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -103,9 +93,7 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request,
-                           ('Failed to add product. '
-                            'Please ensure the form is valid.'))
+            messages.error(request, ('Failed to add product. Please ensure the form is valid.'))
     else:
         form = ProductForm()
 
@@ -119,7 +107,6 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -132,9 +119,7 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request,
-                           ('Failed to update product. '
-                            'Please ensure the form is valid.'))
+            messages.error(request, ('Failed to update product. Please ensure the form is valid.'))
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -150,7 +135,6 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))

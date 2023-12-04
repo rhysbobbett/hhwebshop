@@ -5,7 +5,6 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'Categories'
-             
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -30,7 +29,7 @@ class SubCategory(models.Model):
 
     def get_friendly_name(self):
         return self.friendly_name
-    
+
 
 class SpecialOffer(models.Model):
 
@@ -49,9 +48,9 @@ class SpecialOffer(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)  # noqa
-    sub_category = models.ForeignKey('SubCategory', on_delete=models.SET_NULL, null=True) # noqa
-    special_offer = models.ForeignKey('SpecialOffer', blank=True, on_delete=models.SET_NULL, null=True)
+    category = models.ForeignKey(Category, null=True, blank=True, on_delete=models.SET_NULL)  # noqa
+    sub_category = models.ForeignKey(SubCategory, on_delete=models.SET_NULL, null=True) # noqa
+    special_offer = models.ForeignKey(SpecialOffer, blank=True, on_delete=models.SET_NULL, null=True)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
