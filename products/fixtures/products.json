@@ -1012,14 +1012,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pr6969",
-            "name": "Pruning Shears",
-            "description": "Sharp pruning shears for trimming branches and maintaining plant health.",
+            "name": "Pruners",
+            "description": "Sharp pruners for trimming branches and maintaining plant health.",
             "price": 13.99,
             "category": 1,
             "sub_category": 1,
             "rating": 4.6,
-            "image_url": "https://example.com/pruning-shears.webp",
-            "image": "pruning-shears.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_023.webp",
+            "image": "media_000_023.webp"
         }
     },
     {
@@ -1318,8 +1318,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_031.webp",
-            "image": "media_000_031.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_123.webp",
+            "image": "media_000_123.webp"
         }
     },
     {
@@ -1438,8 +1438,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.5,
-            "image_url": "https://example.com/cucumber-seeds.webp",
-            "image": "cucumber-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_059.webp",
+            "image": "media_000_059.webp"
         }
     },
     {
@@ -1603,8 +1603,8 @@
             "category":2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_096.webp",
-            "image": "media_000_096.webp"
+            "image_url": "",
+            "image": ""
         }
     },
     {
@@ -1663,8 +1663,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/mango-tree-seeds.webp",
-            "image": "mango-tree-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_096.webp",
+            "image": "media_000_096.webp"
         }
     },
     {
