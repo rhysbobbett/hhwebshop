@@ -1,0 +1,26 @@
+[
+    {
+    "pk": 1,
+    "model": "products.specialoffer",
+    "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.specialoffer",
+    "fields": {
+        "name": "essentials",
+        "friendly_name": "Essentials"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.specialoffer",
+    "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+    }
+}
+]

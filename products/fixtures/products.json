@@ -4,14 +4,15 @@
         "model": "products.product",
         "fields": {
             "sku": "gt1001",
-            "name": "Fiskars Premium Planters™ Trowel",
-            "description": "Fiskars Premium Planters™ Trowel is the ideal tool for planting and transplanting in hard ground.\n Its robust construction makes it a perfect nursery tool with its corrosion resistant stainless steel blade. This trowel has a sharp blade edge for better penetration to even the most resistant soil. To better aid handling performance the body is made from durable and lightweight FiberComp while the hanging hole incorporated in the handle makes for easy storage.",
+            "name": "Fiskars Premium Planters\u00e2\u201e\u00a2 Trowel",
+            "description": "Fiskars Premium Planters\u00e2\u201e\u00a2 Trowel is the ideal tool for planting and transplanting in hard ground.\n Its robust construction makes it a perfect nursery tool with its corrosion resistant stainless steel blade. This trowel has a sharp blade edge for better penetration to even the most resistant soil. To better aid handling performance the body is made from durable and lightweight FiberComp while the hanging hole incorporated in the handle makes for easy storage.",
             "price": 9.93,
             "category": 1,
             "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_041.webp",
-            "image": "media_000_041.webp"
+            "image": "media_000_041.webp",
+            "special_offer": 2
         }
     },
     {
@@ -26,7 +27,8 @@
             "sub_category": 2,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_081.webp",
-            "image": "media_000_081.webp"
+            "image": "media_000_081.webp",
+            "special_offer": 3
         }
     },
     {
@@ -41,7 +43,8 @@
             "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_075.webp",
-            "image": "media_000_075.webp"
+            "image": "media_000_075.webp",
+            "special_offer": 1
         }
     },
     {
@@ -50,13 +53,14 @@
         "fields": {
             "sku": "pc4004",
             "name": "CORDLESS CHAINSAW Advanced Chain 36V-35-40",
-            "description": "• Tackle logging and large pruning with a powerful cordless chainsaw.\n • Brushless motor delivers high-performance, heavier-duty sawing.\n • Continuous cutting even for challenging jobs with OptiCut speed control\n• Lightweight and streamlined to enable controlled, precise cuts\n• Hassle-free assembly with intuitive, toolless SDS\n• Kickback protection with the QuickStop braking system\n• Syneon Technology for optimum power and maximum runtime\n• Compatible with Bosch 36V POWER FOR ALL battery",
+            "description": "\u00e2\u20ac\u00a2 Tackle logging and large pruning with a powerful cordless chainsaw.\n \u00e2\u20ac\u00a2 Brushless motor delivers high-performance, heavier-duty sawing.\n \u00e2\u20ac\u00a2 Continuous cutting even for challenging jobs with OptiCut speed control\n\u00e2\u20ac\u00a2 Lightweight and streamlined to enable controlled, precise cuts\n\u00e2\u20ac\u00a2 Hassle-free assembly with intuitive, toolless SDS\n\u00e2\u20ac\u00a2 Kickback protection with the QuickStop braking system\n\u00e2\u20ac\u00a2 Syneon Technology for optimum power and maximum runtime\n\u00e2\u20ac\u00a2 Compatible with Bosch 36V POWER FOR ALL battery",
             "price": 129.99,
             "category": 1,
             "sub_category": 2,
             "rating": 4.4,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_020.webp",
-            "image": "media_000_020.webp"
+            "image": "media_000_020.webp",
+            "special_offer": 3
         }
     },
     {
@@ -71,7 +75,8 @@
             "sub_category": 9,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_022.webp",
-            "image": "media_000_022.webp"
+            "image": "media_000_022.webp",
+            "special_offer": 2
         }
     },
     {
@@ -86,7 +91,8 @@
             "sub_category": 2,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_040.webp",
-            "image": "media_000_040.webp"
+            "image": "media_000_040.webp",
+            "special_offer": 1
         }
     },
     {
@@ -101,7 +107,8 @@
             "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_001.webp",
-            "image": "media_000_001.webp"
+            "image": "media_000_001.webp",
+            "special_offer": 2
         }
     },
     {
@@ -116,7 +123,8 @@
             "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_091.webp",
-            "image": "media_000_091.webp"
+            "image": "media_000_091.webp",
+            "special_offer": 3
         }
     },
     {
@@ -131,7 +139,8 @@
             "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_082.webp",
-            "image": "media_000_082.webp"
+            "image": "media_000_082.webp",
+            "special_offer": 1
         }
     },
     {
@@ -146,7 +155,8 @@
             "sub_category": 1,
             "rating": 4.4,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_029.webp",
-            "image": "media_000_029.webp"
+            "image": "media_000_029.webp",
+            "special_offer": 2
         }
     },
     {
@@ -161,7 +171,8 @@
             "sub_category": 2,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_006.webp",
-            "image": "media_000_006.webp"
+            "image": "media_000_006.webp",
+            "special_offer": 3
         }
     },
     {
@@ -176,7 +187,8 @@
             "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_065.webp",
-            "image": "media_000_065.webp"
+            "image": "media_000_065.webp",
+            "special_offer": 3
         }
     },
     {
@@ -188,10 +200,11 @@
             "description": "A versatile power planer for smoothing and shaping wood in DIY projects.",
             "price": 79.99,
             "category": 1,
-            "sub_category": 2, 
+            "sub_category": 2,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_034.webp",
-            "image": "media_000_034.webp"
+            "image": "media_000_034.webp",
+            "special_offer": 2
         }
     },
     {
@@ -203,10 +216,11 @@
             "description": "Sharp garden scissors for precise cutting and pruning tasks.",
             "price": 10.99,
             "category": 1,
-            "sub_category": 1, 
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_024.webp",
-            "image": "media_000_024.webp"
+            "image": "media_000_024.webp",
+            "special_offer": 3
         }
     },
     {
@@ -218,10 +232,11 @@
             "description": "A versatile garden knife for a variety of gardening tasks.",
             "price": 44.99,
             "category": 1,
-            "sub_category": 1, 
+            "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_084.webp",
-            "image": "media_000_084.webp"
+            "image": "media_000_084.webp",
+            "special_offer": 1
         }
     },
     {
@@ -233,10 +248,11 @@
             "description": "A powerful router for woodworking and cabinetry projects.",
             "price": 109.99,
             "category": 1,
-            "sub_category":2, 
+            "sub_category": 2,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_102.webp",
-            "image": "media_000_102.webp"
+            "image": "media_000_102.webp",
+            "special_offer": 3
         }
     },
     {
@@ -248,10 +264,11 @@
             "description": "An efficient weeder for removing weeds from your garden beds.",
             "price": 6.99,
             "category": 1,
-            "sub_category": 1, 
+            "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_048.webp",
-            "image": "media_000_048.webp"
+            "image": "media_000_048.webp",
+            "special_offer": 2
         }
     },
     {
@@ -266,7 +283,8 @@
             "sub_category": 2,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_044.webp",
-            "image": "media_000_044.webp"
+            "image": "media_000_044.webp",
+            "special_offer": 2
         }
     },
     {
@@ -281,7 +299,8 @@
             "sub_category": 2,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_064.webp",
-            "image": "media_000_064.webp"
+            "image": "media_000_064.webp",
+            "special_offer": 1
         }
     },
     {
@@ -296,7 +315,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://example.com/tomato-seeds.webp",
-            "image": "tomato-seeds.webp"
+            "image": "tomato-seeds.webp",
+            "special_offer": 3
         }
     },
     {
@@ -311,7 +331,8 @@
             "sub_category": 5,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/mediamedia_000_026.webp",
-            "image": "media_000_026.webp"
+            "image": "media_000_026.webp",
+            "special_offer": 3
         }
     },
     {
@@ -326,13 +347,11 @@
             "sub_category": 6,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media_000_079.webp",
-            "image": "media_000_079.webp"
+            "image": "media_000_079.webp",
+            "special_offer": 1
         }
     },
     {
-
-
-
         "pk": 23,
         "model": "products.product",
         "fields": {
@@ -340,11 +359,12 @@
             "name": "Lettuce Seeds",
             "description": "Seeds for growing crisp and fresh lettuce for salads and sandwiches.",
             "price": 2.49,
-            "category":2,
+            "category": 2,
             "sub_category": 4,
             "rating": 4.4,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_095.webp",
-            "image": "media_000_095.webp"
+            "image": "media_000_095.webp",
+            "special_offer": 3
         }
     },
     {
@@ -359,7 +379,8 @@
             "sub_category": 4,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_056.webp",
-            "image": "media_000_056.webp"
+            "image": "media_000_056.webp",
+            "special_offer": 2
         }
     },
     {
@@ -374,7 +395,8 @@
             "sub_category": 6,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_043.webp",
-            "image": "media_000_043.webp"
+            "image": "media_000_043.webp",
+            "special_offer": 1
         }
     },
     {
@@ -389,7 +411,8 @@
             "sub_category": 5,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_013.webp",
-            "image": "media_000_013.webp"
+            "image": "media_000_013.webp",
+            "special_offer": 1
         }
     },
     {
@@ -401,10 +424,11 @@
             "description": "Seeds for growing sweet and bite-sized cherry tomatoes in your garden.",
             "price": 4.49,
             "category": 2,
-            "sub_category":4,
+            "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_111.webp",
-            "image": "media_000_111.webp"
+            "image": "media_000_111.webp",
+            "special_offer": 1
         }
     },
     {
@@ -419,7 +443,8 @@
             "sub_category": 6,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_049.webp",
-            "image": "media_000_049.webp"
+            "image": "media_000_049.webp",
+            "special_offer": 3
         }
     },
     {
@@ -434,7 +459,8 @@
             "sub_category": 6,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_118.webp",
-            "image": "media_000_118.webp"
+            "image": "media_000_118.webp",
+            "special_offer": 2
         }
     },
     {
@@ -449,7 +475,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://example.com/apple-tree-seeds.webp",
-            "image": "apple-tree-seeds.webp"
+            "image": "apple-tree-seeds.webp",
+            "special_offer": 3
         }
     },
     {
@@ -464,7 +491,8 @@
             "sub_category": 5,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_113.webp",
-            "image": "media_000_113.webp"
+            "image": "media_000_113.webp",
+            "special_offer": 2
         }
     },
     {
@@ -479,7 +507,8 @@
             "sub_category": 6,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_114.webp",
-            "image": "media_000_114.webp"
+            "image": "media_000_114.webp",
+            "special_offer": 3
         }
     },
     {
@@ -494,7 +523,8 @@
             "sub_category": 4,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_085.webp",
-            "image": "media_000_085.webp"
+            "image": "media_000_085.webp",
+            "special_offer": 3
         }
     },
     {
@@ -509,7 +539,8 @@
             "sub_category": 5,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_010.webp",
-            "image": "media_000_010.webp"
+            "image": "media_000_010.webp",
+            "special_offer": 1
         }
     },
     {
@@ -524,7 +555,8 @@
             "sub_category": 6,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_058.webp",
-            "image": "media_000_058.webp"
+            "image": "media_000_058.webp",
+            "special_offer": 1
         }
     },
     {
@@ -539,7 +571,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_121.webp",
-            "image": "media_000_121.webp"
+            "image": "media_000_121.webp",
+            "special_offer": 3
         }
     },
     {
@@ -551,10 +584,11 @@
             "description": "Seeds for growing charming daisy flowers that brighten up your garden.",
             "price": 3.29,
             "category": 2,
-            "sub_category":5,
+            "sub_category": 5,
             "rating": 4.5,
             "image_url": "https://example.com/daisy-seeds.webp",
-            "image": "daisy-seeds.webp"
+            "image": "daisy-seeds.webp",
+            "special_offer": 2
         }
     },
     {
@@ -566,10 +600,11 @@
             "description": "Seeds for growing aromatic peppermint herbs, ideal for teas and desserts.",
             "price": 2.79,
             "category": 2,
-            "sub_category":6,
+            "sub_category": 6,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_101.webp",
-            "image": "media_000_101.webp"
+            "image": "media_000_101.webp",
+            "special_offer": 1
         }
     },
     {
@@ -584,7 +619,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_059.webp",
-            "image": "media_000_059.webp"
+            "image": "media_000_059.webp",
+            "special_offer": 3
         }
     },
     {
@@ -599,7 +635,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_067.webp",
-            "image": "media_000_067.webp"
+            "image": "media_000_067.webp",
+            "special_offer": 3
         }
     },
     {
@@ -614,7 +651,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_027.webp",
-            "image": "media_000_027.webp"
+            "image": "media_000_027.webp",
+            "special_offer": 2
         }
     },
     {
@@ -629,7 +667,8 @@
             "sub_category": 9,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_109.webp",
-            "image": "media_000_109.webp"
+            "image": "media_000_109.webp",
+            "special_offer": 1
         }
     },
     {
@@ -644,7 +683,8 @@
             "sub_category": 7,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_087.webp",
-            "image": "media_000_087.webp"
+            "image": "media_000_087.webp",
+            "special_offer": 2
         }
     },
     {
@@ -659,7 +699,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_110.webp",
-            "image": "media_000_110.webp"
+            "image": "media_000_110.webp",
+            "special_offer": 2
         }
     },
     {
@@ -674,7 +715,8 @@
             "sub_category": 9,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_028.webp",
-            "image": "media_000_028.webp"
+            "image": "media_000_028.webp",
+            "special_offer": 3
         }
     },
     {
@@ -685,11 +727,12 @@
             "name": "Garden Clogs",
             "description": "Comfortable and slip-resistant garden clogs for easy movement in the garden.",
             "price": 17.99,
-            "category":3,
+            "category": 3,
             "sub_category": 7,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_061.webp",
-            "image": "media_000_061.webp"
+            "image": "media_000_061.webp",
+            "special_offer": 3
         }
     },
     {
@@ -704,7 +747,8 @@
             "sub_category": 7,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_122.webp",
-            "image": "media_000_122.webp"
+            "image": "media_000_122.webp",
+            "special_offer": 1
         }
     },
     {
@@ -719,7 +763,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_090.webp",
-            "image": "media_000_090.webp"
+            "image": "media_000_090.webp",
+            "special_offer": 3
         }
     },
     {
@@ -734,7 +779,8 @@
             "sub_category": 9,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_032.webp",
-            "image": "media_000_032.webp"
+            "image": "media_000_032.webp",
+            "special_offer": 3
         }
     },
     {
@@ -749,7 +795,8 @@
             "sub_category": 8,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_011.webp",
-            "image": "media_000_011.webp"
+            "image": "media_000_011.webp",
+            "special_offer": 1
         }
     },
     {
@@ -764,7 +811,8 @@
             "sub_category": 7,
             "rating": 4.6,
             "image_url": "https://example.com/wide-brimmed-hat.webp",
-            "image": "wide-brimmed-hat.webp"
+            "image": "wide-brimmed-hat.webp",
+            "special_offer": 3
         }
     },
     {
@@ -779,7 +827,8 @@
             "sub_category": 7,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_047.webp",
-            "image": "media_000_047.webp"
+            "image": "media_000_047.webp",
+            "special_offer": 2
         }
     },
     {
@@ -794,7 +843,8 @@
             "sub_category": 8,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_119.webp",
-            "image": "media_000_119.webp"
+            "image": "media_000_119.webp",
+            "special_offer": 3
         }
     },
     {
@@ -809,7 +859,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_073.webp",
-            "image": "media_000_073.webp"
+            "image": "media_000_073.webp",
+            "special_offer": 2
         }
     },
     {
@@ -824,7 +875,8 @@
             "sub_category": 7,
             "rating": 4.6,
             "image_url": "https://example.com/waterproof-pants.webp",
-            "image": "waterproof-pants.webp"
+            "image": "waterproof-pants.webp",
+            "special_offer": 3
         }
     },
     {
@@ -839,7 +891,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_030.webp",
-            "image": "media_000_030.webp"
+            "image": "media_000_030.webp",
+            "special_offer": 3
         }
     },
     {
@@ -854,7 +907,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_066.webp",
-            "image": "media_000_066.webp"
+            "image": "media_000_066.webp",
+            "special_offer": 3
         }
     },
     {
@@ -869,7 +923,8 @@
             "sub_category": 7,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_100.webp",
-            "image": "media_000_100.webp"
+            "image": "media_000_100.webp",
+            "special_offer": 1
         }
     },
     {
@@ -884,7 +939,8 @@
             "sub_category": 8,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_077.webp",
-            "image": "media_000_077.webp"
+            "image": "media_000_077.webp",
+            "special_offer": 2
         }
     },
     {
@@ -899,7 +955,8 @@
             "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_103.webp",
-            "image": "media_000_103.webp"
+            "image": "media_000_103.webp",
+            "special_offer": 2
         }
     },
     {
@@ -914,7 +971,8 @@
             "sub_category": 11,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_092.webp",
-            "image": "media_000_092.webp"
+            "image": "media_000_092.webp",
+            "special_offer": 2
         }
     },
     {
@@ -929,7 +987,8 @@
             "sub_category": 11,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_099.webp",
-            "image": "media_000_099.webp"
+            "image": "media_000_099.webp",
+            "special_offer": 1
         }
     },
     {
@@ -944,7 +1003,8 @@
             "sub_category": 5,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_046.webp",
-            "image": "media_000_046.webp"
+            "image": "media_000_046.webp",
+            "special_offer": 1
         }
     },
     {
@@ -959,7 +1019,8 @@
             "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_089.webp",
-            "image": "media_000_089.webp"
+            "image": "media_000_089.webp",
+            "special_offer": 1
         }
     },
     {
@@ -974,7 +1035,8 @@
             "sub_category": 11,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_069.webp",
-            "image": "media_000_069.webp"
+            "image": "media_000_069.webp",
+            "special_offer": 3
         }
     },
     {
@@ -989,7 +1051,8 @@
             "sub_category": 1,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_015.webp",
-            "image": "media_000_015.webp"
+            "image": "media_000_015.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1004,7 +1067,8 @@
             "sub_category": 12,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_008.webp",
-            "image": "media_000_008.webp"
+            "image": "media_000_008.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1019,7 +1083,8 @@
             "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_023.webp",
-            "image": "media_000_023.webp"
+            "image": "media_000_023.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1034,7 +1099,8 @@
             "sub_category": 11,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_017.webp",
-            "image": "media_000_017.webp"
+            "image": "media_000_017.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1049,7 +1115,8 @@
             "sub_category": 3,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_062.webp",
-            "image": "media_000_062.webp"
+            "image": "media_000_062.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1064,7 +1131,8 @@
             "sub_category": 3,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_068.webp",
-            "image": "media_000_068.webp"
+            "image": "media_000_068.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1079,7 +1147,8 @@
             "sub_category": 1,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_088.webp",
-            "image": "media_000_088.webp"
+            "image": "media_000_088.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1094,7 +1163,8 @@
             "sub_category": 3,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_035.webp",
-            "image": "media_000_035.webp"
+            "image": "media_000_035.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1103,13 +1173,14 @@
         "fields": {
             "sku": "pt7575",
             "name": "Pruner Blade Replacement",
-            "description": "Replacement blades for pruners to keep them sharp and effective.",     
+            "description": "Replacement blades for pruners to keep them sharp and effective.",
             "price": 8.99,
             "category": 1,
             "sub_category": 3,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_074.webp",
-            "image": "media_000_074.webp"
+            "image": "media_000_074.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1124,7 +1195,8 @@
             "sub_category": 3,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_098.webp",
-            "image": "media_000_098.webp"
+            "image": "media_000_098.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1139,7 +1211,8 @@
             "sub_category": 3,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_042.webp",
-            "image": "media_000_042.webp"
+            "image": "media_000_042.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1154,7 +1227,8 @@
             "sub_category": 1,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_054.webp",
-            "image": "media_000_054.webp"
+            "image": "media_000_054.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1163,13 +1237,14 @@
         "fields": {
             "sku": "wt7979",
             "name": "Fiskars Weed Puller",
-            "description": "For weed pulling, designed for use with garden tools.",  
+            "description": "For weed pulling, designed for use with garden tools.",
             "price": 10.99,
             "category": 1,
             "sub_category": 1,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_063.webp",
-            "image": "media_000_063.webp"
+            "image": "media_000_063.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1184,7 +1259,8 @@
             "sub_category": 3,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_076.webp",
-            "image": "media_000_076.webp"
+            "image": "media_000_076.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1199,7 +1275,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_050.webp",
-            "image": "media_000_050.webp"
+            "image": "media_000_050.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1214,7 +1291,8 @@
             "sub_category": 8,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_019.webp",
-            "image": "media_000_019.webp"
+            "image": "media_000_019.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1229,7 +1307,8 @@
             "sub_category": 7,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_025.webp",
-            "image": "media_000_025.webp"
+            "image": "media_000_025.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1244,7 +1323,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_083.webp",
-            "image": "media_000_083.webp"
+            "image": "media_000_083.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1259,7 +1339,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_021.webp",
-            "image": "media_000_021.webp"
+            "image": "media_000_021.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1274,7 +1355,8 @@
             "sub_category": 7,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_027.webp",
-            "image": "media_000_027.webp"
+            "image": "media_000_027.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1289,7 +1371,8 @@
             "sub_category": 7,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_060.webp",
-            "image": "media_000_060.webp"
+            "image": "media_000_060.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1304,7 +1387,8 @@
             "sub_category": 12,
             "rating": 4.7,
             "image_url": "https://example.com/outdoor-windbreaker.webp",
-            "image": "outdoor-windbreaker.webp"
+            "image": "outdoor-windbreaker.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1319,7 +1403,8 @@
             "sub_category": 7,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_123.webp",
-            "image": "media_000_123.webp"
+            "image": "media_000_123.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1334,7 +1419,8 @@
             "sub_category": 7,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_031.webp",
-            "image": "media_000_031.webp"
+            "image": "media_000_031.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1349,7 +1435,8 @@
             "sub_category": 9,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_045.webp",
-            "image": "media_000_045.webp"
+            "image": "media_000_045.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1364,7 +1451,8 @@
             "sub_category": 9,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_037.webp",
-            "image": "media_000_037.webp"
+            "image": "media_000_037.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1379,7 +1467,8 @@
             "sub_category": 9,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_078.webp",
-            "image": "media_000_078.webp"
+            "image": "media_000_078.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1394,7 +1483,8 @@
             "sub_category": 9,
             "rating": 4.7,
             "image_url": "https://example.com/thorn-resistant-gloves.webp",
-            "image": "thorn-resistant-gloves.webp"
+            "image": "thorn-resistant-gloves.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1409,7 +1499,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_012.webp",
-            "image": "media_000_012.webp"
+            "image": "media_000_012.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1424,7 +1515,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_052.webp",
-            "image": "media_000_052.webp"
+            "image": "media_000_052.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1439,7 +1531,8 @@
             "sub_category": 4,
             "rating": 4.5,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_059.webp",
-            "image": "media_000_059.webp"
+            "image": "media_000_059.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1454,7 +1547,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_003.webp",
-            "image": "media_000_003.webp"
+            "image": "media_000_003.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1469,7 +1563,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_002.webp",
-            "image": "media_000_002.webp"
+            "image": "media_000_002.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1484,7 +1579,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_055.webp",
-            "image": "media_000_055.webp"
+            "image": "media_000_055.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1499,7 +1595,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_115.webp",
-            "image": "media_000_115.webp"
+            "image": "media_000_115.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1514,7 +1611,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_039.webp",
-            "image": "media_000_039.webp"
+            "image": "media_000_039.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1529,7 +1627,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://example.com/pumpkin-seeds.webp",
-            "image": "pumpkin-seeds.webp"
+            "image": "pumpkin-seeds.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1544,7 +1643,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://example.com/sweet-potato-slips.webp",
-            "image": "sweet-potato-slips.webp"
+            "image": "sweet-potato-slips.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1559,7 +1659,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_033.webp",
-            "image": "media_000_033.webp"
+            "image": "media_000_033.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1574,7 +1675,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_106.webp",
-            "image": "media_000_106.webp"
+            "image": "media_000_106.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1585,11 +1687,12 @@
             "name": "Peach Tree Seeds",
             "description": "Peach tree seeds for growing your own peach tree and savoring fresh peaches.",
             "price": 5.49,
-            "category":2,
+            "category": 2,
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "",
-            "image": ""
+            "image": "",
+            "special_offer": 3
         }
     },
     {
@@ -1604,7 +1707,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_057.webp",
-            "image": "media_000_057.webp"
+            "image": "media_000_057.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1619,7 +1723,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_107.webp",
-            "image": "media_000_107.web"
+            "image": "media_000_107.web",
+            "special_offer": 3
         }
     },
     {
@@ -1634,7 +1739,8 @@
             "sub_category": 4,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_053.webp",
-            "image": "media_000_053.webp"
+            "image": "media_000_053.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1649,7 +1755,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_096.webp",
-            "image": "media_000_096.webp"
+            "image": "media_000_096.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1658,13 +1765,14 @@
         "fields": {
             "sku": "ctn119",
             "name": "Cotton Plant Seeds",
-            "description": "Cotton plant seeds for cultivating your own cotton plants at home.",   
+            "description": "Cotton plant seeds for cultivating your own cotton plants at home.",
             "price": 6.99,
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_038.webp",
-            "image": "media_000_038.webp"
+            "image": "media_000_038.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1679,7 +1787,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_116.webp",
-            "image": "media_000_116.webp"
+            "image": "media_000_116.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1694,7 +1803,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_104.webp",
-            "image": "media_000_104.webp"
+            "image": "media_000_104.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1709,7 +1819,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://example.com/sunflower-seeds.webp",
-            "image": "sunflower-seeds.webp"
+            "image": "sunflower-seeds.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1724,7 +1835,8 @@
             "sub_category": 5,
             "rating": 4.9,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_094.webp",
-            "image": "media_000_094.webp"
+            "image": "media_000_094.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1739,7 +1851,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_016.webp",
-            "image": "media_000_016.webp"
+            "image": "media_000_016.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1754,7 +1867,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_097.webp",
-            "image": "media_000_097.webp"
+            "image": "media_000_097.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1769,7 +1883,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_004.webp",
-            "image": "media_000_004.webp"
+            "image": "media_000_004.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1784,7 +1899,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_036.webp",
-            "image": "media_000_036.webp"
+            "image": "media_000_036.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1799,7 +1915,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_071.webp",
-            "image": "media_000_071.webp"
+            "image": "media_000_071.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1814,7 +1931,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_117.webp",
-            "image": "media_000_117.webp"
+            "image": "media_000_117.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1829,7 +1947,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_113.webp",
-            "image": "media_000_013.webp"
+            "image": "media_000_013.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1844,7 +1963,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_009.webp",
-            "image": "media_000_009.webp"
+            "image": "media_000_009.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1859,7 +1979,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_086.webp",
-            "image": "media_000_086.webp"
+            "image": "media_000_086.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1874,7 +1995,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_093.webp",
-            "image": "media_000_093.webp"
+            "image": "media_000_093.webp",
+            "special_offer": 3
         }
     },
     {
@@ -1889,7 +2011,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_070.webp",
-            "image": "media_000_070.webp"
+            "image": "media_000_070.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1904,7 +2027,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_051.webp",
-            "image": "media_000_051.webp"
+            "image": "media_000_051.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1919,7 +2043,8 @@
             "sub_category": 4,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_108.webp",
-            "image": "media_000_108.webp"
+            "image": "media_000_108.webp",
+            "special_offer": 2
         }
     },
     {
@@ -1934,7 +2059,8 @@
             "sub_category": 5,
             "rating": 4.7,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_007.webp",
-            "image": "media_000_007.webp"
+            "image": "media_000_007.webp",
+            "special_offer": 1
         }
     },
     {
@@ -1949,7 +2075,8 @@
             "sub_category": 5,
             "rating": 4.8,
             "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_018.webp",
-            "image": "media_000_018.webp"
+            "image": "media_000_018.webp",
+            "special_offer": 3
         }
     }
 ]

@@ -51,6 +51,10 @@ def all_products(request):
             products = products.filter(category__name__in=categories, sub_category__name__in=sub_categories)
             categories = Category.objects.filter(name__in=categories).order_by('id')
 
+        if 'special_offer' in request.GET:
+            special_offer = request.GET.getlist('special_offer')
+            products = products.filter(name__in=special_offer)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:

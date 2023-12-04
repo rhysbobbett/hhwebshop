@@ -70,29 +70,5 @@
             "name": "gloves",
             "friendly_name": "Gloves"
         }
-    },
-    {
-        "pk": 10,
-        "model": "products.subcategory",
-        "fields": {
-            "name": "deals",
-            "friendly_name": "Deals"
-        }
-    },
-    {
-        "pk": 11,
-        "model": "products.subcategory",
-        "fields": {
-            "name": "essentials",
-            "friendly_name": "Essentials"
-        }
-    },
-    {
-        "pk": 12,
-        "model": "products.subcategory",
-        "fields": {
-            "name": "new_arrivals",
-            "friendly_name": "New Arrivals"
-        }
     }
 ]
