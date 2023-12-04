@@ -37,9 +37,15 @@
                         href="{% url 'all_products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
                         <i class="fas fa-tag mr-1"></i>{{ product.sub_category.friendly_name }}
                     </a>
-                    {% else %}
-                    <a class="text-muted" href="{% url 'all_products' %}?category={{ product.category.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                    {% endif %}
+                </p>
+                {% endif %}
+                {% if product.category %}
+                <p class="small mt-1 mb-0">
+                    {% if product.special_offer %}
+                    <a class="text-muted"
+                        href="{% url 'all_products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
+                        <i class="fas fa-tag mr-1"></i>{{ product.special_offer.friendly_name }}
                     </a>
                     {% endif %}
                 </p>
