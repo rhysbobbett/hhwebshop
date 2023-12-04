@@ -47,6 +47,8 @@ def all_products(request):
 
         if 'category' in request.GET:
             categories = request.GET.getlist('category')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories).order_by('id')
         if 'category' in request.GET and 'sub_category' in request.GET:
             categories = request.GET.getlist('category')
             sub_categories = request.GET.getlist('sub_category')
