@@ -95,7 +95,7 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 1
 
-if 'DEBUG' in os.environ:
+if os.environ.get('DEBUG') == 'True':
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
 else:
