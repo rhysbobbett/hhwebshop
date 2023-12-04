@@ -45,14 +45,10 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
-        if 'category' in request.GET:
-            categories = request.GET.getlist('category')
-            products = products.filter(category__name__in=categories)
-            categories = Category.objects.filter(name__in=categories).order_by('id')
         if 'category' in request.GET and 'sub_category' in request.GET:
             categories = request.GET.getlist('category')
             sub_categories = request.GET.getlist('sub_category')
-            products = products.filter(sub_category__name__in=sub_categories)
+            products = products.filter(category__name__in=categories, sub_category__name__in=sub_categories)
             categories = Category.objects.filter(name__in=categories).order_by('id')
 
         if 'q' in request.GET:
