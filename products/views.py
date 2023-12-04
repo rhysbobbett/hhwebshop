@@ -21,7 +21,7 @@ def tools_dropdown(request):
     return render(request, 'tools_dropdown_template.html', context)
 
 
-def all_products(request):
+def all_products(request, category=None, sub_category=None, special_offer=None ):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
@@ -29,6 +29,7 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    special_offer=None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -44,16 +45,16 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-
+    if category and sub_category:
         if 'category' in request.GET and 'sub_category' in request.GET:
             categories = request.GET.getlist('category')
             sub_categories = request.GET.getlist('sub_category')
             products = products.filter(category__name__in=categories, sub_category__name__in=sub_categories)
             categories = Category.objects.filter(name__in=categories).order_by('id')
 
-        if 'special_offer' in request.GET:
-            special_offer = request.GET.getlist('special_offer')
-            products = products.filter(name__in=special_offer)
+        if special_offer:
+            products = Product.objects.filter(special_offer__name=special_offer)
+
 
         if 'q' in request.GET:
             query = request.GET['q']
