@@ -70,8 +70,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/gardening-gloves.webp",
-            "image": "gardening-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_022.webp",
+            "image": "media_000_022.webp"
         }
     },
     {
@@ -310,8 +310,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/sunflower-seeds.webp",
-            "image": "sunflower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/mediamedia_000_026.webp",
+            "image": "media_000_026.webp"
         }
     },
     {
@@ -325,11 +325,14 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.7,
-            "image_url": "https://example.com/basil-seeds.webp",
-            "image": "basil-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media_000_079.webp",
+            "image": "media_000_079.webp"
         }
     },
     {
+
+
+
         "pk": 23,
         "model": "products.product",
         "fields": {
@@ -340,8 +343,8 @@
             "category":2,
             "sub_category": 4,
             "rating": 4.4,
-            "image_url": "https://example.com/lettuce-seeds.webp",
-            "image": "lettuce-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_095.webp",
+            "image": "media_000_095.webp"
         }
     },
     {
@@ -355,8 +358,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.8,
-            "image_url": "https://example.com/carrot-seeds.webp",
-            "image": "carrot-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_056.webp",
+            "image": "media_000_056.webp"
         }
     },
     {
@@ -370,8 +373,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.6,
-            "image_url": "https://example.com/mint-seeds.webp",
-            "image": "mint-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_043.webp",
+            "image": "media_000_043.webp"
         }
     },
     {
@@ -385,8 +388,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/sweet-william-seeds.webp",
-            "image": "sweet-william-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_013.webp",
+            "image": "media_000_013.webp"
         }
     },
     {
@@ -400,8 +403,8 @@
             "category": 2,
             "sub_category":4,
             "rating": 4.7,
-            "image_url": "https://example.com/cherry-tomato-seeds.webp",
-            "image": "cherry-tomato-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_111.webp",
+            "image": "media_000_111.webp"
         }
     },
     {
@@ -415,8 +418,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.6,
-            "image_url": "https://example.com/lavender-seeds.webp",
-            "image": "lavender-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_049.webp",
+            "image": "media_000_049.webp"
         }
     },
     {
@@ -430,8 +433,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.5,
-            "image_url": "https://example.com/thyme-seeds.webp",
-            "image": "thyme-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_118.webp",
+            "image": "media_000_118.webp"
         }
     },
     {
@@ -460,8 +463,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/tulip-bulbs.webp",
-            "image": "tulip-bulbs.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_113.webp",
+            "image": "media_000_113.webp"
         }
     },
     {
@@ -475,8 +478,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.5,
-            "image_url": "https://example.com/parsley-seeds.webp",
-            "image": "parsley-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_114.webp",
+            "image": "media_000_114.webp"
         }
     },
     {
@@ -490,8 +493,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.8,
-            "image_url": "https://example.com/strawberry-plant-seeds.webp",
-            "image": "strawberry-plant-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_085.webp",
+            "image": "media_000_085.webp"
         }
     },
     {
@@ -505,8 +508,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/marigold-seeds.webp",
-            "image": "marigold-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_010.webp",
+            "image": "media_000_010.webp"
         }
     },
     {
@@ -520,8 +523,8 @@
             "category": 2,
             "sub_category": 6,
             "rating": 4.7,
-            "image_url": "https://example.com/cilantro-seeds.webp",
-            "image": "cilantro-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_058.webp",
+            "image": "media_000_058.webp"
         }
     },
     {
@@ -535,8 +538,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/blueberry-bush-seeds.webp",
-            "image": "blueberry-bush-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_121.webp",
+            "image": "media_000_121.webp"
         }
     },
     {
@@ -565,8 +568,8 @@
             "category": 2,
             "sub_category":6,
             "rating": 4.7,
-            "image_url": "https://example.com/peppermint-seeds.webp",
-            "image": "peppermint-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_101.webp",
+            "image": "media_000_101.webp"
         }
     },
     {
@@ -580,8 +583,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/cucumber-seeds.webp",
-            "image": "cucumber-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_059.webp",
+            "image": "media_000_059.webp"
         }
     },
     {
@@ -589,14 +592,14 @@
         "model": "products.product",
         "fields": {
             "sku": "wt4141",
-            "name": "Work Trousers",
+            "name": "DeWalt Work Trousers",
             "description": "Durable work trousers designed for comfort and protection during gardening tasks.",
             "price": 24.99,
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/work-trousers.webp",
-            "image": "work-trousers.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_067.webp",
+            "image": "media_000_067.webp"
         }
     },
     {
@@ -610,8 +613,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-coat.webp",
-            "image": "garden-coat.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_027.webp",
+            "image": "media_000_027.webp"
         }
     },
     {
@@ -625,8 +628,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-gloves.webp",
-            "image": "garden-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_109.webp",
+            "image": "media_000_109.webp"
         }
     },
     {
@@ -640,8 +643,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/work-apron.webp",
-            "image": "work-apron.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_087.webp",
+            "image": "media_000_087.webp"
         }
     },
     {
@@ -655,8 +658,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/rain-poncho.webp",
-            "image": "rain-poncho.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_110.webp",
+            "image": "media_000_110.webp"
         }
     },
     {
@@ -670,8 +673,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.7,
-            "image_url": "https://example.com/weed-puller-gloves.webp",
-            "image": "weed-puller-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_028.webp",
+            "image": "media_000_028.webp"
         }
     },
     {
@@ -685,8 +688,8 @@
             "category":3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-clogs.webp",
-            "image": "garden-clogs.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_061.webp",
+            "image": "media_000_061.webp"
         }
     },
     {
@@ -700,8 +703,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-hat.webp",
-            "image": "garden-hat.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_122.webp",
+            "image": "media_000_122.webp"
         }
     },
     {
@@ -715,8 +718,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/lawn-work-shoes.webp",
-            "image": "lawn-work-shoes.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_090.webp",
+            "image": "media_000_090.webp"
         }
     },
     {
@@ -730,8 +733,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/pruning-gloves.webp",
-            "image": "pruning-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_032.webp",
+            "image": "media_000_032.webp"
         }
     },
     {
@@ -745,8 +748,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.7,
-            "image_url": "https://example.com/work-shirt.webp",
-            "image": "work-shirt.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_011.webp",
+            "image": "media_000_011.webp"
         }
     },
     {
@@ -775,8 +778,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/knee-pads.webp",
-            "image": "knee-pads.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_047.webp",
+            "image": "media_000_047.webp"
         }
     },
     {
@@ -790,8 +793,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-socks.webp",
-            "image": "garden-socks.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_119.webp",
+            "image": "media_000_119.webp"
         }
     },
     {
@@ -805,8 +808,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-hat-with-neck-flap.webp",
-            "image": "garden-hat-with-neck-flap.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_073.webp",
+            "image": "media_000_073.webp"
         }
     },
     {
@@ -835,8 +838,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/garden-gaiters.webp",
-            "image": "garden-gaiters.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_030.webp",
+            "image": "media_000_030.webp"
         }
     },
     {
@@ -850,8 +853,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-workshirt.webp",
-            "image": "garden-workshirt.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_066.webp",
+            "image": "media_000_066.webp"
         }
     },
     {
@@ -865,8 +868,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/garden-cap.webp",
-            "image": "garden-cap.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_100.webp",
+            "image": "media_000_100.webp"
         }
     },
     {
@@ -880,8 +883,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.8,
-            "image_url": "https://example.com/long-sleeve-garden-shirt.webp",
-            "image": "long-sleeve-garden-shirt.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_077.webp",
+            "image": "media_000_077.webp"
         }
     },
     {
@@ -935,13 +938,13 @@
         "fields": {
             "sku": "sp6464",
             "name": "Seed Packets Variety",
-            "description": "A variety pack of seeds for colorful flowers in your garden.",
+            "description": "A variety pack of seeds for different vegetables & herbs in your garden.",
             "price": 14.99,
             "category": 2,
             "sub_category": 5,
             "rating": 4.5,
-            "image_url": "https://example.com/seed-packets-variety.webp",
-            "image": "seed-packets-variety.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_046.webp",
+            "image": "media_000_046.webp"
         }
     },
     {
@@ -1195,8 +1198,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/gardeners-jacket.webp",
-            "image": "gardeners-jacket.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_050.webp",
+            "image": "media_000_050.webp"
         }
     },
     {
@@ -1210,8 +1213,8 @@
             "category": 3,
             "sub_category": 8,
             "rating": 4.6,
-            "image_url": "https://example.com/versatile-vest.webp",
-            "image": "versatile-vest.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_019.webp",
+            "image": "media_000_019.webp"
         }
     },
     {
@@ -1225,8 +1228,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/waterproof-poncho.webp",
-            "image": "waterproof-poncho.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_025.webp",
+            "image": "media_000_025.webp"
         }
     },
     {
@@ -1240,8 +1243,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/thermal-work-jacket.webp",
-            "image": "thermal-work-jacket.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_083.webp",
+            "image": "media_000_083.webp"
         }
     },
     {
@@ -1255,8 +1258,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/garden-fleece-vest.webp",
-            "image": "garden-fleece-vest.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_021.webp",
+            "image": "media_000_021.webp"
         }
     },
     {
@@ -1270,8 +1273,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.6,
-            "image_url": "https://example.com/all-weather-jacket.webp",
-            "image": "all-weather-jacket.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_027.webp",
+            "image": "media_000_027.webp"
         }
     },
     {
@@ -1285,8 +1288,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.5,
-            "image_url": "https://example.com/rainproof-parka.webp",
-            "image": "rainproof-parka.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_060.webp",
+            "image": "media_000_060.webp"
         }
     },
     {
@@ -1315,8 +1318,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.8,
-            "image_url": "https://example.com/garden-overalls.webp",
-            "image": "garden-overalls.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_031.webp",
+            "image": "media_000_031.webp"
         }
     },
     {
@@ -1330,8 +1333,8 @@
             "category": 3,
             "sub_category": 7,
             "rating": 4.7,
-            "image_url": "https://example.com/work-coveralls.webp",
-            "image": "work-coveralls.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_031.webp",
+            "image": "media_000_031.webp"
         }
     },
     {
@@ -1345,8 +1348,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.6,
-            "image_url": "https://example.com/gardeners-gloves-set.webp",
-            "image": "gardeners-gloves-set.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_045.webp",
+            "image": "media_000_045.webp"
         }
     },
     {
@@ -1360,8 +1363,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.7,
-            "image_url": "https://example.com/protective-pruning-gloves.webp",
-            "image": "protective-pruning-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_037.webp",
+            "image": "media_000_037.webp"
         }
     },
     {
@@ -1375,8 +1378,8 @@
             "category": 3,
             "sub_category": 9,
             "rating": 4.5,
-            "image_url": "https://example.com/waterproof-garden-gloves.webp",
-            "image": "waterproof-garden-gloves.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_078.webp",
+            "image": "media_000_078.webp"
         }
     },
     {
@@ -1405,8 +1408,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/organic-tomato-seeds.webp",
-            "image": "organic-tomato-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_012.webp",
+            "image": "media_000_012.webp"
         }
     },
     {
@@ -1420,8 +1423,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/bell-pepper-seed-mix.webp",
-            "image": "bell-pepper-seed-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_052.webp",
+            "image": "media_000_052.webp"
         }
     },
     {
@@ -1450,8 +1453,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/zucchini-squash-seeds.webp",
-            "image": "zucchini-squash-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_003.webp",
+            "image": "media_000_003.webp"
         }
     },
     {
@@ -1465,8 +1468,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/corn-seed-collection.webp",
-            "image": "corn-seed-collection.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_002.webp",
+            "image": "media_000_002.webp"
         }
     },
     {
@@ -1495,8 +1498,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/broccoli-seed-pack.webp",
-            "image": "broccoli-seed-pack.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_055.webp",
+            "image": "media_000_055.webp"
         }
     },
     {
@@ -1510,8 +1513,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/carrot-seed-mix.webp",
-            "image": "carrot-seed-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_115.webp",
+            "image": "media_000_115.webp"
         }
     },
     {
@@ -1525,8 +1528,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/lemon-tree-seeds.webp",
-            "image": "lemon-tree-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_039.webp",
+            "image": "media_000_039.webp"
         }
     },
     {
@@ -1570,8 +1573,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/lettuce-seed-mix.webp",
-            "image": "lettuce-seed-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_033.webp",
+            "image": "media_000_033.webp"
         }
     },
     {
@@ -1585,8 +1588,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/apple-tree-seeds.webp",
-            "image": "apple-tree-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_106.webp",
+            "image": "media_000_106.webp"
         }
     },
     {
@@ -1600,8 +1603,8 @@
             "category":2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/peach-tree-seeds.webp",
-            "image": "peach-tree-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_096.webp",
+            "image": "media_000_096.webp"
         }
     },
     {
@@ -1615,8 +1618,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/cherry-tree-seeds.webp",
-            "image": "cherry-tree-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_057.webp",
+            "image": "media_000_057.webp"
         }
     },
     {
@@ -1630,8 +1633,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/watermelon-seeds.webp",
-            "image": "watermelon-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_107.webp",
+            "image": "media_000_107.web"
         }
     },
     {
@@ -1645,8 +1648,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.6,
-            "image_url": "https://example.com/blackberry-bush-seeds.webp",
-            "image": "blackberry-bush-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_053.webp",
+            "image": "media_000_053.webp"
         }
     },
     {
@@ -1675,8 +1678,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.6,
-            "image_url": "https://example.com/cotton-plant-seeds.webp",
-            "image": "cotton-plant-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_038.webp",
+            "image": "media_000_038.webp"
         }
     },
     {
@@ -1690,8 +1693,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/grapevine-seeds.webp",
-            "image": "grapevine-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_116.webp",
+            "image": "media_000_116.webp"
         }
     },
     {
@@ -1705,8 +1708,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/rose-seeds-mix.webp",
-            "image": "rose-seeds-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_104.webp",
+            "image": "media_000_104.webp"
         }
     },
     {
@@ -1735,8 +1738,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.9,
-            "image_url": "https://example.com/lily-bulbs-mix.webp",
-            "image": "lily-bulbs-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_094.webp",
+            "image": "media_000_094.webp"
         }
     },
     {
@@ -1750,8 +1753,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/daisy-flower-seeds.webp",
-            "image": "daisy-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_016.webp",
+            "image": "media_000_016.webp"
         }
     },
     {
@@ -1765,8 +1768,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/tulip-bulbs-mix.webp",
-            "image": "tulip-bulbs-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_097.webp",
+            "image": "media_000_097.webp"
         }
     },
     {
@@ -1780,8 +1783,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/pansy-flower-seeds.webp",
-            "image": "pansy-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_004.webp",
+            "image": "media_000_004.webp"
         }
     },
     {
@@ -1795,8 +1798,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/peacock-orchid-bulbs.webp",
-            "image": "peacock-orchid-bulbs.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_036.webp",
+            "image": "media_000_036.webp"
         }
     },
     {
@@ -1810,8 +1813,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/foxglove-seeds.webp",
-            "image": "foxglove-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_071.webp",
+            "image": "media_000_071.webp"
         }
     },
     {
@@ -1819,14 +1822,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pny129",
-            "name": "Pansy Seeds Mix",
-            "description": "A mix of pansy seeds in various shades for a delightful and vibrant pansy garden display.",
+            "name": "Edible Pansy Seeds Mix",
+            "description": "A mix of pansy seeds in various shades for a delightful and vibrant pansy garden display that are also edible",
             "price": 7.49,
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/pansy-seeds-mix.webp",
-            "image": "pansy-seeds-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_117.webp",
+            "image": "media_000_117.webp"
         }
     },
     {
@@ -1840,8 +1843,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/verbena-flower-seeds.webp",
-            "image": "verbena-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_113.webp",
+            "image": "media_000_013.webp"
         }
     },
     {
@@ -1855,8 +1858,8 @@
             "category": 1,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/poppy-flower-seeds.webp",
-            "image": "poppy-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_009.webp",
+            "image": "media_000_009.webp"
         }
     },
     {
@@ -1870,8 +1873,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/hydrangea-seeds-mix.webp",
-            "image": "hydrangea-seeds-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_086.webp",
+            "image": "media_000_086.webp"
         }
     },
     {
@@ -1885,8 +1888,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/lilac-flower-seeds.webp",
-            "image": "lilac-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_093.webp",
+            "image": "media_000_093.webp"
         }
     },
     {
@@ -1900,8 +1903,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/aster-flower-seeds.webp",
-            "image": "aster-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_070.webp",
+            "image": "media_000_070.webp"
         }
     },
     {
@@ -1915,8 +1918,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/zinnia-seeds-mix.webp",
-            "image": "zinnia-seeds-mix.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_051.webp",
+            "image": "media_000_051.webp"
         }
     },
     {
@@ -1930,8 +1933,8 @@
             "category": 2,
             "sub_category": 4,
             "rating": 4.7,
-            "image_url": "https://example.com/peach-blossom-seeds.webp",
-            "image": "peach-blossom-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_108.webp",
+            "image": "media_000_108.webp"
         }
     },
     {
@@ -1945,8 +1948,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.7,
-            "image_url": "https://example.com/dahlia-flower-seeds.webp",
-            "image": "dahlia-flower-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_007.webp",
+            "image": "media_000_007.webp"
         }
     },
     {
@@ -1960,8 +1963,8 @@
             "category": 2,
             "sub_category": 5,
             "rating": 4.8,
-            "image_url": "https://example.com/red-rose-seeds.webp",
-            "image": "red-rose-seeds.webp"
+            "image_url": "https://hhwebshop.s3.eu-west-2.amazonaws.com/media/media_000_018.webp",
+            "image": "media_000_018.webp"
         }
     }
 ]
