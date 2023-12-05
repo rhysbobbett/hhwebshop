@@ -73,7 +73,7 @@
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
                                                 {% if product.sub_category %}
-                                                <a class="text-muted" href="{% url 'all_products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
+                                                <a class="text-muted" href="{% url 'all_products' %}?category={{ product.category.name }}&sub_category={{ product.sub_category.name }}">
                                                     <i class="fas fa-tag mr-1"></i>{{ product.sub_category.friendly_name }}
                                                 </a>
                                                 {% else %}
