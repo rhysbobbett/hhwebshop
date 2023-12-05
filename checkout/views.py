@@ -189,10 +189,11 @@ def checkout_success(request, order_number):
         [cust_email],
         connection=connection  # Use the SMTP connection explicitly
     )
+    connection.close()
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
-    connection.close()
+    
     if 'bag' in request.session:
         del request.session['bag']
 
