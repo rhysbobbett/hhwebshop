@@ -2,7 +2,12 @@ Hello {{ order.full_name }}
 
 This is a confirmation of your order at Hearten Horticulture Webshop. Your order information is below:
 
-Order number: {{ order.order_numbe }}
+Order number: {{ order.order_number }}
+{% for item in order.lineitems.all %}
+    Product: {{ item.product.name }}
+    Quantity: {{ item.quantity }}
+    Price: {{ item.product.price }}
+{% endfor %}
 Order Date: {{ order.date }}
 
 Order Total: £{{ order.order_total }}

@@ -172,6 +172,7 @@ def checkout_success(request, order_number):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
+    product_name = order.lineitems.first().product.name
     # Send the user a confirmation email
     cust_email = order.email
     subject = render_to_string(
@@ -180,7 +181,11 @@ def checkout_success(request, order_number):
     )
     body = render_to_string(
         'checkout/confirmation_emails/confirmation_email_body.txt',
-        {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL}
+        {
+            'order': order,
+            'contact_email': settings.DEFAULT_FROM_EMAIL,
+            'product_name': product_name,
+        }
     )
     # Establish an SMTP connection and send the email using a context manager
     with get_connection() as connection:
