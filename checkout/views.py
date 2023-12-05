@@ -146,7 +146,6 @@ def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
-    connection = get_connection()
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
@@ -181,17 +180,19 @@ def checkout_success(request, order_number):
         'checkout/confirmation_emails/confirmation_email_body.txt',
         {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL}
     )
-    send_mail(
-        subject,
-        body,
-        settings.DEFAULT_FROM_EMAIL,
-        [cust_email],
-        connection=connection  # Use the SMTP connection explicitly
-    )
+    # Establish an SMTP connection and send the email using a context manager
+    with get_connection() as connection:
+        send_mail(
+            subject,
+            body,
+            settings.DEFAULT_FROM_EMAIL,
+            [cust_email],
+            connection=connection
+        )
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
-    connection.close()
+
     if 'bag' in request.session:
         del request.session['bag']
 
@@ -199,5 +200,5 @@ def checkout_success(request, order_number):
     context = {
         'order': order,
     }
-
+    connection.close()
     return render(request, template, context)
