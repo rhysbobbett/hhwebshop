@@ -19,7 +19,7 @@ def tools_dropdown(request):
     return render(request, 'tools_dropdown_template.html', context)
 
 
-def all_products(request):
+def all_products(request, category=None, sub_category=None, special_offer=None):
     products = Product.objects.all()
     query = None
     categories = None
@@ -30,7 +30,7 @@ def all_products(request):
     sub_category = request.GET.get('sub_category')
     special_offer = request.GET.get('special_offer')
     search_query = request.GET.get('q')
-
+    
     if 'sort' in request.GET:
         sortkey = request.GET['sort']
         sort = sortkey
@@ -45,11 +45,14 @@ def all_products(request):
                 sortkey = f'-{sortkey}'
         products = products.order_by(sortkey)
 
+    if category:
+        products = products.filter(category__name=category)
+
     if category and sub_category:
         products = products.filter(category__name=category, sub_category__name=sub_category)
 
-    if special_offer:
-        products = products.filter(special_offer__name=special_offer)
+    if category == 'specials':
+        products = Product.objects.filter(special_offer__name=special_offer)
 
     if search_query:
         queries = Q(name__icontains=search_query) | Q(description__icontains=search_query)
