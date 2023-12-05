@@ -44,7 +44,7 @@
                 <p class="small mt-1 mb-0">
                     {% if product.special_offer %}
                     <a class="text-muted"
-                        href="{% url 'all_products' %}?category={{ product.category.name }}&subcategory={{ product.sub_category.name }}">
+                        href="{% url 'all_products' %}?category={{ product.category.name }}&sub_category={{ product.sub_category.name }}&special_offer={{ product.special_offer.name }}">
                         <i class="fas fa-tag mr-1"></i>{{ product.special_offer.friendly_name }}
                     </a>
                     {% endif %}
