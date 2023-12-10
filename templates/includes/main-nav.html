@@ -1,74 +1,97 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <div class="w-100 justify-content-center">
         <ul class="navbar-nav mx-auto">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="home-link" aria-label="Home">
+                HOME
+            </a>
             <li class="nav-item dropdown">
-                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
-                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="navbar-brand font-weight-bold nav-link mr-5" href="#" id="all-products-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" aria-label="All products">
                     All Products
                 </a>
-                <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=price&direction=asc">By Price</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=rating&direction=asc">By Rating</a>
+                <ul class="dropdown-menu border-0" aria-label="All products sorting">
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=price&direction=asc" aria-label="By Price">By
+                            Price</a></li>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=rating&direction=asc" aria-label="By rating">By
+                            Rating</a>
                     </li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=category&direction=asc">By Category</a>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?sort=category&direction=asc" aria-label="By category">By
+                            Category</a>
                     </li>
-                    
+
                     <li><a class="dropdown-item" href="{% url 'all_products' %}">All Products</a></li>
                 </ul>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="tools-link" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="navbar-brand font-weight-bold nav-link mr-5" href="#" id="tools-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" aria-label="Tools">
                     Tools
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="tools-link">
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=tools&sub_category=hand-tools">Hand Tools</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=tools&sub_category=power-tools">Power Tools</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=tools&sub_category=tool-accessories">Tool Accessories</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=tools">All Tools</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=tools&sub_category=hand-tools" aria-label="Hand Tools">Hand Tools</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=tools&sub_category=power-tools" aria-label="Power Tools">Power Tools</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=tools&sub_category=tool-accessories" aria-label="Tool Accessories">Tool
+                            Accessories</a></li>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=tools" aria-label="All Tools">All Tools</a></li>
                 </ul>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="seeds-link" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="navbar-brand font-weight-bold nav-link mr-5" href="#" id="seeds-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" aria-label="Seeds">
                     Seeds
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="seeds-link">
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=seeds&sub_category=fruit_veg">Fruit & Vegetables</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=seeds&sub_category=flowers">Flowering plants</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=seeds&sub_category=herbs">Herbs</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=seeds">All Seeds</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=seeds&sub_category=fruit_veg" aria-label="Fruit & Vegetables">Fruit & Vegetables</a>
+                    </li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=seeds&sub_category=flowers" aria-label="Flowering Plants">Flowering plants</a>
+                    </li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=seeds&sub_category=herbs" aria-label="Herbs">Herbs</a></li>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=seeds" aria-label="All seeds">All Seeds</a></li>
                 </ul>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="navbar-brand font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="navbar-brand font-weight-bold nav-link mr-5" href="#" id="clothing-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" aria-label="Clothing">
                     Clothing
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=clothing&sub_category=top-layer">Top Layer</a>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=clothing&sub_category=top-layer" aria-label="Top-Layer">Top Layer</a>
                     </li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=clothing&sub_category=mid-layer">Mid Layer</a>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=clothing&sub_category=mid-layer" aria-label="Mid-layer">Mid Layer</a>
                     </li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=clothing&sub_category=gloves">Gloves</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=clothing">All Clothing</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=clothing&sub_category=gloves" aria-label="Gloves">Gloves</a></li>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=clothing" aria-label="All Clothing">All Clothing</a></li>
                 </ul>
             </li>
 
 
             <li class="nav-item dropdown">
-                <a class="navbar-brand font-weight-bold nav-link text-black" href="#" id="specials-link" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="navbar-brand font-weight-bold nav-link" href="#" id="specials-link" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" aria-label="Special Offers">
                     Special Offers
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="specials-link">
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials&special_offer=new_arrivals">New Arrivals</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials&special_offer=deals">Deals</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials&special_offer=essentials">Essentials</a></li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials">All Specials</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=specials&special_offer=new_arrivals" aria-label="New Arrivals">New
+                            Arrivals</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=specials&special_offer=deals" aria-label="Deals">Deals</a></li>
+                    <li><a class="dropdown-item"
+                            href="{% url 'all_products' %}?category=specials&special_offer=essentials" aria-label="Essentials">Essentials</a>
+                    </li>
+                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials" aria-label="All special offers">All Specials</a></li>
                 </ul>
             </li>
         </ul>

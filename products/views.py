@@ -22,15 +22,13 @@ def tools_dropdown(request):
 def all_products(request, category=None, sub_category=None, special_offer=None):
     products = Product.objects.all()
     query = None
-    categories = None
     sort = None
     direction = None
 
-    category = request.GET.get('category')
-    sub_category = request.GET.get('sub_category')
-    special_offer = request.GET.get('special_offer')
+    selected_category = request.GET.get('category')
+    selected_sub_category = request.GET.get('sub_category')
+    selected_special_offer = request.GET.get('special_offer')
     search_query = request.GET.get('q')
-    
     if 'sort' in request.GET:
         sortkey = request.GET['sort']
         sort = sortkey
@@ -45,25 +43,35 @@ def all_products(request, category=None, sub_category=None, special_offer=None):
                 sortkey = f'-{sortkey}'
         products = products.order_by(sortkey)
 
-    if category:
-        products = products.filter(category__name=category)
+    if selected_category:
+        products = products.filter(category__name=selected_category)
 
-    if category and sub_category:
-        products = products.filter(category__name=category, sub_category__name=sub_category)
+    if selected_category and selected_sub_category:
+        products = products.filter(category__name=selected_category, sub_category__name=selected_sub_category)
 
-    if category == 'specials':
-        products = Product.objects.filter(special_offer__name=special_offer)
+    if selected_special_offer:
+        products = products.filter(special_offer__name=selected_special_offer)
+    
+    friendly_current_category = None
+    friendly_current_subcategory = None
 
-    if search_query:
-        queries = Q(name__icontains=search_query) | Q(description__icontains=search_query)
-        products = products.filter(queries)
+    if selected_category:
+        current_category = Category.objects.filter(name=selected_category).first()
+        if current_category:
+            friendly_current_category = current_category.get_friendly_name()
+
+    if selected_sub_category:
+        current_subcategory = Category.objects.filter(name=selected_sub_category).first()
+        if current_subcategory:
+            friendly_current_subcategory = current_subcategory.get_friendly_name() 
 
     current_sorting = f'{sort}_{direction}'
     context = {
         'products': products,
         'search_term': search_query,
-        'current_categories': categories,
         'current_sorting': current_sorting,
+        'current_category': friendly_current_category,
+        'current_subcategory': friendly_current_subcategory,
     }
 
     return render(request, 'products/products.html', context)

@@ -1,18 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap');
+
+:root {
+    /* P = Primary | S = Secondary */
+    --p-text: #628321;
+    --background: #fffacd;
+    --s-text: #537a99;
+    --s-highlight: #a4643d;
+    --white: #FFFFFF;
+    --black: #000000;
+    --border: #dc3545;
+    --p-font: 'Barlow Condensed', sans-serif
+}
+
 html {
     height: 100%;
 }
 
 body {
+    color: var(--p-text); /* Use primary text color */
+    background-color: var(--white); /* Use white as background color */
     background: url('/media/homepage_background_cropped.webp') no-repeat center center fixed;
     background-size: cover;
+    color: #000000;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
+    font-family: var(--p-font);
+}
+
+.background{
+    background-color: var(--background);
+}
+
+/* Navbar */
+#main-nav {
+    font-size: 1em;
+}
+
+.logo-font {
+    font-style:oblique;
+    font-size: 48px;
+}
+
+.index-text {
+    color:var(--white);
+    font-size: 2em;
+}
+
+.sublink {
+    color:var(--p-text);
 }
 
 li.nav-item.dropdown {
-    margin-left: 1em !important; 
+    margin-left: 1em !important;
+    font-size: 50px;
+    color:var(--p-text);
 }
+
+a.nav-link {
+    font-size: 0.75em;
+    color: var(--p-text);
+    transition: color 1.3s; 
+}
+
+a.nav-link:hover {
+    color: var(--s-highlight); 
+}
+
+a.dropdown-item {
+    color: var(--s-text);
+    font-size: 1.5em;
+}
+
+a.visited {
+    color: var(--s-highlight);
+}
+
+/* Logo and heading */
+
 
 /* from Bulma */
 .icon {
@@ -23,35 +86,38 @@ li.nav-item.dropdown {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
-}
-
 .main-logo-link {
     width: fit-content;
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: var(--black);
+    color: var(--white);
     min-width: 260px;
+    transition: background-color 0.3s, color 0.3s; /* Adding transition for smooth change */
+}
+
+.shop-now-button:hover,
+.shop-now-button:active {
+    background: var(--black);
+    color: var(--white);
 }
 
 .btn-black {
-    background: black;
+    background: var(--black);
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: var(--black) !important; /* use important to override link colors for <a> elements */
+    border: 1px solid var(--black);
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: var(--black);
     color: white !important;
 }
 
@@ -61,21 +127,14 @@ li.nav-item.dropdown {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: var(--black);
     color: white;
 }
 
-.text-black {
-    color: #000 !important;
-}
-
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid var(--black) !important;
 }
 
-.bg-black {
-    background: #000 !important;
-}
 
 .overlay {
 	height: 100%;
@@ -88,7 +147,7 @@ li.nav-item.dropdown {
 }
 
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
+    background: var(--black) !important;
     color: #fff !important;
 }
 
@@ -178,14 +237,7 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
 
 /* Allauth form formatting */
 
@@ -195,7 +247,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: var(--black);
     border-radius: 0;
 }
 
@@ -242,6 +294,15 @@ input[name='q']::placeholder {
 }
 
 /* Product form */
+.category-badge {
+    display: inline-block;
+    margin-right: 5px; /* Adjust as needed */
+}
+
+.badge-white {
+    background-color: #fff;
+    color: #000;
+}
 
 .btn-file {
     position: relative;
@@ -260,17 +321,43 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: var(--border);
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: var(--border);
+    border-color: var(--border);
     border-radius: 0;
 }
 
 
-/* fixed top navbar only on medium and up */
+/* Media Queries */
+
+/* Phone */
+@media (min-width: 320px) {
+    /* Styles for phones */
+    .logo-font {
+        font-size: 2em;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    /* Styles for tablets */
+    .logo-font {
+        font-size: 2.5em; /* Adjust font size for tablets */
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    /* Styles for larger desktops */
+    body {
+        font-size: 40px; /* Adjust font size for larger desktops */
+    }
+}
+
+/* Fixed top navbar only on medium and up */
 @media (min-width: 900px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -281,17 +368,56 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
+        padding-top: 116px; /* Double the padding */
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: calc(100vh - 180px); /* Double the height */
+        font-size: 20px; /* Default font size for desktop, doubled */
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link: {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+    
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .25rem .25rem !important;
+    }
+
+    #home-link{
+        font-size: 2rem;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 2560px) {
+    /* Styles for large desktops (4K) */
+    body {
+        font-size: 48px; /* Adjust font size for 4K displays */
     }
 }
