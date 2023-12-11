@@ -1,9 +1,11 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <div class="w-100 justify-content-center">
         <ul class="navbar-nav mx-auto">
-            <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="home-link" aria-label="Home">
+            <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link mr-5" href="{% url 'home' %}" id="home-link" aria-label="Home">
                 HOME
             </a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="navbar-brand font-weight-bold nav-link mr-5" href="#" id="all-products-link" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false" aria-label="All products">
@@ -83,15 +85,18 @@
                     Special Offers
                 </a>
                 <ul class="dropdown-menu border-0" aria-labelledby="specials-link">
-                    <li><a class="dropdown-item"
-                            href="{% url 'all_products' %}?category=specials&special_offer=new_arrivals" aria-label="New Arrivals">New
-                            Arrivals</a></li>
-                    <li><a class="dropdown-item"
-                            href="{% url 'all_products' %}?category=specials&special_offer=deals" aria-label="Deals">Deals</a></li>
-                    <li><a class="dropdown-item"
-                            href="{% url 'all_products' %}?category=specials&special_offer=essentials" aria-label="Essentials">Essentials</a>
+                    <li>
+                        <a class="dropdown-item" href="{% url 'all_products' %}?special_offer=new_arrivals"
+                            aria-label="New Arrivals">New Arrivals</a>
                     </li>
-                    <li><a class="dropdown-item" href="{% url 'all_products' %}?category=specials" aria-label="All special offers">All Specials</a></li>
+                    <li>
+                        <a class="dropdown-item" href="{% url 'all_products' %}?special_offer=deals"
+                            aria-label="Deals">Deals</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="{% url 'all_products' %}?special_offer=essentials"
+                            aria-label="Essentials">Essentials</a>
+                    </li>
                 </ul>
             </li>
         </ul>
