@@ -50,3 +50,158 @@ Lato will be primarily used for sub-headings. Font awesome has been used for som
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
+## User Stories
+
+- As a user, I want to create an account easily so that I can save my preferences, view my order history, and manage my shipping information.
+- As a user, I want to search for plants or tools by their names or categories to explore available options.
+- As a user, I want to add items to my shopping cart and proceed to checkout to purchase the selected products.
+- As a user, I want to access my order history to review past purchases
+- As a user, I want to receive a confirmation email after placing my order for reference and tracking purposes.
+
+### New Site Users
+
+- As a new site user, I would like to create an account, so that I can save my preferences, track my orders, and easily manage my information.
+- As a new site user, I would like to explore a variety of plants and gardening tools, so that I can make informed decisions about what suits my gardening needs.
+- As a new site user, I would like to have a simple and intuitive navigation system, so that I can easily find what I'm looking for without feeling overwhelmed.
+- As a new site user, I would like to access customer support easily, so that I can get assistance whenever I have questions or encounter issues while using the site.
+- As a new site user, I would like to read reviews and ratings from other customers, so that I can make more informed decisions about the quality and suitability of plants and gardening products before making a purchase.
+
+### Returning Site Users
+
+- As a returning site user, I would like to access my previous order history, so that I can track my past purchases and easily reorder items.
+- As a returning site user, I would like to update my saved shipping addresses, so that I can efficiently send gifts or order items for different locations.
+- As a returning site user, I would like to easily connect with customer support, so that I can receive assistance or address any issues promptly.
+
+### Site Admin
+
+- As a site administrator, I should be able to manage user accounts and permissions, so that I can control access levels and ensure site security.
+- As a site administrator, I should be able to update and add new product listings, so that I can keep the site content current and attractive to customers.
+- As a site administrator, I should be able to monitor and respond to customer feedback or reviews, so that I can maintain a positive user experience and address any issues promptly.
+- As a site administrator, I should be able to configure and maintain the site's backend infrastructure, so that I can ensure smooth site functionality and address any technical issues that arise.
+
+## Wireframes
+
+To follow best practice, the wireframes for the site were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Mobile Wireframes
+
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+Home
+  - ![screenshot](documentation/wireframes/home_mobile.png)
+
+Products
+  - ![screenshot](documentation/wireframes/products_mobile.png)
+
+Product details
+  - ![screenshot](documentation/wireframes/productdetails_mobile.png)
+
+Registration
+  - ![screenshot](documentation/wireframes/registration_mobile.png)
+
+My Profile
+  - ![screenshot](documentation/wireframes/profile_mobile.png)
+
+Sign in 
+  - ![screenshot](documentation/wireframes/login_mobile.png)
+
+Sign out
+  - ![screenshot](documentation/wireframes/signout_mobile.png)
+
+Bag 
+  - ![screenshot](documentation/wireframes/bag_mobile.png)
+
+Checkout Success
+  - ![screenshot](documentation/wireframes/checkoutsuccess_mobile.png)
+
+Add a product
+  - ![screenshot](documentation/wireframes/addproduct_mobile.png)
+
+Edit a product
+  - ![screenshot](documentation/wireframes/editproduct_mobile.png)
+
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+Home
+  - ![screenshot](documentation/wireframes/home_tablet.png)
+
+Products
+  - ![screenshot](documentation/wireframes/products_tablet.png)
+
+Product details
+  - ![screenshot](documentation/wireframes/productsdetails_tablet.png)
+
+Registration
+  - ![screenshot](documentation/wireframes/registration_tablet.png)
+
+My Profile
+  - ![screenshot](documentation/wireframes/profile_tablet.png)
+
+Sign in 
+  - ![screenshot](documentation/wireframes/login_tablet.png)
+
+Sign out
+  - ![screenshot](documentation/wireframes/signout_tablet.png)
+
+Bag 
+  - ![screenshot](documentation/wireframes/bag_tablet.png)
+
+Checkout Success
+  - ![screenshot](documentation/wireframes/checkoutsuccess_tablet.png)
+
+Add a product
+  - ![screenshot](documentation/wireframes/addproduct_tablet.png)
+
+Edit a product
+  - ![screenshot](documentation/wireframes/editproduct_tablet.png)
+
+</details>
+
+### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+Home
+  - ![screenshot](documentation/wireframes/home_desktop.png)
+
+Products
+  - ![screenshot](documentation/wireframes/products_desktop.png)
+
+Product details
+  - ![screenshot](documentation/wireframes/productdetails_desktop.png)
+
+Registration
+  - ![screenshot](documentation/wireframes/registration_desktop.png)
+
+My Profile
+  - ![screenshot](documentation/wireframes/profile_desktop.png)
+
+Sign in 
+  - ![screenshot](documentation/wireframes/login_desktop.png)
+
+Sign out
+  - ![screenshot](documentation/wireframes/signout_desktop.png)
+
+Bag 
+  - ![screenshot](documentation/wireframes/bag_desktop.png)
+
+Checkout Success
+  - ![screenshot](documentation/wireframes/checkoutsuccess_desktop.png)
+
+Add a product
+  - ![screenshot](documentation/wireframes/addproduct_desktop.png)
+
+Edit a product
+  - ![screenshot](documentation/wireframes/editproduct_desktop.png)
+
+
+</details>
+
