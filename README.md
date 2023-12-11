@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hearten Horticulture Webshop
 
-Welcome,
+##### **[Click here for the deployed site](https://hhwebshop-a59157177b87.herokuapp.com/)**
+-----------------------
+The Hearten Horticulture Webshop is an e-commerce store for garden related products. It offers a wide range of tools, seeds and clothing to get started with horticulture. 
+The site is easy to use and offers full functionality to purchase goods with a credit or debit card payment. It is a great starting point for any gardener, offering all products for horticulture and garden space DIY tasks.
+<br><br>
+![amiresponsive](documentation/amiresponsive_screenshot.webp)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Using Code Institute's Boutique ado project module as a base, I was able to modify parts of the code to suit the requirements of the site.
+The site's aim is simplicity for the user to find and purchase a product they require. There is a minimalist layout specifically as gardeners tend to occupy the demographic of an older generation, who are often unfamiliar with the internet and e-commerce in general. They would have no issue in finding a product for their needs based on the navbar's clear layout, or by using the centrally located search bar.
 
-## Codeanywhere Reminders
+### Colour Scheme
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The colours used in the scheme are primarily based on green for plants, blue for water, brown for soil/ground and yellow for sun.
+The shades have been lightened or darkened accordingly for their primary usage
 
-`python3 -m http.server`
+- `#628321` : used for primary text.
+- `#fffacd` : used for background colour 
+- `#6c9dc6` used for secondary text.
+- `#4643d` used for secondary highlights.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+I used [coolors.co](https://coolors.co/628321-fffacd-6c9dc6-a4643d) to generate my colour palette.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![screenshot](documentation/coolors.png)
 
-`http_server`
+I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+```css
+:root {
+    /* P = Primary | S = Secondary */
+    --p-text: #628321;
+    --p-highlight: #fffacd;
+    --s-text: #6c9dc6;
+    --s-highlight: #4643d;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+```
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Typography
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+As the main logo for Hearten Horticulture is written in Barlow Condensed, this will be the main font, with sans serif as a backup.
+Lato will be primarily used for sub-headings. Font awesome has been used for some special characters and icons.
 
-To log into the Heroku toolbelt CLI:
+- [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed) was used for the primary headers and titles.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
