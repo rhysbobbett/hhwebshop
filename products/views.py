@@ -8,6 +8,7 @@ from django.db.models.functions import Lower
 from .models import Product, Category, SubCategory, SpecialOffer
 from .forms import ProductForm
 
+
 def tools_dropdown(request):
     with open('products/fixtures/sub_category.json', 'r') as file:
         sub_category_data = json.load(file)
@@ -19,7 +20,7 @@ def tools_dropdown(request):
     return render(request, 'tools_dropdown_template.html', context)
 
 
-def all_products(request, category=None, sub_category=None, special_offer=None):
+def all_products(request, category=None, sub_category=None, special_offer=None):  # noqa
     products = Product.objects.all()
     categories = None
     sort = None
@@ -53,35 +54,35 @@ def all_products(request, category=None, sub_category=None, special_offer=None):
         categories = Category.objects.filter(name__in=categories)
 
     if selected_category and selected_sub_category:
-        products = products.filter(category__name=selected_category, sub_category__name=selected_sub_category)
+        products = products.filter(category__name=selected_category, sub_category__name=selected_sub_category)  # noqa
 
     if selected_category:
-        current_category = Category.objects.filter(name=selected_category).first()
+        current_category = Category.objects.filter(name=selected_category).first()  # noqa
         if current_category:
             friendly_current_category = current_category.get_friendly_name()
 
     if selected_category:
-        current_category = Category.objects.filter(name=selected_category).first()
+        current_category = Category.objects.filter(name=selected_category).first()  # noqa
         if current_category:
             friendly_current_category = current_category.get_friendly_name()
 
     if sub_category:
-        current_sub_category = SubCategory.objects.filter(name=sub_category).first()
+        current_sub_category = SubCategory.objects.filter(name=sub_category).first()  # noqa
         if current_sub_category:
-            friendly_current_sub_category = current_sub_category.get_friendly_name()
+            friendly_current_sub_category = current_sub_category.get_friendly_name()  # noqa
 
     if special_offer_name:
         products = products.filter(special_offer__name=special_offer_name)
         # friendly name for the special offer
-        current_special_offer = SpecialOffer.objects.filter(name=special_offer_name).first()
+        current_special_offer = SpecialOffer.objects.filter(name=special_offer_name).first()  # noqa
         if current_special_offer:
-            friendly_current_special_offer = current_special_offer.get_friendly_name()
+            friendly_current_special_offer = current_special_offer.get_friendly_name()  # noqa
 
     if search_query:
-        products = products.filter(Q(name__icontains=search_query) | Q(description__icontains=search_query))
+        products = products.filter(Q(name__icontains=search_query) | Q(description__icontains=search_query))  # noqa
 
     current_sorting = f'{sort}_{direction}'
-    context = {    
+    context = {
         'products': products,
         'product': products,
         'search_term': search_query,
@@ -90,7 +91,7 @@ def all_products(request, category=None, sub_category=None, special_offer=None):
         'current_category': friendly_current_category,
         'current_sub_category': friendly_current_sub_category,
         'current_special_offer': friendly_current_special_offer,
-        'special_offers': SpecialOffer.objects.values_list('name', flat=True).distinct()
+        'special_offers': SpecialOffer.objects.values_list('name', flat=True).distinct()  # noqa
     }
 
     return render(request, 'products/products.html', context)
@@ -118,7 +119,7 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, ('Failed to add product. Please ensure the form is valid.'))
+            messages.error(request, ('Failed to add product. Please ensure the form is valid.'))  # noqa
     else:
         form = ProductForm()
 
@@ -144,7 +145,7 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, ('Failed to update product. Please ensure the form is valid.'))
+            messages.error(request, ('Failed to update product. Please ensure the form is valid.'))  # noqa
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')

@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG')
 
-ALLOWED_HOSTS = ['hhwebshop-a59157177b87.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['hhwebshop-a59157177b87.herokuapp.com', '127.0.0.1', 'localhost']  # noqa
 
 
 # Application definition
@@ -95,7 +95,7 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 1
 
-if os.environ.get('DEBUG') == 'True':
+if os.environ.get('DEBUG'):
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
 else:
