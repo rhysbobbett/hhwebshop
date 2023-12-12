@@ -8,19 +8,14 @@
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
                 {% if current_category %}
-                <p class="small mt-1 mb-0">
-                    <a class="text-muted" href="{% url 'category_products' category=current_category %}">
-                        <i class="fas fa-tag mr-1"></i>{{ current_category }}
-                    </a>
-                </p>
+                </a>
                 {% endif %}
-                {% if current_subcategory %}
-                <p class="small mt-1 mb-0">
-                    <a class="text-muted"
-                        href="{% url 'subcategory_products' category=current_category sub_category=current_subcategory %}">
-                        <i class="fas fa-tag mr-1"></i>{{ current_subcategory }}
-                    </a>
-                </p>
+                
+                {% if current_special_offer %}
+                <a class="special-offer-badge text-decoration-none"
+                    href="{% url 'all_products' %}?special_offer={{ current_special_offer }}">
+                    <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ current_special_offer }}</span>
+                </a>
                 {% endif %}
                 <hr class="w-100 mb-5">
             </div>
