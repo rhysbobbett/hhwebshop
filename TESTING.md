@@ -94,3 +94,23 @@ Devtools was used to simulate larger screen sizes with certain devices
 | Google Pixel 7 | ![Home](documentation/testing/responsiveness-pixel7-home.png) | ![Products](documentation/testing/responsiveness-pixel7-products.png) | ![Product Details](documentation/testing/responsiveness-pixel7-product-details.png) | ![Checkout](documentation/testing/responsiveness-pixel7-checkout.png) | ![Bag](documentation/testing/responsiveness-pixel7-bag.png) | ![Checkout Success](documentation/testing/responsiveness-pixel7-checkout-success.png) | ![Add Product](documentation/testing/responsiveness-pixel7-add-product.png) | ![Edit Product](documentation/testing/responsiveness-pixel7-edit-product.png) | ![Login](documentation/testing/responsiveness-pixel7-signin.png) | ![Registration](documentation/testing/responsiveness-pixel7-signup.png) | ![Sign Out](documentation/testing/responsiveness-pixel7-signout.png) | ![Profile](documentation/testing/responsiveness-pixel7-profile.png) | ![Error 404](documentation/testing/responsiveness-pixel7-error404.png) | All pages displayed correctly and visible apart from error404. |
 | iPhone 14 | ![Home](documentation/testing/responsiveness-iphone14-home.png) | ![Products](documentation/testing/responsiveness-iphone14-products.png) | ![Product Details](documentation/testing/responsiveness-iphone14-product-details.png) | ![Checkout](documentation/testing/responsiveness-iphone14-checkout.png) | ![Bag](documentation/testing/responsiveness-iphone14-bag.png) | ![Checkout Success](documentation/testing/responsiveness-iphone14-checkout-success.png) | ![Add Product](documentation/testing/responsiveness-iphone14-add-product.png) | ![Edit Product](documentation/testing/responsiveness-iphone14-edit-product.png) | ![Login](documentation/testing/responsiveness-iphone14-signin.png) | ![Registration](documentation/testing/responsiveness-iphone14-signup.png) | ![Sign Out](documentation/testing/responsiveness-iphone14-signout.png) | ![Profile](documentation/testing/responsiveness-iphone14-profile.png) | ![Error 404](documentation/testing/responsiveness-iphone14-error404.png) | As with the first mobile view, the signout text is too dark against the green background image and will need to be changed |
 
+## Lighthouse Audit
+
+The site's image size, organisation and retrieval of information makes it slow to load, and performance suffers on any page featuring a static image file.
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Mobile | Desktop | Notes |
+| --- | --- | --- | --- |
+| Home | ![screenshot](documentation/testing/lighthouse-home-mobile.png) | ![screenshot](documentation/testing/lighthouse-home-desktop.png) | Some minor warnings |
+| Products | ![screenshot](documentation/testing/lighthouse-products-mobile.png) | ![screenshot](documentation/testing/lighthouse-products-desktop.png) | Slow response time due to large images |
+| Product Details | ![screenshot](documentation/testing/lighthouse-product-details-mobile.png) | ![screenshot](documentation/testing/lighthouse-product-details-desktop.png) | Slow response time due to large images |
+| Bag | ![screenshot](documentation/testing/lighthouse-bag-mobile.png) | ![screenshot](documentation/testing/lighthouse-bag-desktop.png) | Slow response time due to large images |
+| Checkout Success | ![screenshot](documentation/testing/lighthouse-checkout-success-mobile.png) | ![screenshot](documentation/testing/lighthouse-checkout-success-desktop.png) | Slow response time due to large images |
+| Add Product | ![screenshot](documentation/testing/lighthouse-add-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-add-product-desktop.png) | Slow response time due to large images |
+| Edit Product | ![screenshot](documentation/testing/lighthouse-edit-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-edit-product-desktop.png) | Slow response time due to large images |
+| Login | ![screenshot](documentation/testing/lighthouse-signin-mobile.png) | ![screenshot](documentation/testing/lighthouse-signin-desktop.png) |  |
+| Signup / Registration | ![screenshot](documentation/testing/lighthouse-signup-mobile.png) | ![screenshot](documentation/testing/lighthouse-signup-desktop.png) |  |
+| Sign Out | ![screenshot](documentation/testing/lighthouse-signout-mobile.png) | ![screenshot](documentation/testing/lighthouse-signout-desktop.png) | |
+| Profile | ![screenshot](documentation/testing/lighthouse-profile-mobile.png) | ![screenshot](documentation/testing/lighthouse-profile-desktop.png) | |
+
