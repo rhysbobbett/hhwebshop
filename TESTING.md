@@ -188,8 +188,8 @@ As a new site user, I would like to search for plants or tools by their names or
 | As a new site user, I would like to add items to my shopping cart and proceed to checkout to purchase the selected products. I should be able to edit the quantity of items if I make a mistake | ![screenshot](documentation/testing/new-user-feature07.png) | ![screenshot](documentation/testing/new-user-feature08.png) | ![screenshot](documentation/testing/new-user-feature09.png) |
 | As a returning site user, I would like to access my order history to review past purchases. | ![screenshot](documentation/testing/return-user-feature01.png) | 
 | As a returning site user, I would like to receive a confirmation email after placing my order for reference and tracking purposes. | ![screenshot](documentation/testing/return-user-feature02.png) |
-| As a site administrator, I should be able to manage user accounts and permissions, so that I can control access levels and ensure site security. | ![screenshot](documentation/testing/site-admin-feature01.png) |
-| As a site administrator, I should be able to update and add new product listings, so that I can keep the site content current and attractive to customers. | ![screenshot](documentation/testing/site-admin-feature02.png) |
+| As a site administrator, I should be able to manage user accounts and permissions, so that I can control access levels and ensure site security. | ![screenshot](documentation/testing/site-administrator-feature01.png) |
+| As a site administrator, I should be able to update and add new product listings, so that I can keep the site content current and attractive to customers. | ![screenshot](documentation/testing/site-administrator-feature02.png) |
 
 ## Bugs
 The development has shown any problem bugs that have inhibited the main functionality of the site.
