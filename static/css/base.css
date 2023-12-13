@@ -19,13 +19,11 @@ html {
 body {
     color: var(--p-text); /* Use primary text color */
     background-color: var(--white); /* Use white as background color */
-    background: url('/media/homepage_background_cropped.webp') no-repeat center center fixed;
-    background-size: cover;
-    color: #000000;
+    background: url('/media/homepage_background_cropped.webp') no-repeat center top fixed;
+    background-size: cover; /* Scale the background image to cover the entire container */
     height: calc(100vh - 164px);
     font-family: var(--p-font);
 }
-
 .background{
     background-color: var(--background);
 }
@@ -50,8 +48,8 @@ body {
 }
 
 li.nav-item.dropdown {
-    margin-left: 1em !important;
-    font-size: 50px;
+    margin-left: 5px;
+    font-size: 24px;
     color:var(--p-text);
 }
 
@@ -138,7 +136,7 @@ a.visited {
 
 .overlay {
 	height: 100%;
-	width: 100%;
+	width: 80%;
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -331,34 +329,24 @@ input[name='q']::placeholder {
 }
 
 
-/* Media Queries */
-
-/* Phone */
-@media (min-width: 320px) {
+/* Mobile */
+@media (max-width: 767px) {
     /* Styles for phones */
     .logo-font {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 }
 
 /* Tablet */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     /* Styles for tablets */
     .logo-font {
-        font-size: 2.5em; /* Adjust font size for tablets */
+        font-size: 1.8em;
     }
 }
 
 /* Desktop */
 @media (min-width: 1200px) {
-    /* Styles for larger desktops */
-    body {
-        font-size: 40px; /* Adjust font size for larger desktops */
-    }
-}
-
-/* Fixed top navbar only on medium and up */
-@media (min-width: 900px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -368,56 +356,46 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 116px; /* Double the padding */
+        padding-top: 20px;
     }
 
     body {
-        height: calc(100vh - 180px); /* Double the height */
-        font-size: 20px; /* Default font size for desktop, doubled */
+        height: calc(100vh - 100px);
+        font-size: 18px;
     }
 
     .display-4.logo-font.text-black {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .nav-link {
-        padding: 0.15rem;
+        padding: 0.25rem;
     }
 
     .nav-link i.fa-lg {
-        padding: .6rem .6rem;
-        font-size: 1rem;
+        padding: 0.5rem;
+        font-size: 0.875rem;
     }
 
     #delivery-banner h4 {
-        font-size: .9rem;
+        font-size: 0.75rem;
     }
     
     .btn.btn-outline-black.rounded-0,
     .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .25rem .25rem !important;
+        padding: 0.25rem;
+        font-size: 0.875rem;
     }
 
     #home-link{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
-/* Large Desktop */
+/* Large Desktop or 4K */
 @media (min-width: 2560px) {
-    /* Styles for large desktops (4K) */
     body {
-        font-size: 48px; /* Adjust font size for 4K displays */
+        font-size: 24px;
     }
 }
+
