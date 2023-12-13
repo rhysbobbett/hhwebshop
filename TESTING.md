@@ -191,3 +191,22 @@ As a new site user, I would like to search for plants or tools by their names or
 | As a site administrator, I should be able to manage user accounts and permissions, so that I can control access levels and ensure site security. | ![screenshot](documentation/testing/site-admin-feature01.png) |
 | As a site administrator, I should be able to update and add new product listings, so that I can keep the site content current and attractive to customers. | ![screenshot](documentation/testing/site-admin-feature02.png) |
 
+## Bugs
+The development has shown any problem bugs that have inhibited the main functionality of the site.
+I saved one bug early on in Issues, but have yet to find a solution to this. It is a minor issue that doesn't affect the running of the site. 
+
+- During development I encountered a few issues with deployment that were due to simple typos within the heroku env config variables.
+    
+    - These were fixed by providing the correct variables in the heroku config fields, and double checking their spelling and format.
+
+- When using devtools to simulate an iPad Pro, the page starts to have `overflow-x` scrolling.
+
+    ![screenshot](documentation/testing/unfixed-bug01.png)
+
+    - Attempted fix: a rewrite of my media queries maybe required in order to fix this issue as it appears to have conflicts with other essential elements such as the Stripe payments overlay.
+
+- Django Allauth is adding an unnecessary < p > < /p > tag which causes the HTML validation to error.
+    
+    - Attempted search for a solution: screenshots are noted in the issues section of the repository, this is believed to be allauth adding a < p > tag and for now is not a fix I understand how to solve.
+
+There are no remaining bugs that I am aware of.
