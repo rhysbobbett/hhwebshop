@@ -81,6 +81,21 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Profiles views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/rhysbobbett/hhwebshop/main/profiles/views.py) | ![screenshot](documentation/testing/py-validation-profiles-views.png) | 1 TokenError, maybe presense of a non-acsii character |
 
 
+## Browser Compatibility
+
+Recommended browsers to consider:
+- [Chrome](https://www.google.com/chrome)
+- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
+- [Edge](https://www.microsoft.com/edge)
+
+| Browser | Home | Products | Product Details | Checkout | Bag | Checkout Success | Add Product | Edit Product | Login | Registration | Sign Out | Profile | Error 404 | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/testing/browser-chrome-home.png) | ![screenshot](documentation/testing/browser-chrome-products.png) | ![screenshot](documentation/testing/browser-chrome-product-details.png) | ![screenshot](documentation/testing/browser-chrome-checkout.png) | ![screenshot](documentation/testing/browser-chrome-bag.png) | ![screenshot](documentation/testing/browser-firefox-checkout-success.png) | ![screenshot](documentation/testing/browser-chrome-add-product.png) | ![screenshot](documentation/testing/browser-chrome-edit-product.png) | ![screenshot](documentation/testing/browser-chrome-signin.png) | ![screenshot](documentation/testing/browser-chrome-signup.png) | ![screenshot](documentation/testing/browser-chrome-signout.png) | ![screenshot](documentation/testing/browser-chrome-profile.png) | ![screenshot](documentation/testing/browser-chrome-error404.png) | Signout and Error404 text are too obscured |
+| Firefox Developer edition | ![screenshot](documentation/testing/browser-firefox-home.png) | ![screenshot](documentation/testing/browser-firefox-products.png) | ![screenshot](documentation/testing/browser-firefox-product-details.png) | ![screenshot](documentation/testing/browser-firefox-checkout.png) | ![screenshot](documentation/testing/browser-firefox-bag.png) | ![screenshot](documentation/testing/browser-firefox-checkout-success.png) | ![screenshot](documentation/testing/browser-firefox-add-product.png) | ![screenshot](documentation/testing/browser-firefox-edit-product.png) | ![screenshot](documentation/testing/browser-firefox-signin.png) | ![screenshot](documentation/testing/browser-firefox-signup.png) | ![screenshot](documentation/testing/browser-firefox-signout.png) | ![screenshot](documentation/testing/browser-firefox-profile.png) | ![screenshot](documentation/testing/browser-firefox-error404.png) | Signout and Error404 text are too obscured |
+| Edge | ![screenshot](documentation/testing/browser-edge-home.png) | ![screenshot](documentation/testing/browser-edge-products.png) | ![screenshot](documentation/testing/browser-edge-product-details.png) | ![screenshot](documentation/testing/browser-edge-checkout.png) | ![screenshot](documentation/testing/browser-edge-bag.png) | ![screenshot](documentation/testing/browser-edge-checkout-success.png) | ![screenshot](documentation/testing/browser-edge-add-product.png) | ![screenshot](documentation/testing/browser-edge-edit-product.png) | ![screenshot](documentation/testing/browser-edge-signin.png) | ![screenshot](documentation/testing/browser-edge-signup.png) | ![screenshot](documentation/testing/browser-edge-signout.png) | ![screenshot](documentation/testing/browser-edge-profile.png) | ![screenshot](documentation/testing/browser-edge-error404.png) | as with other browsers, 404 and signout could do with some coloured backing to increase contrast of the fonts |
+
+
+## Responsiveness
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 Devtools was used to simulate larger screen sizes with certain devices
 
@@ -102,15 +117,15 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/testing/lighthouse-home-mobile.png) | ![screenshot](documentation/testing/lighthouse-home-desktop.png) | Some minor warnings |
+| Home | ![screenshot](documentation/testing/lighthouse-home-mobile.png) | ![screenshot](documentation/testing/lighthouse-home-desktop.png) | Mobile performance suffers due to images |
 | Products | ![screenshot](documentation/testing/lighthouse-products-mobile.png) | ![screenshot](documentation/testing/lighthouse-products-desktop.png) | Slow response time due to large images |
 | Product Details | ![screenshot](documentation/testing/lighthouse-product-details-mobile.png) | ![screenshot](documentation/testing/lighthouse-product-details-desktop.png) | Slow response time due to large images |
 | Bag | ![screenshot](documentation/testing/lighthouse-bag-mobile.png) | ![screenshot](documentation/testing/lighthouse-bag-desktop.png) | Slow response time due to large images |
 | Checkout Success | ![screenshot](documentation/testing/lighthouse-checkout-success-mobile.png) | ![screenshot](documentation/testing/lighthouse-checkout-success-desktop.png) | Slow response time due to large images |
-| Add Product | ![screenshot](documentation/testing/lighthouse-add-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-add-product-desktop.png) | Slow response time due to large images |
-| Edit Product | ![screenshot](documentation/testing/lighthouse-edit-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-edit-product-desktop.png) | Slow response time due to large images |
-| Login | ![screenshot](documentation/testing/lighthouse-signin-mobile.png) | ![screenshot](documentation/testing/lighthouse-signin-desktop.png) |  |
-| Signup / Registration | ![screenshot](documentation/testing/lighthouse-signup-mobile.png) | ![screenshot](documentation/testing/lighthouse-signup-desktop.png) |  |
-| Sign Out | ![screenshot](documentation/testing/lighthouse-signout-mobile.png) | ![screenshot](documentation/testing/lighthouse-signout-desktop.png) | |
-| Profile | ![screenshot](documentation/testing/lighthouse-profile-mobile.png) | ![screenshot](documentation/testing/lighthouse-profile-desktop.png) | |
+| Add Product | ![screenshot](documentation/testing/lighthouse-add-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-add-product-desktop.png) | Mobile performance suffers due to images |
+| Edit Product | ![screenshot](documentation/testing/lighthouse-edit-product-mobile.png) | ![screenshot](documentation/testing/lighthouse-edit-product-desktop.png) | Mobile performance suffers due to images |
+| Login | ![screenshot](documentation/testing/lighthouse-signin-mobile.png) | ![screenshot](documentation/testing/lighthouse-signin-desktop.png) | Mobile performance suffers due to images  |
+| Signup / Registration | ![screenshot](documentation/testing/lighthouse-signup-mobile.png) | ![screenshot](documentation/testing/lighthouse-signup-desktop.png) | Mobile performance suffers due to images |
+| Sign Out | ![screenshot](documentation/testing/lighthouse-signout-mobile.png) | ![screenshot](documentation/testing/lighthouse-signout-desktop.png) | Mobile performance suffers due to images |
+| Profile | ![screenshot](documentation/testing/lighthouse-profile-mobile.png) | ![screenshot](documentation/testing/lighthouse-profile-desktop.png) | Mobile performance suffers due to images |
 
