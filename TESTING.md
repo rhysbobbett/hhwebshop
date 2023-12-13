@@ -179,3 +179,15 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page not found | Feature is expected to display Page not found test when the user types an incorrect url | Tested the feature by deliberately calling the 404 page. | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/testing/error404-feature01.png) |
 
 
+## User Story Testing
+
+| User Story | Screenshot 1 | Screenshot 2 | Screenshot 3 |
+| --- | --- | --- | --- |
+| As a new site user, I would like to create an account easily, so that I can save my preferences, view my order history, and manage my shipping information. | ![screenshot](documentation/testing/new-user-feature01.png) | ![screenshot](documentation/testing/new-user-feature02.png) |  ![screenshot](documentation/testing/new-user-feature03.png) |
+As a new site user, I would like to search for plants or tools by their names or categories to explore available options. | ![screenshot](documentation/testing/new-user-feature04.png) | ![screenshot](documentation/testing/new-user-feature05.png) | ![screenshot](documentation/testing/new-user-feature06.png)
+| As a new site user, I would like to add items to my shopping cart and proceed to checkout to purchase the selected products. I should be able to edit the quantity of items if I make a mistake | ![screenshot](documentation/testing/new-user-feature07.png) | ![screenshot](documentation/testing/new-user-feature08.png) | ![screenshot](documentation/testing/new-user-feature09.png) |
+| As a returning site user, I would like to access my order history to review past purchases. | ![screenshot](documentation/testing/return-user-feature01.png) | 
+| As a returning site user, I would like to receive a confirmation email after placing my order for reference and tracking purposes. | ![screenshot](documentation/testing/return-user-feature02.png) |
+| As a site administrator, I should be able to manage user accounts and permissions, so that I can control access levels and ensure site security. | ![screenshot](documentation/testing/site-admin-feature01.png) |
+| As a site administrator, I should be able to update and add new product listings, so that I can keep the site content current and attractive to customers. | ![screenshot](documentation/testing/site-admin-feature02.png) |
+
