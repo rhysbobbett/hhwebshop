@@ -129,3 +129,53 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sign Out | ![screenshot](documentation/testing/lighthouse-signout-mobile.png) | ![screenshot](documentation/testing/lighthouse-signout-desktop.png) | Mobile performance suffers due to images |
 | Profile | ![screenshot](documentation/testing/lighthouse-profile-mobile.png) | ![screenshot](documentation/testing/lighthouse-profile-desktop.png) | Mobile performance suffers due to images |
 
+## Defensive Programming
+
+Forms:
+- Users cannot submit an empty form
+- Users must enter valid email addresses
+- User passwords must not contain reference to name or username, must contain numbers.
+- User must state a country in checkout
+
+Django:
+- Users cannot brute-force a URL to navigate to a restricted page
+- Users cannot perform CRUD functionality while logged-out
+- User-A should not be able to manipulate data belonging to User-B, or vice versa
+- Non-Authenticated users should not be able to access pages that require authentication
+- Standard users should not be able to access pages intended for superusers
+
+Defensive programming was manually tested with the below user acceptance testing:
+
+| Page | Expectation | Test | Result | Fix | Screenshot |
+| --- | --- | --- | --- | --- | --- |
+| Home | | | | | |
+| Shop now button | Clickinig the button takes a user to all products | Clicked the button to test, takes me to products | The feature behaved as expected | Test concluded and passed | ![screenshot](documentation/testing/home-feature01.png) |
+| Search Box | Anything can be put in the search box, but putting nothing in will bring up all products | Tested the feature by clicking with no text | The feature responded as expected | Test concluded and passed | ![screenshot](documentation/testing/home-feature02.png) |
+| Products | | | | | |
+| The products can be sorted by various categories (a=z, price, rating)  | The filter was selected from the dropdown and resorts the products accordingly | Tested the feature by changing sort categories | The feature behaved as expected, and it sorts as described | Test concluded and passed | ![screenshot](documentation/testing/products-feature01.png) |
+| Verify product filtering with specific criteria | When a tag is clicked, all products are filtered to that specific category | Tested the feature by clicking 'herbs' | Worked as expected, all herbs populate the products page | Test concluded, passed | ![screenshot](documentation/testing/products-feature02.png) |
+| Product Details | | | | | |
+| Product quantity cannont be less than 1 | a notification should appear if less than 1 is entered in quantity | Tested the feature by entering 0 | The feature behaved as expected, and it did provided the notification | Test concluded and passed | ![screenshot](documentation/testing/products-details-feature02.png) |
+| Special offers within product details | Feature is expected to filter all products in that given category by their special offer tag stated in the product description | Tested the feature clicking the offer tag | The product filter than categories according to subcategory and which special offer has been clicked | This could be developed further for more control over product filtering | ![screenshot](documentation/testing/products-details-feature02.png) |
+| Add product | | | | | |
+| Essential forms require data | Feature is expected to provide notification when the user does not enter into a form such as name, price and description | Tested the feature by doing not entering data into the fields | The feature behaved as expected, and it provided notification that it is a required field. It does this for all essential fields | Test concluded and passed | ![screenshot](documentation/testing/add-product-feature01.png) |
+| image upload | Feature is expected to upload an image when the user clicks upload | Tested the feature by uploading an image | The image appears in the product details | I tested by uploading a favicon.ico image for convenience but other images work. | ![screenshot](documentation/testing/add-product-feature02.png) |
+| Edit product | | | | | |
+| Edit a product details | Feature is expected to do update details on button click if a user changes any existing details | Tested the feature by editting the product in the add-product features section above | The feature behaved as expected, and it did update the relevant fields | Test concluded and passed | ![screenshot](documentation/testing/edit-product-feature01.png) |
+| Edit a product image | Feature is expected to do update details on button click if a user changes the existing image in the upload preview section | Tested the feature by editting the product in the add-product features section above, updating the image to something else | The feature behaved as expected, and it did update the relevant image | Test concluded and passed, screenshot is post-edit on the edit-product page | ![screenshot](documentation/testing/edit-product-feature02.png) |
+| Checkout | | | | | |
+| Name field is required | Feature is expected to give a notification when blank | Tested the feature by leaving name field blank | The feature behaved as expected, and it provided the notification and would not proceed without it | Test concluded and passed, this applies to the email field, phone number, address and credit card fields also | ![screenshot](documentation/testing/checkout-feature01.png) |
+| Order email to sent from the business email address, user receives order confirmation email | Feature is expected to send email upon completion when the user makes a purchase | Tested the feature by placing an order | The feature behaved as expected, and it sent the email order notification | Test concluded and passed | ![screenshot](documentation/testing/checkout-success-feature01.png) |
+| Profile | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/testing/profile-feature01.png) |
+| Signup | | | | | |
+| Enter correct email | Feature is expected to display to the user that an email address is require to signup | Tested the feature by mistyping email in email address form | The feature behaved as expected | Test concluded and passed | ![screenshot](documentation/testing/signup-feature01.png) |
+| Username must be a minimum length | Feature is expected to display notification when the user does enter a long enough username. | Tested the feature by entering too short a username | The feature works as intended | I did Z to the code because something was missing | ![screenshot](documentation/testing/signup-feature02.png) |
+| Sign in | | | | | |
+| Sign in page displaying correctly | Feature is expected to appear when the user clicks signin on the navbar | Tested the feature by clicking signin | The feature behaved as expected | Test concluded and passed | ![screenshot](documentation/testing/signin-feature01.png) |
+| No user found | Feature is expected to display a error when the user enters a name not found in the system | Tested the feature by entering a wrong username | The feature works as intended | Tested passed | ![screenshot](documentation/testing/signin-feature02.png) |
+| Sign out| | | | | |
+| Signing out with a button | Feature is expected to do signout when the user clicks to signout | Tested the feature by attempting a signout | The feature behaved as expected, and it did have any issues | Test concluded and passed | ![screenshot](documentation/testing/signout-feature01.png) ||
+| Error 404| | | | | |
+| Page not found | Feature is expected to display Page not found test when the user types an incorrect url | Tested the feature by deliberately calling the 404 page. | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/testing/error404-feature01.png) |
+
+
